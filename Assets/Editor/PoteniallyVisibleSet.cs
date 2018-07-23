@@ -14,14 +14,14 @@ public class PoteniallyVisibleSet
 {
     private Vector3 tileSize = new Vector3(128, 0, 128);
     private List<float> verticalSize = new List<float> { 1f, 3f};
-    private Vector3 bigCellSize = new Vector3(128, 0, 128);
-    private Vector3 middleCellSize = new Vector3(64, 0, 64);
-    private Vector3 smallCellSize = new Vector3(64, 0, 64);
+    private Vector3 bigCellSize = new Vector3(64, 0, 64);
+    private Vector3 middleCellSize = new Vector3(32, 0, 32);
+    private Vector3 smallCellSize = new Vector3(8, 0, 8);
 
-    private Vector3 mapSize = new Vector3(128, 0, 128);
-    private Vector3 portalSize = new Vector3(64, 0, 64);
+    private Vector3 mapSize = new Vector3(256, 0, 256);
+    private Vector3 portalSize = new Vector3(8, 0, 8);
     private const int startPortalPointCount = 8;
-    private Vector4 endPortalPointList = new Vector4(8, 4, 4, 4);
+    private Vector4 endPortalPointList = new Vector4(16, 8, 4, 4);
     private int targetAreaPointCount = 0;
 
     private List<PoteniallyVisibleSetItem> poteniallyVisibleSetItemList;
@@ -86,7 +86,7 @@ public class PoteniallyVisibleSet
                 }
             }
 
-            string xmlDataPath = Application.dataPath + "/Editor/PVS/" + tile.id + ".xml";
+            string xmlDataPath = Application.dataPath + "/Editor/Data/" + tile.id + ".xml";
             xmlDoc.AppendChild(xmlRoot);
             xmlDoc.Save(xmlDataPath);
         }
@@ -115,11 +115,13 @@ public class PoteniallyVisibleSet
                             PoteniallyVisibleSetItem pvsItem = hitInfo.collider.GetComponent<PoteniallyVisibleSetItem>();
                             if (pvsItem.size != cell.size)
                             {
-                                Debug.LogError(string.Format("PVSItem size{0} is not equal cell size{1}.", pvsItem.size, cell.size));
+                                Debug.LogWarning(string.Format("PVSItem size{0} is not equal cell size{1}.", pvsItem.size, cell.size));
+                                continue;
                             }
                             else if (pvsItem.occlusionType != MapItemOcclusionType.Occluder)
                             {
                                 Debug.LogWarning(string.Format("PVSItem occlusionType{0} is not equal Occluder.", pvsItem.occlusionType));
+                                continue;
                             }
                             Debug.DrawLine(start, end, Color.green);
                             cell.isVisible = true;
@@ -163,7 +165,7 @@ public class PoteniallyVisibleSet
 
         TileGroup tileGroup = ScriptableObject.CreateInstance<TileGroup>();
         tileGroup.tileList = tileList;
-        AssetDatabase.CreateAsset(tileGroup, "Assets/Editor/PVS/TileGroup.asset");
+        AssetDatabase.CreateAsset(tileGroup, "Assets/Editor/Data/TileGroup.asset");
         AssetDatabase.SaveAssets();
     }
 

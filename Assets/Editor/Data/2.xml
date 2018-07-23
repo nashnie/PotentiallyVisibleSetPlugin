@@ -1,86 +1,21 @@
 <root>
-  <tile x="0" z="0">
+  <tile x="0" z="1">
     <portal x="0" z="0">
-      <cell x="0" z="1" />
-      <cell x="1" z="1" />
-      <cell x="1" z="3" />
-      <cell x="2" z="3" />
-      <cell x="5" z="14" />
-      <cell x="6" z="13" />
-      <cell x="6" z="14" />
-      <cell x="6" z="15" />
-      <cell x="7" z="14" />
-      <cell x="7" z="15" />
-      <cell x="8" z="15" />
-      <cell x="15" z="14" />
-    </portal>
-    <portal x="0" z="1" />
-    <portal x="0" z="2">
-      <cell x="8" z="14" />
-    </portal>
-    <portal x="0" z="3">
-      <cell x="9" z="15" />
-    </portal>
-    <portal x="0" z="4">
-      <cell x="9" z="14" />
-    </portal>
-    <portal x="0" z="5">
-      <cell x="10" z="15" />
-    </portal>
-    <portal x="0" z="6">
-      <cell x="8" z="13" />
-    </portal>
-    <portal x="0" z="7">
-      <cell x="0" z="0" />
-      <cell x="1" z="0" />
       <cell x="0" z="0" />
       <cell x="0" z="1" />
       <cell x="1" z="0" />
       <cell x="1" z="1" />
-      <cell x="2" z="0" />
-      <cell x="2" z="1" />
-      <cell x="3" z="0" />
-      <cell x="3" z="1" />
-      <cell x="0" z="0" />
-      <cell x="0" z="1" />
-      <cell x="0" z="2" />
-      <cell x="0" z="3" />
-      <cell x="0" z="4" />
-      <cell x="0" z="5" />
-      <cell x="0" z="6" />
-      <cell x="0" z="7" />
       <cell x="1" z="0" />
       <cell x="1" z="1" />
       <cell x="1" z="2" />
-      <cell x="1" z="3" />
-      <cell x="1" z="4" />
-      <cell x="1" z="5" />
-      <cell x="1" z="6" />
-      <cell x="1" z="7" />
       <cell x="2" z="0" />
       <cell x="2" z="1" />
       <cell x="2" z="2" />
       <cell x="2" z="3" />
-      <cell x="2" z="4" />
-      <cell x="2" z="5" />
-      <cell x="2" z="6" />
-      <cell x="2" z="7" />
       <cell x="3" z="0" />
       <cell x="3" z="1" />
       <cell x="3" z="2" />
       <cell x="3" z="3" />
-      <cell x="3" z="4" />
-      <cell x="3" z="5" />
-      <cell x="3" z="6" />
-      <cell x="3" z="7" />
-      <cell x="4" z="0" />
-      <cell x="4" z="1" />
-      <cell x="4" z="2" />
-      <cell x="4" z="3" />
-      <cell x="4" z="4" />
-      <cell x="4" z="5" />
-      <cell x="4" z="6" />
-      <cell x="4" z="7" />
       <cell x="5" z="0" />
       <cell x="5" z="1" />
       <cell x="5" z="2" />
@@ -88,7 +23,6 @@
       <cell x="5" z="4" />
       <cell x="5" z="5" />
       <cell x="5" z="6" />
-      <cell x="5" z="7" />
       <cell x="6" z="0" />
       <cell x="6" z="1" />
       <cell x="6" z="2" />
@@ -105,6 +39,7 @@
       <cell x="7" z="5" />
       <cell x="7" z="6" />
       <cell x="7" z="7" />
+      <cell x="7" z="8" />
       <cell x="8" z="0" />
       <cell x="8" z="1" />
       <cell x="8" z="2" />
@@ -113,6 +48,8 @@
       <cell x="8" z="5" />
       <cell x="8" z="6" />
       <cell x="8" z="7" />
+      <cell x="8" z="8" />
+      <cell x="8" z="9" />
       <cell x="9" z="0" />
       <cell x="9" z="1" />
       <cell x="9" z="2" />
@@ -121,6 +58,10 @@
       <cell x="9" z="5" />
       <cell x="9" z="6" />
       <cell x="9" z="7" />
+      <cell x="9" z="8" />
+      <cell x="9" z="9" />
+      <cell x="9" z="10" />
+      <cell x="9" z="11" />
       <cell x="10" z="0" />
       <cell x="10" z="1" />
       <cell x="10" z="2" />
@@ -129,6 +70,11 @@
       <cell x="10" z="5" />
       <cell x="10" z="6" />
       <cell x="10" z="7" />
+      <cell x="10" z="8" />
+      <cell x="10" z="9" />
+      <cell x="10" z="10" />
+      <cell x="10" z="11" />
+      <cell x="10" z="12" />
       <cell x="11" z="0" />
       <cell x="11" z="1" />
       <cell x="11" z="2" />
@@ -137,6 +83,12 @@
       <cell x="11" z="5" />
       <cell x="11" z="6" />
       <cell x="11" z="7" />
+      <cell x="11" z="8" />
+      <cell x="11" z="9" />
+      <cell x="11" z="10" />
+      <cell x="11" z="11" />
+      <cell x="11" z="12" />
+      <cell x="11" z="13" />
       <cell x="12" z="0" />
       <cell x="12" z="1" />
       <cell x="12" z="2" />
@@ -145,6 +97,14 @@
       <cell x="12" z="5" />
       <cell x="12" z="6" />
       <cell x="12" z="7" />
+      <cell x="12" z="8" />
+      <cell x="12" z="9" />
+      <cell x="12" z="10" />
+      <cell x="12" z="11" />
+      <cell x="12" z="12" />
+      <cell x="12" z="13" />
+      <cell x="12" z="14" />
+      <cell x="12" z="15" />
       <cell x="13" z="0" />
       <cell x="13" z="1" />
       <cell x="13" z="2" />
@@ -153,6 +113,14 @@
       <cell x="13" z="5" />
       <cell x="13" z="6" />
       <cell x="13" z="7" />
+      <cell x="13" z="8" />
+      <cell x="13" z="9" />
+      <cell x="13" z="10" />
+      <cell x="13" z="11" />
+      <cell x="13" z="12" />
+      <cell x="13" z="13" />
+      <cell x="13" z="14" />
+      <cell x="13" z="15" />
       <cell x="14" z="0" />
       <cell x="14" z="1" />
       <cell x="14" z="2" />
@@ -161,6 +129,14 @@
       <cell x="14" z="5" />
       <cell x="14" z="6" />
       <cell x="14" z="7" />
+      <cell x="14" z="8" />
+      <cell x="14" z="9" />
+      <cell x="14" z="10" />
+      <cell x="14" z="11" />
+      <cell x="14" z="12" />
+      <cell x="14" z="13" />
+      <cell x="14" z="14" />
+      <cell x="14" z="15" />
       <cell x="15" z="0" />
       <cell x="15" z="1" />
       <cell x="15" z="2" />
@@ -169,69 +145,43 @@
       <cell x="15" z="5" />
       <cell x="15" z="6" />
       <cell x="15" z="7" />
-    </portal>
-    <portal x="0" z="8" />
-    <portal x="0" z="9">
-      <cell x="3" z="3" />
-      <cell x="5" z="15" />
-      <cell x="10" z="14" />
-      <cell x="11" z="14" />
-      <cell x="11" z="15" />
-      <cell x="12" z="14" />
-      <cell x="12" z="15" />
-      <cell x="13" z="14" />
-      <cell x="13" z="15" />
-      <cell x="14" z="15" />
-      <cell x="15" z="15" />
-    </portal>
-    <portal x="0" z="10">
-      <cell x="10" z="13" />
-      <cell x="11" z="13" />
-      <cell x="12" z="13" />
-      <cell x="14" z="14" />
-    </portal>
-    <portal x="0" z="11" />
-    <portal x="0" z="12">
-      <cell x="14" z="13" />
-    </portal>
-    <portal x="0" z="13">
-      <cell x="5" z="13" />
-      <cell x="13" z="13" />
-      <cell x="15" z="13" />
-    </portal>
-    <portal x="0" z="14">
-      <cell x="3" z="2" />
-      <cell x="7" z="13" />
-      <cell x="8" z="12" />
-      <cell x="9" z="12" />
-      <cell x="9" z="13" />
-      <cell x="10" z="12" />
-      <cell x="11" z="12" />
-      <cell x="12" z="12" />
-      <cell x="13" z="11" />
-      <cell x="13" z="12" />
-      <cell x="14" z="11" />
-      <cell x="14" z="12" />
-      <cell x="15" z="11" />
-      <cell x="15" z="12" />
-    </portal>
-    <portal x="0" z="15">
-      <cell x="2" z="2" />
-      <cell x="7" z="12" />
-      <cell x="9" z="11" />
-      <cell x="10" z="11" />
-      <cell x="11" z="10" />
-      <cell x="11" z="11" />
-      <cell x="12" z="10" />
-      <cell x="12" z="11" />
-      <cell x="13" z="10" />
-      <cell x="14" z="9" />
-      <cell x="14" z="10" />
       <cell x="15" z="8" />
       <cell x="15" z="9" />
       <cell x="15" z="10" />
+      <cell x="15" z="11" />
+      <cell x="15" z="12" />
+      <cell x="15" z="13" />
+      <cell x="15" z="14" />
+      <cell x="15" z="15" />
     </portal>
-    <portal x="1" z="0" />
+    <portal x="0" z="1" />
+    <portal x="0" z="2" />
+    <portal x="0" z="3" />
+    <portal x="0" z="4" />
+    <portal x="0" z="5" />
+    <portal x="0" z="6" />
+    <portal x="0" z="7" />
+    <portal x="0" z="8" />
+    <portal x="0" z="9" />
+    <portal x="0" z="10" />
+    <portal x="0" z="11" />
+    <portal x="0" z="12" />
+    <portal x="0" z="13" />
+    <portal x="0" z="14" />
+    <portal x="0" z="15" />
+    <portal x="1" z="0">
+      <cell x="6" z="8" />
+      <cell x="7" z="9" />
+      <cell x="8" z="10" />
+      <cell x="8" z="11" />
+      <cell x="9" z="12" />
+      <cell x="9" z="13" />
+      <cell x="10" z="13" />
+      <cell x="10" z="14" />
+      <cell x="10" z="15" />
+      <cell x="11" z="14" />
+      <cell x="11" z="15" />
+    </portal>
     <portal x="1" z="1" />
     <portal x="1" z="2" />
     <portal x="1" z="3" />
@@ -246,20 +196,17 @@
     <portal x="1" z="12" />
     <portal x="1" z="13" />
     <portal x="1" z="14" />
-    <portal x="1" z="15">
-      <cell x="1" z="2" />
-      <cell x="6" z="12" />
-      <cell x="8" z="11" />
-      <cell x="9" z="10" />
-      <cell x="10" z="10" />
-      <cell x="11" z="9" />
-      <cell x="12" z="8" />
-      <cell x="12" z="9" />
-      <cell x="13" z="8" />
-      <cell x="13" z="9" />
-      <cell x="14" z="8" />
+    <portal x="1" z="15" />
+    <portal x="2" z="0">
+      <cell x="6" z="9" />
+      <cell x="6" z="10" />
+      <cell x="7" z="10" />
+      <cell x="7" z="11" />
+      <cell x="8" z="12" />
+      <cell x="8" z="13" />
+      <cell x="9" z="14" />
+      <cell x="9" z="15" />
     </portal>
-    <portal x="2" z="0" />
     <portal x="2" z="1" />
     <portal x="2" z="2" />
     <portal x="2" z="3" />
@@ -274,15 +221,21 @@
     <portal x="2" z="12" />
     <portal x="2" z="13" />
     <portal x="2" z="14" />
-    <portal x="2" z="15">
-      <cell x="7" z="11" />
-      <cell x="8" z="10" />
-      <cell x="9" z="9" />
-      <cell x="10" z="8" />
-      <cell x="10" z="9" />
-      <cell x="11" z="8" />
+    <portal x="2" z="15" />
+    <portal x="3" z="0">
+      <cell x="1" z="3" />
+      <cell x="5" z="8" />
+      <cell x="6" z="11" />
+      <cell x="6" z="12" />
+      <cell x="6" z="13" />
+      <cell x="6" z="14" />
+      <cell x="7" z="12" />
+      <cell x="7" z="13" />
+      <cell x="7" z="14" />
+      <cell x="7" z="15" />
+      <cell x="8" z="14" />
+      <cell x="8" z="15" />
     </portal>
-    <portal x="3" z="0" />
     <portal x="3" z="1" />
     <portal x="3" z="2" />
     <portal x="3" z="3" />
@@ -297,19 +250,18 @@
     <portal x="3" z="12" />
     <portal x="3" z="13" />
     <portal x="3" z="14" />
-    <portal x="3" z="15">
+    <portal x="3" z="15" />
+    <portal x="4" z="0">
+      <cell x="5" z="7" />
+      <cell x="5" z="9" />
+      <cell x="5" z="10" />
+      <cell x="5" z="11" />
       <cell x="5" z="12" />
-      <cell x="6" z="9" />
-      <cell x="6" z="10" />
-      <cell x="6" z="11" />
-      <cell x="7" z="8" />
-      <cell x="7" z="9" />
-      <cell x="7" z="10" />
-      <cell x="8" z="8" />
-      <cell x="8" z="9" />
-      <cell x="9" z="8" />
+      <cell x="5" z="13" />
+      <cell x="5" z="14" />
+      <cell x="5" z="15" />
+      <cell x="6" z="15" />
     </portal>
-    <portal x="4" z="0" />
     <portal x="4" z="1" />
     <portal x="4" z="2" />
     <portal x="4" z="3" />
@@ -323,43 +275,48 @@
     <portal x="4" z="11" />
     <portal x="4" z="12" />
     <portal x="4" z="13" />
-    <portal x="4" z="14">
-      <cell x="5" z="10" />
-      <cell x="5" z="11" />
-      <cell x="6" z="8" />
-    </portal>
-    <portal x="4" z="15">
-      <cell x="5" z="8" />
-      <cell x="5" z="9" />
-    </portal>
+    <portal x="4" z="14" />
+    <portal x="4" z="15" />
     <portal x="5" z="0" />
     <portal x="5" z="1" />
     <portal x="5" z="2" />
     <portal x="5" z="3" />
     <portal x="5" z="4" />
-    <portal x="5" z="5" />
-    <portal x="5" z="6" />
+    <portal x="5" z="5">
+      <cell x="0" z="0" />
+      <cell x="0" z="0" />
+      <cell x="0" z="1" />
+      <cell x="1" z="0" />
+      <cell x="1" z="1" />
+      <cell x="1" z="2" />
+      <cell x="1" z="3" />
+      <cell x="2" z="0" />
+      <cell x="2" z="1" />
+      <cell x="2" z="2" />
+      <cell x="2" z="3" />
+      <cell x="3" z="0" />
+      <cell x="3" z="1" />
+      <cell x="3" z="2" />
+      <cell x="3" z="3" />
+      <cell x="3" z="4" />
+      <cell x="4" z="0" />
+      <cell x="4" z="1" />
+      <cell x="4" z="2" />
+      <cell x="4" z="3" />
+      <cell x="4" z="4" />
+      <cell x="4" z="5" />
+    </portal>
+    <portal x="5" z="6">
+      <cell x="0" z="2" />
+      <cell x="2" z="4" />
+    </portal>
     <portal x="5" z="7" />
     <portal x="5" z="8" />
-    <portal x="5" z="9">
-      <cell x="4" z="15" />
-    </portal>
+    <portal x="5" z="9" />
     <portal x="5" z="10" />
     <portal x="5" z="11" />
-    <portal x="5" z="12">
-      <cell x="4" z="14" />
-    </portal>
-    <portal x="5" z="13">
-      <cell x="0" z="3" />
-      <cell x="0" z="15" />
-      <cell x="1" z="14" />
-      <cell x="1" z="15" />
-      <cell x="2" z="14" />
-      <cell x="2" z="15" />
-      <cell x="3" z="14" />
-      <cell x="3" z="15" />
-      <cell x="4" z="13" />
-    </portal>
+    <portal x="5" z="12" />
+    <portal x="5" z="13" />
     <portal x="5" z="14" />
     <portal x="5" z="15" />
     <portal x="6" z="0" />
@@ -367,7 +324,16 @@
     <portal x="6" z="2" />
     <portal x="6" z="3" />
     <portal x="6" z="4" />
-    <portal x="6" z="5" />
+    <portal x="6" z="5">
+      <cell x="0" z="1" />
+      <cell x="0" z="3" />
+      <cell x="0" z="4" />
+      <cell x="0" z="5" />
+      <cell x="1" z="4" />
+      <cell x="1" z="5" />
+      <cell x="2" z="5" />
+      <cell x="3" z="5" />
+    </portal>
     <portal x="6" z="6" />
     <portal x="6" z="7" />
     <portal x="6" z="8" />
@@ -375,43 +341,10 @@
     <portal x="6" z="10" />
     <portal x="6" z="11" />
     <portal x="6" z="12" />
-    <portal x="6" z="13">
-      <cell x="0" z="14" />
-      <cell x="3" z="13" />
-    </portal>
+    <portal x="6" z="13" />
     <portal x="6" z="14" />
     <portal x="6" z="15" />
-    <portal x="7" z="0">
-      <cell x="0" z="2" />
-      <cell x="0" z="8" />
-      <cell x="0" z="9" />
-      <cell x="0" z="10" />
-      <cell x="0" z="11" />
-      <cell x="0" z="12" />
-      <cell x="0" z="13" />
-      <cell x="1" z="8" />
-      <cell x="1" z="9" />
-      <cell x="1" z="10" />
-      <cell x="1" z="11" />
-      <cell x="1" z="12" />
-      <cell x="1" z="13" />
-      <cell x="2" z="8" />
-      <cell x="2" z="9" />
-      <cell x="2" z="10" />
-      <cell x="2" z="11" />
-      <cell x="2" z="12" />
-      <cell x="2" z="13" />
-      <cell x="3" z="8" />
-      <cell x="3" z="9" />
-      <cell x="3" z="10" />
-      <cell x="3" z="11" />
-      <cell x="3" z="12" />
-      <cell x="4" z="8" />
-      <cell x="4" z="9" />
-      <cell x="4" z="10" />
-      <cell x="4" z="11" />
-      <cell x="4" z="12" />
-    </portal>
+    <portal x="7" z="0" />
     <portal x="7" z="1" />
     <portal x="7" z="2" />
     <portal x="7" z="3" />
@@ -507,7 +440,60 @@
     <portal x="12" z="13" />
     <portal x="12" z="14" />
     <portal x="12" z="15" />
-    <portal x="13" z="0" />
+    <portal x="13" z="0">
+      <cell x="0" z="2" />
+      <cell x="0" z="3" />
+      <cell x="0" z="6" />
+      <cell x="0" z="7" />
+      <cell x="0" z="8" />
+      <cell x="0" z="9" />
+      <cell x="0" z="10" />
+      <cell x="0" z="11" />
+      <cell x="0" z="12" />
+      <cell x="0" z="13" />
+      <cell x="0" z="14" />
+      <cell x="0" z="15" />
+      <cell x="1" z="6" />
+      <cell x="1" z="7" />
+      <cell x="1" z="8" />
+      <cell x="1" z="9" />
+      <cell x="1" z="10" />
+      <cell x="1" z="11" />
+      <cell x="1" z="12" />
+      <cell x="1" z="13" />
+      <cell x="1" z="14" />
+      <cell x="1" z="15" />
+      <cell x="2" z="6" />
+      <cell x="2" z="7" />
+      <cell x="2" z="8" />
+      <cell x="2" z="9" />
+      <cell x="2" z="10" />
+      <cell x="2" z="11" />
+      <cell x="2" z="12" />
+      <cell x="2" z="13" />
+      <cell x="2" z="14" />
+      <cell x="2" z="15" />
+      <cell x="3" z="6" />
+      <cell x="3" z="7" />
+      <cell x="3" z="8" />
+      <cell x="3" z="9" />
+      <cell x="3" z="10" />
+      <cell x="3" z="11" />
+      <cell x="3" z="12" />
+      <cell x="3" z="13" />
+      <cell x="3" z="14" />
+      <cell x="3" z="15" />
+      <cell x="4" z="6" />
+      <cell x="4" z="7" />
+      <cell x="4" z="8" />
+      <cell x="4" z="9" />
+      <cell x="4" z="10" />
+      <cell x="4" z="11" />
+      <cell x="4" z="12" />
+      <cell x="4" z="13" />
+      <cell x="4" z="14" />
+      <cell x="4" z="15" />
+    </portal>
     <portal x="13" z="1" />
     <portal x="13" z="2" />
     <portal x="13" z="3" />
