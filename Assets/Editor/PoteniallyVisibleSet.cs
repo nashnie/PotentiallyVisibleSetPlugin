@@ -5,6 +5,9 @@ using UnityEditor;
 using System.Xml;
 
 /// <summary>
+/// TODO 
+/// 基于Item大小、距离的加载
+/// 基于Item大小的视野检测
 /// Nash
 /// </summary>
 public class PoteniallyVisibleSet
@@ -17,53 +20,12 @@ public class PoteniallyVisibleSet
 
     private Vector3 mapSize = new Vector3(128, 0, 128);
     private Vector3 portalSize = new Vector3(64, 0, 64);
-    private const int portalPointCount = 8;
+    private const int startPortalPointCount = 8;
+    private Vector4 endPortalPointList = new Vector4(8, 4, 4, 4);
     private int targetAreaPointCount = 0;
 
+    private List<PoteniallyVisibleSetItem> poteniallyVisibleSetItemList;
     private List<Tile> tileList;
-
-    public enum MapItemSize
-    {
-        Big,
-        Middle,
-        Small
-    }
-
-    public class TileGroup : ScriptableObject
-    {
-        public List<Tile> tileList;
-    }
-
-    [System.Serializable]
-    public class Tile
-    {
-        public int id;
-        public int x;
-        public int z;
-        public List<Portal> portalList;
-        public List<Cell> bigAreaList;
-        public List<Cell> middleAreaList;
-        public List<Cell> smallAreaList;
-    }
-
-    [System.Serializable]
-    public class Portal
-    {
-        public int id;
-        public int x;
-        public int z;
-        public List<Vector3> rayStartPointList;
-    }
-
-    [System.Serializable]
-    public class Cell
-    {
-        public int id;
-        public int x;
-        public int z;
-        public bool isVisible;
-        public List<Vector3> rayEndPointList;
-    }
 
     [MenuItem("Tools/CalculatePVS")]
 
@@ -147,9 +109,18 @@ public class PoteniallyVisibleSet
                         Vector3 end = cell.rayEndPointList[i] + Vector3.up * height;
                         Vector3 direction = (end - start).normalized;
                         float distance = Vector3.Distance(end, start);
-
-                        if (Physics.Raycast(start, direction, distance))
+                        RaycastHit hitInfo;
+                        if (Physics.Raycast(start, direction, out hitInfo, distance))
                         {
+                            PoteniallyVisibleSetItem pvsItem = hitInfo.collider.GetComponent<PoteniallyVisibleSetItem>();
+                            if (pvsItem.size != cell.size)
+                            {
+                                Debug.LogError(string.Format("PVSItem size{0} is not equal cell size{1}.", pvsItem.size, cell.size));
+                            }
+                            else if (pvsItem.occlusionType != MapItemOcclusionType.Occluder)
+                            {
+                                Debug.LogWarning(string.Format("PVSItem occlusionType{0} is not equal Occluder.", pvsItem.occlusionType));
+                            }
                             Debug.DrawLine(start, end, Color.green);
                             cell.isVisible = true;
                             xmlElement.SetAttribute("x", cell.x.ToString());
@@ -210,8 +181,8 @@ public class PoteniallyVisibleSet
                 portal.id = portalList.Count + 1;
                 portal.x = i;
                 portal.z = j;
-                portal.rayStartPointList = new List<Vector3>(portalPointCount);
-                for (int k = 0; k < portalPointCount; k++)
+                portal.rayStartPointList = new List<Vector3>(startPortalPointCount);
+                for (int k = 0; k < startPortalPointCount; k++)
                 {
                     float x = UnityEngine.Random.Range(0, portalSize.x);
                     float z = UnityEngine.Random.Range(0, portalSize.z);
@@ -236,15 +207,15 @@ public class PoteniallyVisibleSet
         {
             case MapItemSize.Big:
                 cellSize = bigCellSize;
-                targetAreaPointCount = UnityEngine.Random.Range(16, 16);
+                targetAreaPointCount = UnityEngine.Random.Range((int)endPortalPointList.y, (int)endPortalPointList.x);
                 break;
             case MapItemSize.Middle:
                 cellSize = middleCellSize;
-                targetAreaPointCount = UnityEngine.Random.Range(8, 8);
+                targetAreaPointCount = UnityEngine.Random.Range((int)endPortalPointList.x, (int)endPortalPointList.y);
                 break;
             case MapItemSize.Small:
                 cellSize = smallCellSize;
-                targetAreaPointCount = UnityEngine.Random.Range(4, 4);
+                targetAreaPointCount = UnityEngine.Random.Range((int)endPortalPointList.w, (int)endPortalPointList.z);
                 break;
             default:
                 cellSize = bigCellSize;
@@ -294,6 +265,28 @@ public class PoteniallyVisibleSet
             default:
                 tile.bigAreaList = cellList;
                 break;
+        }
+    }
+
+    private void HideSpecifiedMapItem(MapItemSize size)
+    {
+        if (poteniallyVisibleSetItemList == null)
+        {
+            GameObject root = GameObject.Find("OcclusionCulling");
+            PoteniallyVisibleSetItem[] poteniallyVisibleSetItems = root.GetComponentsInChildren<PoteniallyVisibleSetItem>();
+            poteniallyVisibleSetItemList = new List<PoteniallyVisibleSetItem>(poteniallyVisibleSetItems);
+        }
+        for (int i = 0; i < poteniallyVisibleSetItemList.Count; i++)
+        {
+            PoteniallyVisibleSetItem pvsItem = poteniallyVisibleSetItemList[i];
+            if (pvsItem.size != size)
+            {
+                pvsItem.gameObject.SetActive(false);
+            }
+            else
+            {
+                pvsItem.gameObject.SetActive(true);
+            }
         }
     }
 }
