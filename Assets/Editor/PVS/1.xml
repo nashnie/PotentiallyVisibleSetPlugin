@@ -1,0 +1,18 @@
+<root>
+  <tile x="0" z="0">
+    <portal x="0" z="0">
+      <cell x="0" z="0" />
+      <cell x="0" z="0" />
+      <cell x="0" z="1" />
+      <cell x="1" z="0" />
+      <cell x="1" z="1" />
+      <cell x="0" z="0" />
+      <cell x="0" z="1" />
+      <cell x="1" z="0" />
+      <cell x="1" z="1" />
+    </portal>
+    <portal x="0" z="1" />
+    <portal x="1" z="0" />
+    <portal x="1" z="1" />
+  </tile>
+</root>
