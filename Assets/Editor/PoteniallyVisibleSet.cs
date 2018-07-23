@@ -18,10 +18,10 @@ public class PoteniallyVisibleSet
     private Vector3 middleCellSize = new Vector3(32, 0, 32);
     private Vector3 smallCellSize = new Vector3(8, 0, 8);
 
-    private Vector3 mapSize = new Vector3(256, 0, 256);
+    private Vector3 mapSize = new Vector3(32, 0, 32);
     private Vector3 portalSize = new Vector3(8, 0, 8);
-    private const int startPortalPointCount = 8;
-    private Vector4 endPortalPointList = new Vector4(16, 8, 4, 4);
+    private const int startPortalPointCount = 4;
+    private Vector4 endPortalPointList = new Vector4(8, 4, 2, 2);
     private int targetAreaPointCount = 0;
 
     private List<PoteniallyVisibleSetItem> poteniallyVisibleSetItemList;
@@ -34,6 +34,7 @@ public class PoteniallyVisibleSet
         PoteniallyVisibleSet poteniallyVisibleSet = new PoteniallyVisibleSet();
         poteniallyVisibleSet.CaptureMapGrid();
         poteniallyVisibleSet.CalculateMapPVS();
+        EditorUtility.DisplayDialog("CalculatePVS", "Calculated PVS successfully!", "OK");
     }
 
     private void CalculateMapPVS()
@@ -94,31 +95,31 @@ public class PoteniallyVisibleSet
 
     private XmlElement CalculateCellPVS(Cell cell, Portal portal, XmlDocument xml)
     {
-        if (cell.isVisible == false)
+        for (int k = 0; k < portal.rayStartPointList.Count; k++)
         {
-            for (int k = 0; k < portal.rayStartPointList.Count; k++)
+            Vector3 origin = portal.rayStartPointList[k];
+            XmlElement xmlElement = xml.CreateElement("cell");
+            for (int i = 0; i < cell.rayEndPointList.Count; i++)
             {
-                Vector3 origin = portal.rayStartPointList[k];
-                XmlElement xmlElement = xml.CreateElement("cell");
-                for (int i = 0; i < cell.rayEndPointList.Count; i++)
+                for (int j = 0; j < verticalSize.Count; j++)
                 {
-                    for (int j = 0; j < verticalSize.Count; j++)
+                    float height = verticalSize[j];
+                    Vector3 start = origin + Vector3.up * height;
+                    Vector3 end = cell.rayEndPointList[i] + Vector3.up * height;
+                    Vector3 direction = (end - start).normalized;
+                    float distance = Vector3.Distance(end, start);
+                    RaycastHit hitInfo;
+                    if (Physics.Raycast(start, direction, out hitInfo, distance))
                     {
-                        float height = verticalSize[j];
-                        Vector3 start = origin + Vector3.up * height;
-                        Vector3 end = cell.rayEndPointList[i] + Vector3.up * height;
-                        Vector3 direction = (end - start).normalized;
-                        float distance = Vector3.Distance(end, start);
-                        RaycastHit hitInfo;
-                        if (Physics.Raycast(start, direction, out hitInfo, distance))
+                        PoteniallyVisibleSetItem pvsItem = hitInfo.collider.GetComponent<PoteniallyVisibleSetItem>();
+                        /*if (pvsItem.size != cell.size)
                         {
-                            PoteniallyVisibleSetItem pvsItem = hitInfo.collider.GetComponent<PoteniallyVisibleSetItem>();
-                            if (pvsItem.size != cell.size)
-                            {
-                                Debug.LogWarning(string.Format("PVSItem size{0} is not equal cell size{1}.", pvsItem.size, cell.size));
-                                continue;
-                            }
-                            else if (pvsItem.occlusionType != MapItemOcclusionType.Occluder)
+                            Debug.LogWarning(string.Format("PVSItem size{0} is not equal cell size{1}.", pvsItem.size, cell.size));
+                            continue;
+                        }*/
+                        if (pvsItem.ownerCellIdList.IndexOf(cell.id) >= 0)
+                        {
+                            if (pvsItem.occlusionType != MapItemOcclusionType.Occluder)
                             {
                                 Debug.LogWarning(string.Format("PVSItem occlusionType{0} is not equal Occluder.", pvsItem.occlusionType));
                                 continue;
@@ -129,14 +130,13 @@ public class PoteniallyVisibleSet
                             xmlElement.SetAttribute("z", cell.z.ToString());
                             return xmlElement;
                         }
-                        else
-                        {
-                            Debug.DrawLine(start, end, Color.red);
-                        }
                     }
-
+                    else
+                    {
+                        Debug.DrawLine(start, end, Color.red);
+                    }
                 }
-            }           
+            }
         }
         return null;
     }
