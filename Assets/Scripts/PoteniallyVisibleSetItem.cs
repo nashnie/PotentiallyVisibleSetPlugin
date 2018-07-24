@@ -10,4 +10,9 @@ public class PoteniallyVisibleSetItem : MonoBehaviour
     public List<int> ownerCellIdList = new List<int>();
     [SerializeField]
     public MapItemOcclusionType occlusionType = MapItemOcclusionType.Occluder;
+
+    public void SetVisivle(bool value)
+    {
+        gameObject.SetActive(value);
+    }
 }

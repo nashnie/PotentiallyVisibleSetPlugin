@@ -1,0 +1,1324 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 120e4b22c2c986a4c8cd1829888713f5, type: 3}
+  m_Name: TileGroup
+  m_EditorClassIdentifier: 
+  mapHorizontalTiles: 1
+  mapVerticalTiles: 1
+  tileList:
+  - id: 1
+    x: 0
+    z: 0
+    portalList:
+    - id: 1
+      x: 0
+      z: 0
+    - id: 2
+      x: 0
+      z: 16
+    - id: 3
+      x: 0
+      z: 32
+    - id: 4
+      x: 0
+      z: 48
+    - id: 5
+      x: 0
+      z: 64
+    - id: 6
+      x: 0
+      z: 80
+    - id: 7
+      x: 0
+      z: 96
+    - id: 8
+      x: 0
+      z: 112
+    - id: 9
+      x: 16
+      z: 0
+    - id: 10
+      x: 16
+      z: 16
+    - id: 11
+      x: 16
+      z: 32
+    - id: 12
+      x: 16
+      z: 48
+    - id: 13
+      x: 16
+      z: 64
+    - id: 14
+      x: 16
+      z: 80
+    - id: 15
+      x: 16
+      z: 96
+    - id: 16
+      x: 16
+      z: 112
+    - id: 17
+      x: 32
+      z: 0
+    - id: 18
+      x: 32
+      z: 16
+    - id: 19
+      x: 32
+      z: 32
+    - id: 20
+      x: 32
+      z: 48
+    - id: 21
+      x: 32
+      z: 64
+    - id: 22
+      x: 32
+      z: 80
+    - id: 23
+      x: 32
+      z: 96
+    - id: 24
+      x: 32
+      z: 112
+    - id: 25
+      x: 48
+      z: 0
+    - id: 26
+      x: 48
+      z: 16
+    - id: 27
+      x: 48
+      z: 32
+    - id: 28
+      x: 48
+      z: 48
+    - id: 29
+      x: 48
+      z: 64
+    - id: 30
+      x: 48
+      z: 80
+    - id: 31
+      x: 48
+      z: 96
+    - id: 32
+      x: 48
+      z: 112
+    - id: 33
+      x: 64
+      z: 0
+    - id: 34
+      x: 64
+      z: 16
+    - id: 35
+      x: 64
+      z: 32
+    - id: 36
+      x: 64
+      z: 48
+    - id: 37
+      x: 64
+      z: 64
+    - id: 38
+      x: 64
+      z: 80
+    - id: 39
+      x: 64
+      z: 96
+    - id: 40
+      x: 64
+      z: 112
+    - id: 41
+      x: 80
+      z: 0
+    - id: 42
+      x: 80
+      z: 16
+    - id: 43
+      x: 80
+      z: 32
+    - id: 44
+      x: 80
+      z: 48
+    - id: 45
+      x: 80
+      z: 64
+    - id: 46
+      x: 80
+      z: 80
+    - id: 47
+      x: 80
+      z: 96
+    - id: 48
+      x: 80
+      z: 112
+    - id: 49
+      x: 96
+      z: 0
+    - id: 50
+      x: 96
+      z: 16
+    - id: 51
+      x: 96
+      z: 32
+    - id: 52
+      x: 96
+      z: 48
+    - id: 53
+      x: 96
+      z: 64
+    - id: 54
+      x: 96
+      z: 80
+    - id: 55
+      x: 96
+      z: 96
+    - id: 56
+      x: 96
+      z: 112
+    - id: 57
+      x: 112
+      z: 0
+    - id: 58
+      x: 112
+      z: 16
+    - id: 59
+      x: 112
+      z: 32
+    - id: 60
+      x: 112
+      z: 48
+    - id: 61
+      x: 112
+      z: 64
+    - id: 62
+      x: 112
+      z: 80
+    - id: 63
+      x: 112
+      z: 96
+    - id: 64
+      x: 112
+      z: 112
+    bigAreaList:
+    - x: 0
+      z: 0
+      size: 0
+      isVisible: 0
+    - x: 0
+      z: 64
+      size: 0
+      isVisible: 0
+    - x: 64
+      z: 0
+      size: 0
+      isVisible: 0
+    - x: 64
+      z: 64
+      size: 0
+      isVisible: 0
+    middleAreaList:
+    - x: 0
+      z: 0
+      size: 1
+      isVisible: 0
+    - x: 0
+      z: 32
+      size: 1
+      isVisible: 0
+    - x: 0
+      z: 64
+      size: 1
+      isVisible: 0
+    - x: 0
+      z: 96
+      size: 1
+      isVisible: 0
+    - x: 32
+      z: 0
+      size: 1
+      isVisible: 0
+    - x: 32
+      z: 32
+      size: 1
+      isVisible: 0
+    - x: 32
+      z: 64
+      size: 1
+      isVisible: 0
+    - x: 32
+      z: 96
+      size: 1
+      isVisible: 0
+    - x: 64
+      z: 0
+      size: 1
+      isVisible: 0
+    - x: 64
+      z: 32
+      size: 1
+      isVisible: 0
+    - x: 64
+      z: 64
+      size: 1
+      isVisible: 0
+    - x: 64
+      z: 96
+      size: 1
+      isVisible: 0
+    - x: 96
+      z: 0
+      size: 1
+      isVisible: 0
+    - x: 96
+      z: 32
+      size: 1
+      isVisible: 0
+    - x: 96
+      z: 64
+      size: 1
+      isVisible: 0
+    - x: 96
+      z: 96
+      size: 1
+      isVisible: 0
+    smallAreaList:
+    - x: 0
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 8
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 16
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 24
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 40
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 48
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 56
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 72
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 80
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 88
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 104
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 112
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 120
+      size: 2
+      isVisible: 0
+    - x: 8
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 8
+      z: 8
+      size: 2
+      isVisible: 0
+    - x: 8
+      z: 16
+      size: 2
+      isVisible: 0
+    - x: 8
+      z: 24
+      size: 2
+      isVisible: 0
+    - x: 8
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 8
+      z: 40
+      size: 2
+      isVisible: 0
+    - x: 8
+      z: 48
+      size: 2
+      isVisible: 0
+    - x: 8
+      z: 56
+      size: 2
+      isVisible: 0
+    - x: 8
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 8
+      z: 72
+      size: 2
+      isVisible: 0
+    - x: 8
+      z: 80
+      size: 2
+      isVisible: 0
+    - x: 8
+      z: 88
+      size: 2
+      isVisible: 0
+    - x: 8
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 8
+      z: 104
+      size: 2
+      isVisible: 0
+    - x: 8
+      z: 112
+      size: 2
+      isVisible: 0
+    - x: 8
+      z: 120
+      size: 2
+      isVisible: 0
+    - x: 16
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 16
+      z: 8
+      size: 2
+      isVisible: 0
+    - x: 16
+      z: 16
+      size: 2
+      isVisible: 0
+    - x: 16
+      z: 24
+      size: 2
+      isVisible: 0
+    - x: 16
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 16
+      z: 40
+      size: 2
+      isVisible: 0
+    - x: 16
+      z: 48
+      size: 2
+      isVisible: 0
+    - x: 16
+      z: 56
+      size: 2
+      isVisible: 0
+    - x: 16
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 16
+      z: 72
+      size: 2
+      isVisible: 0
+    - x: 16
+      z: 80
+      size: 2
+      isVisible: 0
+    - x: 16
+      z: 88
+      size: 2
+      isVisible: 0
+    - x: 16
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 16
+      z: 104
+      size: 2
+      isVisible: 0
+    - x: 16
+      z: 112
+      size: 2
+      isVisible: 0
+    - x: 16
+      z: 120
+      size: 2
+      isVisible: 0
+    - x: 24
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 24
+      z: 8
+      size: 2
+      isVisible: 0
+    - x: 24
+      z: 16
+      size: 2
+      isVisible: 0
+    - x: 24
+      z: 24
+      size: 2
+      isVisible: 0
+    - x: 24
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 24
+      z: 40
+      size: 2
+      isVisible: 0
+    - x: 24
+      z: 48
+      size: 2
+      isVisible: 0
+    - x: 24
+      z: 56
+      size: 2
+      isVisible: 0
+    - x: 24
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 24
+      z: 72
+      size: 2
+      isVisible: 0
+    - x: 24
+      z: 80
+      size: 2
+      isVisible: 0
+    - x: 24
+      z: 88
+      size: 2
+      isVisible: 0
+    - x: 24
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 24
+      z: 104
+      size: 2
+      isVisible: 0
+    - x: 24
+      z: 112
+      size: 2
+      isVisible: 0
+    - x: 24
+      z: 120
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 8
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 16
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 24
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 40
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 48
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 56
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 72
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 80
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 88
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 104
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 112
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 120
+      size: 2
+      isVisible: 0
+    - x: 40
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 40
+      z: 8
+      size: 2
+      isVisible: 0
+    - x: 40
+      z: 16
+      size: 2
+      isVisible: 0
+    - x: 40
+      z: 24
+      size: 2
+      isVisible: 0
+    - x: 40
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 40
+      z: 40
+      size: 2
+      isVisible: 0
+    - x: 40
+      z: 48
+      size: 2
+      isVisible: 0
+    - x: 40
+      z: 56
+      size: 2
+      isVisible: 0
+    - x: 40
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 40
+      z: 72
+      size: 2
+      isVisible: 0
+    - x: 40
+      z: 80
+      size: 2
+      isVisible: 0
+    - x: 40
+      z: 88
+      size: 2
+      isVisible: 0
+    - x: 40
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 40
+      z: 104
+      size: 2
+      isVisible: 0
+    - x: 40
+      z: 112
+      size: 2
+      isVisible: 0
+    - x: 40
+      z: 120
+      size: 2
+      isVisible: 0
+    - x: 48
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 48
+      z: 8
+      size: 2
+      isVisible: 0
+    - x: 48
+      z: 16
+      size: 2
+      isVisible: 0
+    - x: 48
+      z: 24
+      size: 2
+      isVisible: 0
+    - x: 48
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 48
+      z: 40
+      size: 2
+      isVisible: 0
+    - x: 48
+      z: 48
+      size: 2
+      isVisible: 0
+    - x: 48
+      z: 56
+      size: 2
+      isVisible: 0
+    - x: 48
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 48
+      z: 72
+      size: 2
+      isVisible: 0
+    - x: 48
+      z: 80
+      size: 2
+      isVisible: 0
+    - x: 48
+      z: 88
+      size: 2
+      isVisible: 0
+    - x: 48
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 48
+      z: 104
+      size: 2
+      isVisible: 0
+    - x: 48
+      z: 112
+      size: 2
+      isVisible: 0
+    - x: 48
+      z: 120
+      size: 2
+      isVisible: 0
+    - x: 56
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 56
+      z: 8
+      size: 2
+      isVisible: 0
+    - x: 56
+      z: 16
+      size: 2
+      isVisible: 0
+    - x: 56
+      z: 24
+      size: 2
+      isVisible: 0
+    - x: 56
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 56
+      z: 40
+      size: 2
+      isVisible: 0
+    - x: 56
+      z: 48
+      size: 2
+      isVisible: 0
+    - x: 56
+      z: 56
+      size: 2
+      isVisible: 0
+    - x: 56
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 56
+      z: 72
+      size: 2
+      isVisible: 0
+    - x: 56
+      z: 80
+      size: 2
+      isVisible: 0
+    - x: 56
+      z: 88
+      size: 2
+      isVisible: 0
+    - x: 56
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 56
+      z: 104
+      size: 2
+      isVisible: 0
+    - x: 56
+      z: 112
+      size: 2
+      isVisible: 0
+    - x: 56
+      z: 120
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 8
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 16
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 24
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 40
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 48
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 56
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 72
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 80
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 88
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 104
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 112
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 120
+      size: 2
+      isVisible: 0
+    - x: 72
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 72
+      z: 8
+      size: 2
+      isVisible: 0
+    - x: 72
+      z: 16
+      size: 2
+      isVisible: 0
+    - x: 72
+      z: 24
+      size: 2
+      isVisible: 0
+    - x: 72
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 72
+      z: 40
+      size: 2
+      isVisible: 0
+    - x: 72
+      z: 48
+      size: 2
+      isVisible: 0
+    - x: 72
+      z: 56
+      size: 2
+      isVisible: 0
+    - x: 72
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 72
+      z: 72
+      size: 2
+      isVisible: 0
+    - x: 72
+      z: 80
+      size: 2
+      isVisible: 0
+    - x: 72
+      z: 88
+      size: 2
+      isVisible: 0
+    - x: 72
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 72
+      z: 104
+      size: 2
+      isVisible: 0
+    - x: 72
+      z: 112
+      size: 2
+      isVisible: 0
+    - x: 72
+      z: 120
+      size: 2
+      isVisible: 0
+    - x: 80
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 80
+      z: 8
+      size: 2
+      isVisible: 0
+    - x: 80
+      z: 16
+      size: 2
+      isVisible: 0
+    - x: 80
+      z: 24
+      size: 2
+      isVisible: 0
+    - x: 80
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 80
+      z: 40
+      size: 2
+      isVisible: 0
+    - x: 80
+      z: 48
+      size: 2
+      isVisible: 0
+    - x: 80
+      z: 56
+      size: 2
+      isVisible: 0
+    - x: 80
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 80
+      z: 72
+      size: 2
+      isVisible: 0
+    - x: 80
+      z: 80
+      size: 2
+      isVisible: 0
+    - x: 80
+      z: 88
+      size: 2
+      isVisible: 0
+    - x: 80
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 80
+      z: 104
+      size: 2
+      isVisible: 0
+    - x: 80
+      z: 112
+      size: 2
+      isVisible: 0
+    - x: 80
+      z: 120
+      size: 2
+      isVisible: 0
+    - x: 88
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 88
+      z: 8
+      size: 2
+      isVisible: 0
+    - x: 88
+      z: 16
+      size: 2
+      isVisible: 0
+    - x: 88
+      z: 24
+      size: 2
+      isVisible: 0
+    - x: 88
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 88
+      z: 40
+      size: 2
+      isVisible: 0
+    - x: 88
+      z: 48
+      size: 2
+      isVisible: 0
+    - x: 88
+      z: 56
+      size: 2
+      isVisible: 0
+    - x: 88
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 88
+      z: 72
+      size: 2
+      isVisible: 0
+    - x: 88
+      z: 80
+      size: 2
+      isVisible: 0
+    - x: 88
+      z: 88
+      size: 2
+      isVisible: 0
+    - x: 88
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 88
+      z: 104
+      size: 2
+      isVisible: 0
+    - x: 88
+      z: 112
+      size: 2
+      isVisible: 0
+    - x: 88
+      z: 120
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 8
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 16
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 24
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 40
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 48
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 56
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 72
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 80
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 88
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 104
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 112
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 120
+      size: 2
+      isVisible: 0
+    - x: 104
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 104
+      z: 8
+      size: 2
+      isVisible: 0
+    - x: 104
+      z: 16
+      size: 2
+      isVisible: 0
+    - x: 104
+      z: 24
+      size: 2
+      isVisible: 0
+    - x: 104
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 104
+      z: 40
+      size: 2
+      isVisible: 0
+    - x: 104
+      z: 48
+      size: 2
+      isVisible: 0
+    - x: 104
+      z: 56
+      size: 2
+      isVisible: 0
+    - x: 104
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 104
+      z: 72
+      size: 2
+      isVisible: 0
+    - x: 104
+      z: 80
+      size: 2
+      isVisible: 0
+    - x: 104
+      z: 88
+      size: 2
+      isVisible: 0
+    - x: 104
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 104
+      z: 104
+      size: 2
+      isVisible: 0
+    - x: 104
+      z: 112
+      size: 2
+      isVisible: 0
+    - x: 104
+      z: 120
+      size: 2
+      isVisible: 0
+    - x: 112
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 112
+      z: 8
+      size: 2
+      isVisible: 0
+    - x: 112
+      z: 16
+      size: 2
+      isVisible: 0
+    - x: 112
+      z: 24
+      size: 2
+      isVisible: 0
+    - x: 112
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 112
+      z: 40
+      size: 2
+      isVisible: 0
+    - x: 112
+      z: 48
+      size: 2
+      isVisible: 0
+    - x: 112
+      z: 56
+      size: 2
+      isVisible: 0
+    - x: 112
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 112
+      z: 72
+      size: 2
+      isVisible: 0
+    - x: 112
+      z: 80
+      size: 2
+      isVisible: 0
+    - x: 112
+      z: 88
+      size: 2
+      isVisible: 0
+    - x: 112
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 112
+      z: 104
+      size: 2
+      isVisible: 0
+    - x: 112
+      z: 112
+      size: 2
+      isVisible: 0
+    - x: 112
+      z: 120
+      size: 2
+      isVisible: 0
+    - x: 120
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 120
+      z: 8
+      size: 2
+      isVisible: 0
+    - x: 120
+      z: 16
+      size: 2
+      isVisible: 0
+    - x: 120
+      z: 24
+      size: 2
+      isVisible: 0
+    - x: 120
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 120
+      z: 40
+      size: 2
+      isVisible: 0
+    - x: 120
+      z: 48
+      size: 2
+      isVisible: 0
+    - x: 120
+      z: 56
+      size: 2
+      isVisible: 0
+    - x: 120
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 120
+      z: 72
+      size: 2
+      isVisible: 0
+    - x: 120
+      z: 80
+      size: 2
+      isVisible: 0
+    - x: 120
+      z: 88
+      size: 2
+      isVisible: 0
+    - x: 120
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 120
+      z: 104
+      size: 2
+      isVisible: 0
+    - x: 120
+      z: 112
+      size: 2
+      isVisible: 0
+    - x: 120
+      z: 120
+      size: 2
+      isVisible: 0
+    tileSize: 128
+    portalSize: 0
+    bigAreaSize: 64
+    middleAreaSize: 32
+    smallAreaSize: 8

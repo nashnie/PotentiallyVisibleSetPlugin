@@ -19,15 +19,15 @@ public class PoteniallyVisibleSet
     private Vector3 smallCellSize = new Vector3(8, 0, 8);
 
     private Vector3 mapSize = new Vector3(32, 0, 32);
-    private Vector3 portalSize = new Vector3(8, 0, 8);
+    private Vector3 portalSize = new Vector3(16, 0, 16);
     private const int startPortalPointCount = 4;
-    private Vector4 endPortalPointList = new Vector4(8, 4, 2, 2);
+    private Vector4 endPortalPointList = new Vector4(4, 4, 2, 2);
     private int targetAreaPointCount = 0;
 
     private List<PoteniallyVisibleSetItem> poteniallyVisibleSetItemList;
 
     private TileGroup tileGroup;
-    private List<Tile> tileList;
+    private List<MapTile> tileList;
 
     [MenuItem("Tools/CalculatePVS")]
 
@@ -51,7 +51,7 @@ public class PoteniallyVisibleSet
         ClearAllMapItemOwner();
         for (int i = 0; i < tileGroup.tileList.Count; i++)
         {
-            Tile tile = tileGroup.tileList[i];
+            MapTile tile = tileGroup.tileList[i];
             ShowSpecifiedMapItem(MapItemSize.Big);
             HideSpecifiedMapItem(MapItemSize.Middle);
             HideSpecifiedMapItem(MapItemSize.Small);
@@ -78,10 +78,10 @@ public class PoteniallyVisibleSet
         ShowAllMapItem();
     }
 
-    private void AnalyzerMapItemOwner(Cell cell, Tile tile)
+    private void AnalyzerMapItemOwner(Cell cell, MapTile tile)
     {
         int size = GetCellSize(cell.size);
-        Vector3 center = new Vector3(tile.x * tileSize.x + cell.x * size + size / 2, 1f, tile.z * tileSize.z + cell.z * size + size / 2) + Vector3.up * 100f;
+        Vector3 center = new Vector3(cell.x + size / 2, 1f, cell.z + size / 2) + Vector3.up * 100f;
         Vector3 halfExtents = new Vector3(size / 2, 1f, size / 2);
         Vector3 direction = Vector3.down;
 
@@ -125,7 +125,7 @@ public class PoteniallyVisibleSet
     {
         for (int i = 0; i < tileList.Count; i++)
         {
-            Tile tile = tileList[i];
+            MapTile tile = tileList[i];
             XmlDocument xmlDoc = new XmlDocument();
             XmlElement xmlRoot = xmlDoc.CreateElement("root");
 
@@ -171,7 +171,7 @@ public class PoteniallyVisibleSet
                 }
             }
 
-            string xmlDataPath = Application.dataPath + "/Editor/Data/" + tile.id + ".xml";
+            string xmlDataPath = Application.dataPath + "/Resources/" + tile.id + ".xml";
             xmlDoc.AppendChild(xmlRoot);
             xmlDoc.Save(xmlDataPath);
         }
@@ -196,24 +196,26 @@ public class PoteniallyVisibleSet
                     if (Physics.Raycast(start, direction, out hitInfo, distance))
                     {
                         PoteniallyVisibleSetItem pvsItem = hitInfo.collider.GetComponent<PoteniallyVisibleSetItem>();
-                        if (pvsItem.size != cell.size)
+                        if (pvsItem != null)
                         {
-                            Debug.LogWarning(string.Format("CalculateMapPVS PVSItem size{0} is not equal cell size{1}.", pvsItem.size, cell.size));
-                            continue;
-                        }
-                        else if (pvsItem.occlusionType != MapItemOcclusionType.Occluder)
-                        {
-                            Debug.LogWarning(string.Format("CalculateMapPVS PVSItem occlusionType{0} is not equal Occluder.", pvsItem.occlusionType));
-                            //TODO HideSpecified(not Occluder)MapItem 
-                            continue;
-                        }
-                        else if (pvsItem.ownerCellIdList.IndexOf(cell.Id) >= 0)
-                        {   
-                            Debug.DrawLine(start, end, Color.green);
-                            cell.isVisible = true;
-                            xmlElement.SetAttribute("x", cell.x.ToString());
-                            xmlElement.SetAttribute("z", cell.z.ToString());
-                            return xmlElement;
+                            if (pvsItem.size != cell.size)
+                            {
+                                Debug.LogWarning(string.Format("CalculateMapPVS PVSItem size{0} is not equal cell size{1}.", pvsItem.size, cell.size));
+                                continue;
+                            }
+                            else if (pvsItem.occlusionType != MapItemOcclusionType.Occluder)
+                            {
+                                Debug.LogWarning(string.Format("CalculateMapPVS PVSItem occlusionType{0} is not equal Occluder.", pvsItem.occlusionType));
+                                //TODO HideSpecified(not Occluder)MapItem 
+                                continue;
+                            }
+                            else if (pvsItem.ownerCellIdList.IndexOf(cell.Id) >= 0)
+                            {
+                                Debug.DrawLine(start, end, Color.green);
+                                cell.isVisible = true;
+                                xmlElement.SetAttribute("id", cell.Id.ToString());
+                                return xmlElement;
+                            }
                         }
                     }
                     else
@@ -231,15 +233,20 @@ public class PoteniallyVisibleSet
         int mapHorizontalTiles = Mathf.CeilToInt(mapSize.x / tileSize.x);
         int mapVerticalTiles = Mathf.CeilToInt(mapSize.z / tileSize.z);
         Debug.Log("mapHorizontalTiles " + mapHorizontalTiles + " " + mapVerticalTiles);
-        tileList = new List<Tile>(mapHorizontalTiles * mapVerticalTiles);
+        tileList = new List<MapTile>(mapHorizontalTiles * mapVerticalTiles);
         for (int i = 0; i < mapHorizontalTiles; i++)
         {
             for (int j = 0; j < mapVerticalTiles; j++)
             {
-                Tile tile = new Tile();
+                MapTile tile = new MapTile();
                 tile.id = tileList.Count + 1;
-                tile.x = i;
-                tile.z = j;
+                tile.x = (int)(i * tileSize.x);
+                tile.z = (int)(j * tileSize.z);
+                tile.tileSize = (int)tileSize.x;
+                tile.bigAreaSize = (int)bigCellSize.x;
+                tile.middleAreaSize = (int)middleCellSize.x;
+                tile.smallAreaSize = (int)smallCellSize.x;
+                tile.portalSize = (int)portalSize.x;
                 tileList.Add(tile);
                 CapturePortalGrid(tile);
                 CaptureCellGrid(tile, MapItemSize.Big);
@@ -252,11 +259,11 @@ public class PoteniallyVisibleSet
         tileGroup.mapHorizontalTiles = mapHorizontalTiles;
         tileGroup.mapVerticalTiles = mapVerticalTiles;
         tileGroup.tileList = tileList;
-        AssetDatabase.CreateAsset(tileGroup, "Assets/Editor/Data/TileGroup.asset");
+        AssetDatabase.CreateAsset(tileGroup, "Assets/Resources/TileGroup.asset");
         AssetDatabase.SaveAssets();
     }
 
-    private void CapturePortalGrid(Tile tile)
+    private void CapturePortalGrid(MapTile tile)
     {
         int tileHorizontalPortals = Mathf.CeilToInt(tileSize.x / portalSize.x);
         int tileVerticalPortals = Mathf.CeilToInt(tileSize.z / portalSize.z);
@@ -268,18 +275,17 @@ public class PoteniallyVisibleSet
             {
                 Portal portal = new Portal();
                 portal.id = portalList.Count + 1;
-                portal.x = i;
-                portal.z = j;
+                portal.x = (int)(tile.x + i * portalSize.x);
+                portal.z = (int)(tile.z + j * portalSize.z);
                 portal.rayStartPointList = new List<Vector3>(startPortalPointCount);
                 for (int k = 0; k < startPortalPointCount; k++)
                 {
+                    Vector3 point = new Vector3();
                     float x = UnityEngine.Random.Range(0, portalSize.x);
                     float z = UnityEngine.Random.Range(0, portalSize.z);
-                    float startX = tile.x * tileSize.x + i * portalSize.x;
-                    float startZ = tile.z * tileSize.z + j * portalSize.z;
-                    Vector3 point = new Vector3();
-                    point.x = startX + x;
-                    point.z = startZ + z;
+
+                    point.x = portal.x + x;
+                    point.z = portal.z + z;
                     portal.rayStartPointList.Add(point);
                 }
                 portalList.Add(portal);
@@ -288,7 +294,7 @@ public class PoteniallyVisibleSet
         tile.portalList = portalList;
     }
 
-    private void CaptureCellGrid(Tile tile, MapItemSize size)
+    private void CaptureCellGrid(MapTile tile, MapItemSize size)
     {
         Vector3 cellSize = Vector3.zero;
         targetAreaPointCount = 0;
@@ -311,7 +317,7 @@ public class PoteniallyVisibleSet
                 targetAreaPointCount = UnityEngine.Random.Range(16, 16);
                 break;
         }
-       
+        
         int tileHorizontalCells = Mathf.CeilToInt(tileSize.x / cellSize.x);
         int tileVerticalCells = Mathf.CeilToInt(tileSize.z / cellSize.z);
 
@@ -321,20 +327,19 @@ public class PoteniallyVisibleSet
             for (int j = 0; j < tileVerticalCells; j++)
             {
                 Cell cell = new Cell();
-                cell.Id = cellList.Count + 1;
-                cell.x = i;
-                cell.z = j;
                 cell.size = size;
+                cell.Id = cellList.Count + 1;
+                cell.x = (int)(tile.x + i * cellSize.x);
+                cell.z = (int)(tile.z + j * cellSize.z);
                 cell.rayEndPointList = new List<Vector3>(targetAreaPointCount);
                 for (int k = 0; k < targetAreaPointCount; k++)
                 {
+                    Vector3 point = new Vector3();
                     float x = UnityEngine.Random.Range(0, cellSize.x);
                     float z = UnityEngine.Random.Range(0, cellSize.z);
-                    float startX = tile.x * tileSize.x + i * cellSize.x;
-                    float startZ = tile.z * tileSize.z + j * cellSize.z;
-                    Vector3 point = new Vector3();
-                    point.x = startX + x;
-                    point.z = startZ + z;
+  
+                    point.x = cell.x + x;
+                    point.z = cell.z + z;
                     cell.rayEndPointList.Add(point);
                 }
                 cellList.Add(cell);
