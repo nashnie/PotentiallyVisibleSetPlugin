@@ -25,6 +25,8 @@ public class PoteniallyVisibleSet
     private int targetAreaPointCount = 0;
 
     private List<PoteniallyVisibleSetItem> poteniallyVisibleSetItemList;
+
+    private TileGroup tileGroup;
     private List<Tile> tileList;
 
     [MenuItem("Tools/CalculatePVS")]
@@ -35,6 +37,23 @@ public class PoteniallyVisibleSet
         poteniallyVisibleSet.CaptureMapGrid();
         poteniallyVisibleSet.CalculateMapPVS();
         EditorUtility.DisplayDialog("CalculatePVS", "Calculated PVS successfully!", "OK");
+    }
+
+    private void AnalyzerMapItemOwner()
+    {
+        if (poteniallyVisibleSetItemList == null)
+        {
+            GameObject root = GameObject.Find("OcclusionCulling");
+            PoteniallyVisibleSetItem[] poteniallyVisibleSetItems = root.GetComponentsInChildren<PoteniallyVisibleSetItem>();
+            poteniallyVisibleSetItemList = new List<PoteniallyVisibleSetItem>(poteniallyVisibleSetItems);
+        }
+        for (int i = 0; i < tileGroup.mapHorizontalTiles; i++)
+        {
+            for (int j = 0; j < tileGroup.mapVerticalTiles; j++)
+            {
+
+            }
+        }
     }
 
     private void CalculateMapPVS()
@@ -112,18 +131,19 @@ public class PoteniallyVisibleSet
                     if (Physics.Raycast(start, direction, out hitInfo, distance))
                     {
                         PoteniallyVisibleSetItem pvsItem = hitInfo.collider.GetComponent<PoteniallyVisibleSetItem>();
-                        /*if (pvsItem.size != cell.size)
+                        if (pvsItem.size != cell.size)
                         {
                             Debug.LogWarning(string.Format("PVSItem size{0} is not equal cell size{1}.", pvsItem.size, cell.size));
                             continue;
-                        }*/
-                        if (pvsItem.ownerCellIdList.IndexOf(cell.id) >= 0)
+                        }
+                        else if (pvsItem.occlusionType != MapItemOcclusionType.Occluder)
                         {
-                            if (pvsItem.occlusionType != MapItemOcclusionType.Occluder)
-                            {
-                                Debug.LogWarning(string.Format("PVSItem occlusionType{0} is not equal Occluder.", pvsItem.occlusionType));
-                                continue;
-                            }
+                            Debug.LogWarning(string.Format("PVSItem occlusionType{0} is not equal Occluder.", pvsItem.occlusionType));
+                            //TODO HideSpecified(not Occluder)MapItem 
+                            continue;
+                        }
+                        else if (pvsItem.ownerCellIdList.IndexOf(cell.id) >= 0)
+                        {   
                             Debug.DrawLine(start, end, Color.green);
                             cell.isVisible = true;
                             xmlElement.SetAttribute("x", cell.x.ToString());
@@ -163,7 +183,9 @@ public class PoteniallyVisibleSet
             }
         }
 
-        TileGroup tileGroup = ScriptableObject.CreateInstance<TileGroup>();
+        tileGroup = ScriptableObject.CreateInstance<TileGroup>();
+        tileGroup.mapHorizontalTiles = mapHorizontalTiles;
+        tileGroup.mapVerticalTiles = mapVerticalTiles;
         tileGroup.tileList = tileList;
         AssetDatabase.CreateAsset(tileGroup, "Assets/Editor/Data/TileGroup.asset");
         AssetDatabase.SaveAssets();
