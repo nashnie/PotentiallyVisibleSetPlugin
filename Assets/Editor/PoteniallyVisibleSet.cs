@@ -35,6 +35,7 @@ public class PoteniallyVisibleSet
     {
         PoteniallyVisibleSet poteniallyVisibleSet = new PoteniallyVisibleSet();
         poteniallyVisibleSet.CaptureMapGrid();
+        poteniallyVisibleSet.AnalyzerMapItemOwner();
         poteniallyVisibleSet.CalculateMapPVS();
         EditorUtility.DisplayDialog("CalculatePVS", "Calculated PVS successfully!", "OK");
     }
@@ -47,12 +48,76 @@ public class PoteniallyVisibleSet
             PoteniallyVisibleSetItem[] poteniallyVisibleSetItems = root.GetComponentsInChildren<PoteniallyVisibleSetItem>();
             poteniallyVisibleSetItemList = new List<PoteniallyVisibleSetItem>(poteniallyVisibleSetItems);
         }
-        for (int i = 0; i < tileGroup.mapHorizontalTiles; i++)
+        ClearAllMapItemOwner();
+        for (int i = 0; i < tileGroup.tileList.Count; i++)
         {
-            for (int j = 0; j < tileGroup.mapVerticalTiles; j++)
+            Tile tile = tileGroup.tileList[i];
+            ShowSpecifiedMapItem(MapItemSize.Big);
+            HideSpecifiedMapItem(MapItemSize.Middle);
+            HideSpecifiedMapItem(MapItemSize.Small);
+            for (int j = 0; j < tile.bigAreaList.Count; j++)
             {
-
+                AnalyzerMapItemOwner(tile.bigAreaList[j], tile);
             }
+            ShowSpecifiedMapItem(MapItemSize.Middle);
+            HideSpecifiedMapItem(MapItemSize.Big);
+            HideSpecifiedMapItem(MapItemSize.Small);
+            for (int k = 0; k < tile.middleAreaList.Count; k++)
+            {
+                AnalyzerMapItemOwner(tile.middleAreaList[k], tile);
+            }
+            ShowSpecifiedMapItem(MapItemSize.Small);
+            HideSpecifiedMapItem(MapItemSize.Big);
+            HideSpecifiedMapItem(MapItemSize.Middle);
+            for (int n = 0; n < tile.smallAreaList.Count; n++)
+            {
+                AnalyzerMapItemOwner(tile.smallAreaList[n], tile);
+            }
+        }
+
+        ShowAllMapItem();
+    }
+
+    private void AnalyzerMapItemOwner(Cell cell, Tile tile)
+    {
+        int size = GetCellSize(cell.size);
+        Vector3 center = new Vector3(tile.x * tileSize.x + cell.x * size + size / 2, 1f, tile.z * tileSize.z + cell.z * size + size / 2) + Vector3.up * 100f;
+        Vector3 halfExtents = new Vector3(size / 2, 1f, size / 2);
+        Vector3 direction = Vector3.down;
+
+        RaycastHit hit;
+        if (Physics.BoxCast(center, halfExtents, direction, out hit))
+        {
+            PoteniallyVisibleSetItem pvsItem = hit.collider.GetComponent<PoteniallyVisibleSetItem>();
+            if (pvsItem != null)
+            {
+                if (pvsItem.size != cell.size)
+                {
+                    Debug.LogWarning(string.Format("AnalyzerMapItemOwner PVSItem size{0} is not equal cell size{1}.", pvsItem.size, cell.size));
+                    return;
+                }
+                if (pvsItem.ownerCellIdList.IndexOf(cell.Id) >= 0)
+                {
+                    Debug.LogWarning(string.Format("AnalyzerMapItemOwner duplicate ownerCellId{0}.", cell.Id));
+                    return;
+                }
+                pvsItem.ownerCellIdList.Add(cell.Id);
+            }
+        }
+    }
+
+    private int GetCellSize(MapItemSize size)
+    {
+        switch (size)
+        {
+            case MapItemSize.Big:
+                return (int)bigCellSize.x;
+            case MapItemSize.Middle:
+                return (int)middleCellSize.x;
+            case MapItemSize.Small:
+                return (int)smallCellSize.x;
+            default:
+                return (int)bigCellSize.x;
         }
     }
 
@@ -133,16 +198,16 @@ public class PoteniallyVisibleSet
                         PoteniallyVisibleSetItem pvsItem = hitInfo.collider.GetComponent<PoteniallyVisibleSetItem>();
                         if (pvsItem.size != cell.size)
                         {
-                            Debug.LogWarning(string.Format("PVSItem size{0} is not equal cell size{1}.", pvsItem.size, cell.size));
+                            Debug.LogWarning(string.Format("CalculateMapPVS PVSItem size{0} is not equal cell size{1}.", pvsItem.size, cell.size));
                             continue;
                         }
                         else if (pvsItem.occlusionType != MapItemOcclusionType.Occluder)
                         {
-                            Debug.LogWarning(string.Format("PVSItem occlusionType{0} is not equal Occluder.", pvsItem.occlusionType));
+                            Debug.LogWarning(string.Format("CalculateMapPVS PVSItem occlusionType{0} is not equal Occluder.", pvsItem.occlusionType));
                             //TODO HideSpecified(not Occluder)MapItem 
                             continue;
                         }
-                        else if (pvsItem.ownerCellIdList.IndexOf(cell.id) >= 0)
+                        else if (pvsItem.ownerCellIdList.IndexOf(cell.Id) >= 0)
                         {   
                             Debug.DrawLine(start, end, Color.green);
                             cell.isVisible = true;
@@ -256,9 +321,10 @@ public class PoteniallyVisibleSet
             for (int j = 0; j < tileVerticalCells; j++)
             {
                 Cell cell = new Cell();
-                cell.id = cellList.Count + 1;
+                cell.Id = cellList.Count + 1;
                 cell.x = i;
                 cell.z = j;
+                cell.size = size;
                 cell.rayEndPointList = new List<Vector3>(targetAreaPointCount);
                 for (int k = 0; k < targetAreaPointCount; k++)
                 {
@@ -294,23 +360,43 @@ public class PoteniallyVisibleSet
 
     private void HideSpecifiedMapItem(MapItemSize size)
     {
-        if (poteniallyVisibleSetItemList == null)
-        {
-            GameObject root = GameObject.Find("OcclusionCulling");
-            PoteniallyVisibleSetItem[] poteniallyVisibleSetItems = root.GetComponentsInChildren<PoteniallyVisibleSetItem>();
-            poteniallyVisibleSetItemList = new List<PoteniallyVisibleSetItem>(poteniallyVisibleSetItems);
-        }
         for (int i = 0; i < poteniallyVisibleSetItemList.Count; i++)
         {
             PoteniallyVisibleSetItem pvsItem = poteniallyVisibleSetItemList[i];
-            if (pvsItem.size != size)
+            if (pvsItem.size == size)
             {
                 pvsItem.gameObject.SetActive(false);
             }
-            else
+        }
+    }
+
+    private void ShowSpecifiedMapItem(MapItemSize size)
+    {
+        for (int i = 0; i < poteniallyVisibleSetItemList.Count; i++)
+        {
+            PoteniallyVisibleSetItem pvsItem = poteniallyVisibleSetItemList[i];
+            if (pvsItem.size == size)
             {
                 pvsItem.gameObject.SetActive(true);
             }
+        }
+    }
+
+    private void ShowAllMapItem()
+    {
+        for (int i = 0; i < poteniallyVisibleSetItemList.Count; i++)
+        {
+            PoteniallyVisibleSetItem pvsItem = poteniallyVisibleSetItemList[i];
+            pvsItem.gameObject.SetActive(true);
+        }
+    }
+
+    private void ClearAllMapItemOwner()
+    {
+        for (int i = 0; i < poteniallyVisibleSetItemList.Count; i++)
+        {
+            PoteniallyVisibleSetItem pvsItem = poteniallyVisibleSetItemList[i];
+            pvsItem.ownerCellIdList.Clear();
         }
     }
 }

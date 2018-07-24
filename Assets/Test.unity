@@ -491,7 +491,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   size: 1
-  ownerCellIdList: 
+  ownerCellIdList: 0300000004000000
   occlusionType: 0
 --- !u!23 &635846058
 MeshRenderer:
@@ -624,7 +624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   size: 2
-  ownerCellIdList: 
+  ownerCellIdList: 83000000840000009300000094000000
   occlusionType: 0
 --- !u!136 &754488200
 CapsuleCollider:
@@ -690,7 +690,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   size: 0
-  ownerCellIdList: 
+  ownerCellIdList: 04000000
   occlusionType: 0
 --- !u!23 &769775426
 MeshRenderer:
@@ -842,7 +842,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   size: 0
-  ownerCellIdList: 
+  ownerCellIdList: 01000000
   occlusionType: 0
 --- !u!1 &832736786
 GameObject:
@@ -1108,7 +1108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   size: 2
-  ownerCellIdList: 
+  ownerCellIdList: f9000000fa000000
   occlusionType: 0
 --- !u!136 &972320149
 CapsuleCollider:
@@ -1373,7 +1373,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   size: 1
-  ownerCellIdList: 
+  ownerCellIdList: 0d0000000e000000
   occlusionType: 0
 --- !u!23 &1094466551
 MeshRenderer:
@@ -1571,7 +1571,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   size: 0
-  ownerCellIdList: 
+  ownerCellIdList: 02000000
   occlusionType: 0
 --- !u!23 &1196741101
 MeshRenderer:
@@ -1769,7 +1769,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   size: 1
-  ownerCellIdList: 
+  ownerCellIdList: 07000000080000000b0000000c000000
   occlusionType: 0
 --- !u!23 &1401639257
 MeshRenderer:
@@ -1902,7 +1902,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   size: 2
-  ownerCellIdList: 
+  ownerCellIdList: d9000000da000000e9000000ea000000
   occlusionType: 0
 --- !u!136 &1433039124
 CapsuleCollider:
@@ -1989,7 +1989,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   size: 2
-  ownerCellIdList: 
+  ownerCellIdList: b3000000b4000000c3000000c4000000
   occlusionType: 0
 --- !u!136 &1484362249
 CapsuleCollider:
@@ -2366,7 +2366,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   size: 2
-  ownerCellIdList: 
+  ownerCellIdList: d3000000d4000000e3000000e4000000
   occlusionType: 0
 --- !u!136 &1644331842
 CapsuleCollider:
@@ -2519,7 +2519,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   size: 1
-  ownerCellIdList: 
+  ownerCellIdList: 01000000
   occlusionType: 0
 --- !u!23 &1794382585
 MeshRenderer:
@@ -2613,7 +2613,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1974645718}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 94.5, y: 0, z: 60.3}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 8, y: 8, z: 8}
   m_Children: []
   m_Father: {fileID: 438282849}
@@ -2665,7 +2665,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   size: 2
-  ownerCellIdList: 
+  ownerCellIdList: b7000000b8000000c7000000c8000000
   occlusionType: 0
 --- !u!136 &1974645722
 CapsuleCollider:

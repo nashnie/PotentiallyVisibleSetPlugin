@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class PoteniallyVisibleSetItem : MonoBehaviour
 {
+    [SerializeField]
     public MapItemSize size;
-    public List<int> ownerCellIdList;
+    [SerializeField]
+    public List<int> ownerCellIdList = new List<int>();
+    [SerializeField]
     public MapItemOcclusionType occlusionType = MapItemOcclusionType.Occluder;
 }
