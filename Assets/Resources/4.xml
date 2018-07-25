@@ -1,0 +1,197 @@
+<root>
+  <tile x="0" z="768">
+    <portal x="0" z="768">
+      <cell id="10043" />
+    </portal>
+    <portal x="0" z="800" />
+    <portal x="0" z="832" />
+    <portal x="0" z="864">
+      <cell id="10042" />
+    </portal>
+    <portal x="0" z="896">
+      <cell id="10042" />
+    </portal>
+    <portal x="0" z="928">
+      <cell id="10042" />
+    </portal>
+    <portal x="0" z="960" />
+    <portal x="0" z="992" />
+    <portal x="32" z="768">
+      <cell id="10043" />
+    </portal>
+    <portal x="32" z="800">
+      <cell id="10043" />
+    </portal>
+    <portal x="32" z="832">
+      <cell id="10042" />
+    </portal>
+    <portal x="32" z="864">
+      <cell id="10042" />
+    </portal>
+    <portal x="32" z="896">
+      <cell id="10042" />
+    </portal>
+    <portal x="32" z="928">
+      <cell id="10042" />
+    </portal>
+    <portal x="32" z="960" />
+    <portal x="32" z="992">
+      <cell id="10042" />
+    </portal>
+    <portal x="64" z="768">
+      <cell id="10043" />
+    </portal>
+    <portal x="64" z="800">
+      <cell id="10043" />
+    </portal>
+    <portal x="64" z="832">
+      <cell id="10042" />
+    </portal>
+    <portal x="64" z="864">
+      <cell id="10042" />
+    </portal>
+    <portal x="64" z="896">
+      <cell id="10042" />
+    </portal>
+    <portal x="64" z="928">
+      <cell id="10042" />
+    </portal>
+    <portal x="64" z="960">
+      <cell id="10042" />
+    </portal>
+    <portal x="64" z="992">
+      <cell id="10042" />
+    </portal>
+    <portal x="96" z="768">
+      <cell id="10043" />
+    </portal>
+    <portal x="96" z="800">
+      <cell id="10043" />
+    </portal>
+    <portal x="96" z="832">
+      <cell id="10042" />
+    </portal>
+    <portal x="96" z="864">
+      <cell id="10042" />
+    </portal>
+    <portal x="96" z="896">
+      <cell id="10042" />
+    </portal>
+    <portal x="96" z="928">
+      <cell id="10042" />
+    </portal>
+    <portal x="96" z="960">
+      <cell id="10042" />
+    </portal>
+    <portal x="96" z="992">
+      <cell id="10042" />
+    </portal>
+    <portal x="128" z="768">
+      <cell id="3" />
+      <cell id="10043" />
+    </portal>
+    <portal x="128" z="800">
+      <cell id="10043" />
+    </portal>
+    <portal x="128" z="832">
+      <cell id="10042" />
+    </portal>
+    <portal x="128" z="864">
+      <cell id="10042" />
+    </portal>
+    <portal x="128" z="896">
+      <cell id="10042" />
+    </portal>
+    <portal x="128" z="928">
+      <cell id="10042" />
+    </portal>
+    <portal x="128" z="960">
+      <cell id="10042" />
+    </portal>
+    <portal x="128" z="992">
+      <cell id="10042" />
+    </portal>
+    <portal x="160" z="768">
+      <cell id="3" />
+      <cell id="4" />
+      <cell id="10043" />
+    </portal>
+    <portal x="160" z="800">
+      <cell id="10042" />
+      <cell id="10043" />
+    </portal>
+    <portal x="160" z="832">
+      <cell id="10042" />
+    </portal>
+    <portal x="160" z="864">
+      <cell id="10042" />
+    </portal>
+    <portal x="160" z="896">
+      <cell id="10042" />
+    </portal>
+    <portal x="160" z="928">
+      <cell id="10042" />
+    </portal>
+    <portal x="160" z="960">
+      <cell id="10042" />
+    </portal>
+    <portal x="160" z="992">
+      <cell id="10042" />
+    </portal>
+    <portal x="192" z="768">
+      <cell id="3" />
+      <cell id="10043" />
+    </portal>
+    <portal x="192" z="800">
+      <cell id="3" />
+      <cell id="10042" />
+      <cell id="10051" />
+    </portal>
+    <portal x="192" z="832">
+      <cell id="10042" />
+      <cell id="10051" />
+    </portal>
+    <portal x="192" z="864">
+      <cell id="10042" />
+    </portal>
+    <portal x="192" z="896" />
+    <portal x="192" z="928" />
+    <portal x="192" z="960">
+      <cell id="10042" />
+    </portal>
+    <portal x="192" z="992">
+      <cell id="10042" />
+    </portal>
+    <portal x="224" z="768">
+      <cell id="2" />
+      <cell id="3" />
+      <cell id="4" />
+      <cell id="10042" />
+      <cell id="10051" />
+      <cell id="10059" />
+    </portal>
+    <portal x="224" z="800">
+      <cell id="3" />
+      <cell id="10042" />
+      <cell id="10051" />
+      <cell id="10059" />
+    </portal>
+    <portal x="224" z="832">
+      <cell id="10042" />
+      <cell id="10051" />
+    </portal>
+    <portal x="224" z="864">
+      <cell id="10042" />
+      <cell id="10051" />
+    </portal>
+    <portal x="224" z="896">
+      <cell id="10042" />
+      <cell id="10051" />
+    </portal>
+    <portal x="224" z="928">
+      <cell id="10042" />
+    </portal>
+    <portal x="224" z="960" />
+    <portal x="224" z="992" />
+  </tile>
+</root>

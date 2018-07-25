@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 120e4b22c2c986a4c8cd1829888713f5, type: 3}
   m_Name: TileGroup
   m_EditorClassIdentifier: 
-  mapHorizontalTiles: 1
-  mapVerticalTiles: 1
+  mapHorizontalTiles: 4
+  mapVerticalTiles: 4
   tileList:
   - id: 1
     x: 0
@@ -23,208 +23,208 @@ MonoBehaviour:
       z: 0
     - id: 2
       x: 0
-      z: 16
+      z: 32
     - id: 3
       x: 0
-      z: 32
+      z: 64
     - id: 4
       x: 0
-      z: 48
+      z: 96
     - id: 5
       x: 0
-      z: 64
+      z: 128
     - id: 6
       x: 0
-      z: 80
+      z: 160
     - id: 7
       x: 0
-      z: 96
+      z: 192
     - id: 8
       x: 0
-      z: 112
+      z: 224
     - id: 9
-      x: 16
+      x: 32
       z: 0
     - id: 10
-      x: 16
-      z: 16
-    - id: 11
-      x: 16
-      z: 32
-    - id: 12
-      x: 16
-      z: 48
-    - id: 13
-      x: 16
-      z: 64
-    - id: 14
-      x: 16
-      z: 80
-    - id: 15
-      x: 16
-      z: 96
-    - id: 16
-      x: 16
-      z: 112
-    - id: 17
       x: 32
+      z: 32
+    - id: 11
+      x: 32
+      z: 64
+    - id: 12
+      x: 32
+      z: 96
+    - id: 13
+      x: 32
+      z: 128
+    - id: 14
+      x: 32
+      z: 160
+    - id: 15
+      x: 32
+      z: 192
+    - id: 16
+      x: 32
+      z: 224
+    - id: 17
+      x: 64
       z: 0
     - id: 18
-      x: 32
-      z: 16
-    - id: 19
-      x: 32
+      x: 64
       z: 32
-    - id: 20
-      x: 32
-      z: 48
-    - id: 21
-      x: 32
+    - id: 19
+      x: 64
       z: 64
-    - id: 22
-      x: 32
-      z: 80
-    - id: 23
-      x: 32
+    - id: 20
+      x: 64
       z: 96
+    - id: 21
+      x: 64
+      z: 128
+    - id: 22
+      x: 64
+      z: 160
+    - id: 23
+      x: 64
+      z: 192
     - id: 24
-      x: 32
-      z: 112
+      x: 64
+      z: 224
     - id: 25
-      x: 48
+      x: 96
       z: 0
     - id: 26
-      x: 48
-      z: 16
-    - id: 27
-      x: 48
+      x: 96
       z: 32
-    - id: 28
-      x: 48
-      z: 48
-    - id: 29
-      x: 48
+    - id: 27
+      x: 96
       z: 64
-    - id: 30
-      x: 48
-      z: 80
-    - id: 31
-      x: 48
+    - id: 28
+      x: 96
       z: 96
+    - id: 29
+      x: 96
+      z: 128
+    - id: 30
+      x: 96
+      z: 160
+    - id: 31
+      x: 96
+      z: 192
     - id: 32
-      x: 48
-      z: 112
+      x: 96
+      z: 224
     - id: 33
-      x: 64
+      x: 128
       z: 0
     - id: 34
-      x: 64
-      z: 16
-    - id: 35
-      x: 64
+      x: 128
       z: 32
-    - id: 36
-      x: 64
-      z: 48
-    - id: 37
-      x: 64
+    - id: 35
+      x: 128
       z: 64
-    - id: 38
-      x: 64
-      z: 80
-    - id: 39
-      x: 64
+    - id: 36
+      x: 128
       z: 96
+    - id: 37
+      x: 128
+      z: 128
+    - id: 38
+      x: 128
+      z: 160
+    - id: 39
+      x: 128
+      z: 192
     - id: 40
-      x: 64
-      z: 112
+      x: 128
+      z: 224
     - id: 41
-      x: 80
+      x: 160
       z: 0
     - id: 42
-      x: 80
-      z: 16
-    - id: 43
-      x: 80
+      x: 160
       z: 32
-    - id: 44
-      x: 80
-      z: 48
-    - id: 45
-      x: 80
+    - id: 43
+      x: 160
       z: 64
-    - id: 46
-      x: 80
-      z: 80
-    - id: 47
-      x: 80
+    - id: 44
+      x: 160
       z: 96
+    - id: 45
+      x: 160
+      z: 128
+    - id: 46
+      x: 160
+      z: 160
+    - id: 47
+      x: 160
+      z: 192
     - id: 48
-      x: 80
-      z: 112
+      x: 160
+      z: 224
     - id: 49
-      x: 96
+      x: 192
       z: 0
     - id: 50
-      x: 96
-      z: 16
-    - id: 51
-      x: 96
+      x: 192
       z: 32
-    - id: 52
-      x: 96
-      z: 48
-    - id: 53
-      x: 96
+    - id: 51
+      x: 192
       z: 64
-    - id: 54
-      x: 96
-      z: 80
-    - id: 55
-      x: 96
+    - id: 52
+      x: 192
       z: 96
+    - id: 53
+      x: 192
+      z: 128
+    - id: 54
+      x: 192
+      z: 160
+    - id: 55
+      x: 192
+      z: 192
     - id: 56
-      x: 96
-      z: 112
+      x: 192
+      z: 224
     - id: 57
-      x: 112
+      x: 224
       z: 0
     - id: 58
-      x: 112
-      z: 16
-    - id: 59
-      x: 112
+      x: 224
       z: 32
-    - id: 60
-      x: 112
-      z: 48
-    - id: 61
-      x: 112
+    - id: 59
+      x: 224
       z: 64
-    - id: 62
-      x: 112
-      z: 80
-    - id: 63
-      x: 112
+    - id: 60
+      x: 224
       z: 96
+    - id: 61
+      x: 224
+      z: 128
+    - id: 62
+      x: 224
+      z: 160
+    - id: 63
+      x: 224
+      z: 192
     - id: 64
-      x: 112
-      z: 112
+      x: 224
+      z: 224
     bigAreaList:
     - x: 0
       z: 0
       size: 0
       isVisible: 0
     - x: 0
-      z: 64
+      z: 128
       size: 0
       isVisible: 0
-    - x: 64
+    - x: 128
       z: 0
       size: 0
       isVisible: 0
-    - x: 64
-      z: 64
+    - x: 128
+      z: 128
       size: 0
       isVisible: 0
     middleAreaList:
@@ -233,31 +233,15 @@ MonoBehaviour:
       size: 1
       isVisible: 0
     - x: 0
-      z: 32
-      size: 1
-      isVisible: 0
-    - x: 0
       z: 64
       size: 1
       isVisible: 0
     - x: 0
-      z: 96
+      z: 128
       size: 1
       isVisible: 0
-    - x: 32
-      z: 0
-      size: 1
-      isVisible: 0
-    - x: 32
-      z: 32
-      size: 1
-      isVisible: 0
-    - x: 32
-      z: 64
-      size: 1
-      isVisible: 0
-    - x: 32
-      z: 96
+    - x: 0
+      z: 192
       size: 1
       isVisible: 0
     - x: 64
@@ -265,31 +249,47 @@ MonoBehaviour:
       size: 1
       isVisible: 0
     - x: 64
-      z: 32
-      size: 1
-      isVisible: 0
-    - x: 64
       z: 64
       size: 1
       isVisible: 0
     - x: 64
-      z: 96
+      z: 128
       size: 1
       isVisible: 0
-    - x: 96
+    - x: 64
+      z: 192
+      size: 1
+      isVisible: 0
+    - x: 128
       z: 0
       size: 1
       isVisible: 0
-    - x: 96
-      z: 32
-      size: 1
-      isVisible: 0
-    - x: 96
+    - x: 128
       z: 64
       size: 1
       isVisible: 0
-    - x: 96
-      z: 96
+    - x: 128
+      z: 128
+      size: 1
+      isVisible: 0
+    - x: 128
+      z: 192
+      size: 1
+      isVisible: 0
+    - x: 192
+      z: 0
+      size: 1
+      isVisible: 0
+    - x: 192
+      z: 64
+      size: 1
+      isVisible: 0
+    - x: 192
+      z: 128
+      size: 1
+      isVisible: 0
+    - x: 192
+      z: 192
       size: 1
       isVisible: 0
     smallAreaList:
@@ -298,31 +298,7 @@ MonoBehaviour:
       size: 2
       isVisible: 0
     - x: 0
-      z: 8
-      size: 2
-      isVisible: 0
-    - x: 0
-      z: 16
-      size: 2
-      isVisible: 0
-    - x: 0
-      z: 24
-      size: 2
-      isVisible: 0
-    - x: 0
       z: 32
-      size: 2
-      isVisible: 0
-    - x: 0
-      z: 40
-      size: 2
-      isVisible: 0
-    - x: 0
-      z: 48
-      size: 2
-      isVisible: 0
-    - x: 0
-      z: 56
       size: 2
       isVisible: 0
     - x: 0
@@ -330,223 +306,23 @@ MonoBehaviour:
       size: 2
       isVisible: 0
     - x: 0
-      z: 72
-      size: 2
-      isVisible: 0
-    - x: 0
-      z: 80
-      size: 2
-      isVisible: 0
-    - x: 0
-      z: 88
-      size: 2
-      isVisible: 0
-    - x: 0
       z: 96
       size: 2
       isVisible: 0
     - x: 0
-      z: 104
+      z: 128
       size: 2
       isVisible: 0
     - x: 0
-      z: 112
+      z: 160
       size: 2
       isVisible: 0
     - x: 0
-      z: 120
+      z: 192
       size: 2
       isVisible: 0
-    - x: 8
-      z: 0
-      size: 2
-      isVisible: 0
-    - x: 8
-      z: 8
-      size: 2
-      isVisible: 0
-    - x: 8
-      z: 16
-      size: 2
-      isVisible: 0
-    - x: 8
-      z: 24
-      size: 2
-      isVisible: 0
-    - x: 8
-      z: 32
-      size: 2
-      isVisible: 0
-    - x: 8
-      z: 40
-      size: 2
-      isVisible: 0
-    - x: 8
-      z: 48
-      size: 2
-      isVisible: 0
-    - x: 8
-      z: 56
-      size: 2
-      isVisible: 0
-    - x: 8
-      z: 64
-      size: 2
-      isVisible: 0
-    - x: 8
-      z: 72
-      size: 2
-      isVisible: 0
-    - x: 8
-      z: 80
-      size: 2
-      isVisible: 0
-    - x: 8
-      z: 88
-      size: 2
-      isVisible: 0
-    - x: 8
-      z: 96
-      size: 2
-      isVisible: 0
-    - x: 8
-      z: 104
-      size: 2
-      isVisible: 0
-    - x: 8
-      z: 112
-      size: 2
-      isVisible: 0
-    - x: 8
-      z: 120
-      size: 2
-      isVisible: 0
-    - x: 16
-      z: 0
-      size: 2
-      isVisible: 0
-    - x: 16
-      z: 8
-      size: 2
-      isVisible: 0
-    - x: 16
-      z: 16
-      size: 2
-      isVisible: 0
-    - x: 16
-      z: 24
-      size: 2
-      isVisible: 0
-    - x: 16
-      z: 32
-      size: 2
-      isVisible: 0
-    - x: 16
-      z: 40
-      size: 2
-      isVisible: 0
-    - x: 16
-      z: 48
-      size: 2
-      isVisible: 0
-    - x: 16
-      z: 56
-      size: 2
-      isVisible: 0
-    - x: 16
-      z: 64
-      size: 2
-      isVisible: 0
-    - x: 16
-      z: 72
-      size: 2
-      isVisible: 0
-    - x: 16
-      z: 80
-      size: 2
-      isVisible: 0
-    - x: 16
-      z: 88
-      size: 2
-      isVisible: 0
-    - x: 16
-      z: 96
-      size: 2
-      isVisible: 0
-    - x: 16
-      z: 104
-      size: 2
-      isVisible: 0
-    - x: 16
-      z: 112
-      size: 2
-      isVisible: 0
-    - x: 16
-      z: 120
-      size: 2
-      isVisible: 0
-    - x: 24
-      z: 0
-      size: 2
-      isVisible: 0
-    - x: 24
-      z: 8
-      size: 2
-      isVisible: 0
-    - x: 24
-      z: 16
-      size: 2
-      isVisible: 0
-    - x: 24
-      z: 24
-      size: 2
-      isVisible: 0
-    - x: 24
-      z: 32
-      size: 2
-      isVisible: 0
-    - x: 24
-      z: 40
-      size: 2
-      isVisible: 0
-    - x: 24
-      z: 48
-      size: 2
-      isVisible: 0
-    - x: 24
-      z: 56
-      size: 2
-      isVisible: 0
-    - x: 24
-      z: 64
-      size: 2
-      isVisible: 0
-    - x: 24
-      z: 72
-      size: 2
-      isVisible: 0
-    - x: 24
-      z: 80
-      size: 2
-      isVisible: 0
-    - x: 24
-      z: 88
-      size: 2
-      isVisible: 0
-    - x: 24
-      z: 96
-      size: 2
-      isVisible: 0
-    - x: 24
-      z: 104
-      size: 2
-      isVisible: 0
-    - x: 24
-      z: 112
-      size: 2
-      isVisible: 0
-    - x: 24
-      z: 120
+    - x: 0
+      z: 224
       size: 2
       isVisible: 0
     - x: 32
@@ -554,31 +330,7 @@ MonoBehaviour:
       size: 2
       isVisible: 0
     - x: 32
-      z: 8
-      size: 2
-      isVisible: 0
-    - x: 32
-      z: 16
-      size: 2
-      isVisible: 0
-    - x: 32
-      z: 24
-      size: 2
-      isVisible: 0
-    - x: 32
       z: 32
-      size: 2
-      isVisible: 0
-    - x: 32
-      z: 40
-      size: 2
-      isVisible: 0
-    - x: 32
-      z: 48
-      size: 2
-      isVisible: 0
-    - x: 32
-      z: 56
       size: 2
       isVisible: 0
     - x: 32
@@ -586,223 +338,23 @@ MonoBehaviour:
       size: 2
       isVisible: 0
     - x: 32
-      z: 72
-      size: 2
-      isVisible: 0
-    - x: 32
-      z: 80
-      size: 2
-      isVisible: 0
-    - x: 32
-      z: 88
-      size: 2
-      isVisible: 0
-    - x: 32
       z: 96
       size: 2
       isVisible: 0
     - x: 32
-      z: 104
+      z: 128
       size: 2
       isVisible: 0
     - x: 32
-      z: 112
+      z: 160
       size: 2
       isVisible: 0
     - x: 32
-      z: 120
+      z: 192
       size: 2
       isVisible: 0
-    - x: 40
-      z: 0
-      size: 2
-      isVisible: 0
-    - x: 40
-      z: 8
-      size: 2
-      isVisible: 0
-    - x: 40
-      z: 16
-      size: 2
-      isVisible: 0
-    - x: 40
-      z: 24
-      size: 2
-      isVisible: 0
-    - x: 40
-      z: 32
-      size: 2
-      isVisible: 0
-    - x: 40
-      z: 40
-      size: 2
-      isVisible: 0
-    - x: 40
-      z: 48
-      size: 2
-      isVisible: 0
-    - x: 40
-      z: 56
-      size: 2
-      isVisible: 0
-    - x: 40
-      z: 64
-      size: 2
-      isVisible: 0
-    - x: 40
-      z: 72
-      size: 2
-      isVisible: 0
-    - x: 40
-      z: 80
-      size: 2
-      isVisible: 0
-    - x: 40
-      z: 88
-      size: 2
-      isVisible: 0
-    - x: 40
-      z: 96
-      size: 2
-      isVisible: 0
-    - x: 40
-      z: 104
-      size: 2
-      isVisible: 0
-    - x: 40
-      z: 112
-      size: 2
-      isVisible: 0
-    - x: 40
-      z: 120
-      size: 2
-      isVisible: 0
-    - x: 48
-      z: 0
-      size: 2
-      isVisible: 0
-    - x: 48
-      z: 8
-      size: 2
-      isVisible: 0
-    - x: 48
-      z: 16
-      size: 2
-      isVisible: 0
-    - x: 48
-      z: 24
-      size: 2
-      isVisible: 0
-    - x: 48
-      z: 32
-      size: 2
-      isVisible: 0
-    - x: 48
-      z: 40
-      size: 2
-      isVisible: 0
-    - x: 48
-      z: 48
-      size: 2
-      isVisible: 0
-    - x: 48
-      z: 56
-      size: 2
-      isVisible: 0
-    - x: 48
-      z: 64
-      size: 2
-      isVisible: 0
-    - x: 48
-      z: 72
-      size: 2
-      isVisible: 0
-    - x: 48
-      z: 80
-      size: 2
-      isVisible: 0
-    - x: 48
-      z: 88
-      size: 2
-      isVisible: 0
-    - x: 48
-      z: 96
-      size: 2
-      isVisible: 0
-    - x: 48
-      z: 104
-      size: 2
-      isVisible: 0
-    - x: 48
-      z: 112
-      size: 2
-      isVisible: 0
-    - x: 48
-      z: 120
-      size: 2
-      isVisible: 0
-    - x: 56
-      z: 0
-      size: 2
-      isVisible: 0
-    - x: 56
-      z: 8
-      size: 2
-      isVisible: 0
-    - x: 56
-      z: 16
-      size: 2
-      isVisible: 0
-    - x: 56
-      z: 24
-      size: 2
-      isVisible: 0
-    - x: 56
-      z: 32
-      size: 2
-      isVisible: 0
-    - x: 56
-      z: 40
-      size: 2
-      isVisible: 0
-    - x: 56
-      z: 48
-      size: 2
-      isVisible: 0
-    - x: 56
-      z: 56
-      size: 2
-      isVisible: 0
-    - x: 56
-      z: 64
-      size: 2
-      isVisible: 0
-    - x: 56
-      z: 72
-      size: 2
-      isVisible: 0
-    - x: 56
-      z: 80
-      size: 2
-      isVisible: 0
-    - x: 56
-      z: 88
-      size: 2
-      isVisible: 0
-    - x: 56
-      z: 96
-      size: 2
-      isVisible: 0
-    - x: 56
-      z: 104
-      size: 2
-      isVisible: 0
-    - x: 56
-      z: 112
-      size: 2
-      isVisible: 0
-    - x: 56
-      z: 120
+    - x: 32
+      z: 224
       size: 2
       isVisible: 0
     - x: 64
@@ -810,31 +362,7 @@ MonoBehaviour:
       size: 2
       isVisible: 0
     - x: 64
-      z: 8
-      size: 2
-      isVisible: 0
-    - x: 64
-      z: 16
-      size: 2
-      isVisible: 0
-    - x: 64
-      z: 24
-      size: 2
-      isVisible: 0
-    - x: 64
       z: 32
-      size: 2
-      isVisible: 0
-    - x: 64
-      z: 40
-      size: 2
-      isVisible: 0
-    - x: 64
-      z: 48
-      size: 2
-      isVisible: 0
-    - x: 64
-      z: 56
       size: 2
       isVisible: 0
     - x: 64
@@ -842,223 +370,23 @@ MonoBehaviour:
       size: 2
       isVisible: 0
     - x: 64
-      z: 72
-      size: 2
-      isVisible: 0
-    - x: 64
-      z: 80
-      size: 2
-      isVisible: 0
-    - x: 64
-      z: 88
-      size: 2
-      isVisible: 0
-    - x: 64
       z: 96
       size: 2
       isVisible: 0
     - x: 64
-      z: 104
+      z: 128
       size: 2
       isVisible: 0
     - x: 64
-      z: 112
+      z: 160
       size: 2
       isVisible: 0
     - x: 64
-      z: 120
+      z: 192
       size: 2
       isVisible: 0
-    - x: 72
-      z: 0
-      size: 2
-      isVisible: 0
-    - x: 72
-      z: 8
-      size: 2
-      isVisible: 0
-    - x: 72
-      z: 16
-      size: 2
-      isVisible: 0
-    - x: 72
-      z: 24
-      size: 2
-      isVisible: 0
-    - x: 72
-      z: 32
-      size: 2
-      isVisible: 0
-    - x: 72
-      z: 40
-      size: 2
-      isVisible: 0
-    - x: 72
-      z: 48
-      size: 2
-      isVisible: 0
-    - x: 72
-      z: 56
-      size: 2
-      isVisible: 0
-    - x: 72
-      z: 64
-      size: 2
-      isVisible: 0
-    - x: 72
-      z: 72
-      size: 2
-      isVisible: 0
-    - x: 72
-      z: 80
-      size: 2
-      isVisible: 0
-    - x: 72
-      z: 88
-      size: 2
-      isVisible: 0
-    - x: 72
-      z: 96
-      size: 2
-      isVisible: 0
-    - x: 72
-      z: 104
-      size: 2
-      isVisible: 0
-    - x: 72
-      z: 112
-      size: 2
-      isVisible: 0
-    - x: 72
-      z: 120
-      size: 2
-      isVisible: 0
-    - x: 80
-      z: 0
-      size: 2
-      isVisible: 0
-    - x: 80
-      z: 8
-      size: 2
-      isVisible: 0
-    - x: 80
-      z: 16
-      size: 2
-      isVisible: 0
-    - x: 80
-      z: 24
-      size: 2
-      isVisible: 0
-    - x: 80
-      z: 32
-      size: 2
-      isVisible: 0
-    - x: 80
-      z: 40
-      size: 2
-      isVisible: 0
-    - x: 80
-      z: 48
-      size: 2
-      isVisible: 0
-    - x: 80
-      z: 56
-      size: 2
-      isVisible: 0
-    - x: 80
-      z: 64
-      size: 2
-      isVisible: 0
-    - x: 80
-      z: 72
-      size: 2
-      isVisible: 0
-    - x: 80
-      z: 80
-      size: 2
-      isVisible: 0
-    - x: 80
-      z: 88
-      size: 2
-      isVisible: 0
-    - x: 80
-      z: 96
-      size: 2
-      isVisible: 0
-    - x: 80
-      z: 104
-      size: 2
-      isVisible: 0
-    - x: 80
-      z: 112
-      size: 2
-      isVisible: 0
-    - x: 80
-      z: 120
-      size: 2
-      isVisible: 0
-    - x: 88
-      z: 0
-      size: 2
-      isVisible: 0
-    - x: 88
-      z: 8
-      size: 2
-      isVisible: 0
-    - x: 88
-      z: 16
-      size: 2
-      isVisible: 0
-    - x: 88
-      z: 24
-      size: 2
-      isVisible: 0
-    - x: 88
-      z: 32
-      size: 2
-      isVisible: 0
-    - x: 88
-      z: 40
-      size: 2
-      isVisible: 0
-    - x: 88
-      z: 48
-      size: 2
-      isVisible: 0
-    - x: 88
-      z: 56
-      size: 2
-      isVisible: 0
-    - x: 88
-      z: 64
-      size: 2
-      isVisible: 0
-    - x: 88
-      z: 72
-      size: 2
-      isVisible: 0
-    - x: 88
-      z: 80
-      size: 2
-      isVisible: 0
-    - x: 88
-      z: 88
-      size: 2
-      isVisible: 0
-    - x: 88
-      z: 96
-      size: 2
-      isVisible: 0
-    - x: 88
-      z: 104
-      size: 2
-      isVisible: 0
-    - x: 88
-      z: 112
-      size: 2
-      isVisible: 0
-    - x: 88
-      z: 120
+    - x: 64
+      z: 224
       size: 2
       isVisible: 0
     - x: 96
@@ -1066,31 +394,7 @@ MonoBehaviour:
       size: 2
       isVisible: 0
     - x: 96
-      z: 8
-      size: 2
-      isVisible: 0
-    - x: 96
-      z: 16
-      size: 2
-      isVisible: 0
-    - x: 96
-      z: 24
-      size: 2
-      isVisible: 0
-    - x: 96
       z: 32
-      size: 2
-      isVisible: 0
-    - x: 96
-      z: 40
-      size: 2
-      isVisible: 0
-    - x: 96
-      z: 48
-      size: 2
-      isVisible: 0
-    - x: 96
-      z: 56
       size: 2
       isVisible: 0
     - x: 96
@@ -1098,227 +402,8255 @@ MonoBehaviour:
       size: 2
       isVisible: 0
     - x: 96
-      z: 72
-      size: 2
-      isVisible: 0
-    - x: 96
-      z: 80
-      size: 2
-      isVisible: 0
-    - x: 96
-      z: 88
-      size: 2
-      isVisible: 0
-    - x: 96
       z: 96
       size: 2
       isVisible: 0
     - x: 96
-      z: 104
+      z: 128
       size: 2
       isVisible: 0
     - x: 96
-      z: 112
+      z: 160
       size: 2
       isVisible: 0
     - x: 96
-      z: 120
+      z: 192
       size: 2
       isVisible: 0
-    - x: 104
+    - x: 96
+      z: 224
+      size: 2
+      isVisible: 0
+    - x: 128
       z: 0
       size: 2
       isVisible: 0
-    - x: 104
-      z: 8
-      size: 2
-      isVisible: 0
-    - x: 104
-      z: 16
-      size: 2
-      isVisible: 0
-    - x: 104
-      z: 24
-      size: 2
-      isVisible: 0
-    - x: 104
+    - x: 128
       z: 32
       size: 2
       isVisible: 0
-    - x: 104
-      z: 40
-      size: 2
-      isVisible: 0
-    - x: 104
-      z: 48
-      size: 2
-      isVisible: 0
-    - x: 104
-      z: 56
-      size: 2
-      isVisible: 0
-    - x: 104
+    - x: 128
       z: 64
       size: 2
       isVisible: 0
-    - x: 104
-      z: 72
-      size: 2
-      isVisible: 0
-    - x: 104
-      z: 80
-      size: 2
-      isVisible: 0
-    - x: 104
-      z: 88
-      size: 2
-      isVisible: 0
-    - x: 104
+    - x: 128
       z: 96
       size: 2
       isVisible: 0
-    - x: 104
-      z: 104
+    - x: 128
+      z: 128
       size: 2
       isVisible: 0
-    - x: 104
-      z: 112
+    - x: 128
+      z: 160
       size: 2
       isVisible: 0
-    - x: 104
-      z: 120
+    - x: 128
+      z: 192
       size: 2
       isVisible: 0
-    - x: 112
+    - x: 128
+      z: 224
+      size: 2
+      isVisible: 0
+    - x: 160
       z: 0
       size: 2
       isVisible: 0
-    - x: 112
-      z: 8
-      size: 2
-      isVisible: 0
-    - x: 112
-      z: 16
-      size: 2
-      isVisible: 0
-    - x: 112
-      z: 24
-      size: 2
-      isVisible: 0
-    - x: 112
+    - x: 160
       z: 32
       size: 2
       isVisible: 0
-    - x: 112
-      z: 40
-      size: 2
-      isVisible: 0
-    - x: 112
-      z: 48
-      size: 2
-      isVisible: 0
-    - x: 112
-      z: 56
-      size: 2
-      isVisible: 0
-    - x: 112
+    - x: 160
       z: 64
       size: 2
       isVisible: 0
-    - x: 112
-      z: 72
-      size: 2
-      isVisible: 0
-    - x: 112
-      z: 80
-      size: 2
-      isVisible: 0
-    - x: 112
-      z: 88
-      size: 2
-      isVisible: 0
-    - x: 112
+    - x: 160
       z: 96
       size: 2
       isVisible: 0
-    - x: 112
-      z: 104
+    - x: 160
+      z: 128
       size: 2
       isVisible: 0
-    - x: 112
-      z: 112
+    - x: 160
+      z: 160
       size: 2
       isVisible: 0
-    - x: 112
-      z: 120
+    - x: 160
+      z: 192
       size: 2
       isVisible: 0
-    - x: 120
+    - x: 160
+      z: 224
+      size: 2
+      isVisible: 0
+    - x: 192
       z: 0
       size: 2
       isVisible: 0
-    - x: 120
-      z: 8
-      size: 2
-      isVisible: 0
-    - x: 120
-      z: 16
-      size: 2
-      isVisible: 0
-    - x: 120
-      z: 24
-      size: 2
-      isVisible: 0
-    - x: 120
+    - x: 192
       z: 32
       size: 2
       isVisible: 0
-    - x: 120
-      z: 40
-      size: 2
-      isVisible: 0
-    - x: 120
-      z: 48
-      size: 2
-      isVisible: 0
-    - x: 120
-      z: 56
-      size: 2
-      isVisible: 0
-    - x: 120
+    - x: 192
       z: 64
       size: 2
       isVisible: 0
-    - x: 120
-      z: 72
-      size: 2
-      isVisible: 0
-    - x: 120
-      z: 80
-      size: 2
-      isVisible: 0
-    - x: 120
-      z: 88
-      size: 2
-      isVisible: 0
-    - x: 120
+    - x: 192
       z: 96
       size: 2
       isVisible: 0
-    - x: 120
-      z: 104
+    - x: 192
+      z: 128
       size: 2
       isVisible: 0
-    - x: 120
-      z: 112
+    - x: 192
+      z: 160
       size: 2
       isVisible: 0
-    - x: 120
-      z: 120
+    - x: 192
+      z: 192
       size: 2
       isVisible: 0
-    tileSize: 128
-    portalSize: 0
-    bigAreaSize: 64
-    middleAreaSize: 32
-    smallAreaSize: 8
+    - x: 192
+      z: 224
+      size: 2
+      isVisible: 0
+    - x: 224
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 224
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 224
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 224
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 224
+      z: 128
+      size: 2
+      isVisible: 0
+    - x: 224
+      z: 160
+      size: 2
+      isVisible: 0
+    - x: 224
+      z: 192
+      size: 2
+      isVisible: 0
+    - x: 224
+      z: 224
+      size: 2
+      isVisible: 0
+    tileSize: 256
+    portalSize: 32
+    bigAreaSize: 128
+    middleAreaSize: 64
+    smallAreaSize: 32
+  - id: 2
+    x: 0
+    z: 256
+    portalList:
+    - id: 1
+      x: 0
+      z: 256
+    - id: 2
+      x: 0
+      z: 288
+    - id: 3
+      x: 0
+      z: 320
+    - id: 4
+      x: 0
+      z: 352
+    - id: 5
+      x: 0
+      z: 384
+    - id: 6
+      x: 0
+      z: 416
+    - id: 7
+      x: 0
+      z: 448
+    - id: 8
+      x: 0
+      z: 480
+    - id: 9
+      x: 32
+      z: 256
+    - id: 10
+      x: 32
+      z: 288
+    - id: 11
+      x: 32
+      z: 320
+    - id: 12
+      x: 32
+      z: 352
+    - id: 13
+      x: 32
+      z: 384
+    - id: 14
+      x: 32
+      z: 416
+    - id: 15
+      x: 32
+      z: 448
+    - id: 16
+      x: 32
+      z: 480
+    - id: 17
+      x: 64
+      z: 256
+    - id: 18
+      x: 64
+      z: 288
+    - id: 19
+      x: 64
+      z: 320
+    - id: 20
+      x: 64
+      z: 352
+    - id: 21
+      x: 64
+      z: 384
+    - id: 22
+      x: 64
+      z: 416
+    - id: 23
+      x: 64
+      z: 448
+    - id: 24
+      x: 64
+      z: 480
+    - id: 25
+      x: 96
+      z: 256
+    - id: 26
+      x: 96
+      z: 288
+    - id: 27
+      x: 96
+      z: 320
+    - id: 28
+      x: 96
+      z: 352
+    - id: 29
+      x: 96
+      z: 384
+    - id: 30
+      x: 96
+      z: 416
+    - id: 31
+      x: 96
+      z: 448
+    - id: 32
+      x: 96
+      z: 480
+    - id: 33
+      x: 128
+      z: 256
+    - id: 34
+      x: 128
+      z: 288
+    - id: 35
+      x: 128
+      z: 320
+    - id: 36
+      x: 128
+      z: 352
+    - id: 37
+      x: 128
+      z: 384
+    - id: 38
+      x: 128
+      z: 416
+    - id: 39
+      x: 128
+      z: 448
+    - id: 40
+      x: 128
+      z: 480
+    - id: 41
+      x: 160
+      z: 256
+    - id: 42
+      x: 160
+      z: 288
+    - id: 43
+      x: 160
+      z: 320
+    - id: 44
+      x: 160
+      z: 352
+    - id: 45
+      x: 160
+      z: 384
+    - id: 46
+      x: 160
+      z: 416
+    - id: 47
+      x: 160
+      z: 448
+    - id: 48
+      x: 160
+      z: 480
+    - id: 49
+      x: 192
+      z: 256
+    - id: 50
+      x: 192
+      z: 288
+    - id: 51
+      x: 192
+      z: 320
+    - id: 52
+      x: 192
+      z: 352
+    - id: 53
+      x: 192
+      z: 384
+    - id: 54
+      x: 192
+      z: 416
+    - id: 55
+      x: 192
+      z: 448
+    - id: 56
+      x: 192
+      z: 480
+    - id: 57
+      x: 224
+      z: 256
+    - id: 58
+      x: 224
+      z: 288
+    - id: 59
+      x: 224
+      z: 320
+    - id: 60
+      x: 224
+      z: 352
+    - id: 61
+      x: 224
+      z: 384
+    - id: 62
+      x: 224
+      z: 416
+    - id: 63
+      x: 224
+      z: 448
+    - id: 64
+      x: 224
+      z: 480
+    bigAreaList:
+    - x: 0
+      z: 256
+      size: 0
+      isVisible: 0
+    - x: 0
+      z: 384
+      size: 0
+      isVisible: 0
+    - x: 128
+      z: 256
+      size: 0
+      isVisible: 0
+    - x: 128
+      z: 384
+      size: 0
+      isVisible: 0
+    middleAreaList:
+    - x: 0
+      z: 256
+      size: 1
+      isVisible: 0
+    - x: 0
+      z: 320
+      size: 1
+      isVisible: 0
+    - x: 0
+      z: 384
+      size: 1
+      isVisible: 0
+    - x: 0
+      z: 448
+      size: 1
+      isVisible: 0
+    - x: 64
+      z: 256
+      size: 1
+      isVisible: 0
+    - x: 64
+      z: 320
+      size: 1
+      isVisible: 0
+    - x: 64
+      z: 384
+      size: 1
+      isVisible: 0
+    - x: 64
+      z: 448
+      size: 1
+      isVisible: 0
+    - x: 128
+      z: 256
+      size: 1
+      isVisible: 0
+    - x: 128
+      z: 320
+      size: 1
+      isVisible: 0
+    - x: 128
+      z: 384
+      size: 1
+      isVisible: 0
+    - x: 128
+      z: 448
+      size: 1
+      isVisible: 0
+    - x: 192
+      z: 256
+      size: 1
+      isVisible: 0
+    - x: 192
+      z: 320
+      size: 1
+      isVisible: 0
+    - x: 192
+      z: 384
+      size: 1
+      isVisible: 0
+    - x: 192
+      z: 448
+      size: 1
+      isVisible: 0
+    smallAreaList:
+    - x: 0
+      z: 256
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 288
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 320
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 352
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 384
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 416
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 448
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 480
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 256
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 288
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 320
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 352
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 384
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 416
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 448
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 480
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 256
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 288
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 320
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 352
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 384
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 416
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 448
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 480
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 256
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 288
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 320
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 352
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 384
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 416
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 448
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 480
+      size: 2
+      isVisible: 0
+    - x: 128
+      z: 256
+      size: 2
+      isVisible: 0
+    - x: 128
+      z: 288
+      size: 2
+      isVisible: 0
+    - x: 128
+      z: 320
+      size: 2
+      isVisible: 0
+    - x: 128
+      z: 352
+      size: 2
+      isVisible: 0
+    - x: 128
+      z: 384
+      size: 2
+      isVisible: 0
+    - x: 128
+      z: 416
+      size: 2
+      isVisible: 0
+    - x: 128
+      z: 448
+      size: 2
+      isVisible: 0
+    - x: 128
+      z: 480
+      size: 2
+      isVisible: 0
+    - x: 160
+      z: 256
+      size: 2
+      isVisible: 0
+    - x: 160
+      z: 288
+      size: 2
+      isVisible: 0
+    - x: 160
+      z: 320
+      size: 2
+      isVisible: 0
+    - x: 160
+      z: 352
+      size: 2
+      isVisible: 0
+    - x: 160
+      z: 384
+      size: 2
+      isVisible: 0
+    - x: 160
+      z: 416
+      size: 2
+      isVisible: 0
+    - x: 160
+      z: 448
+      size: 2
+      isVisible: 0
+    - x: 160
+      z: 480
+      size: 2
+      isVisible: 0
+    - x: 192
+      z: 256
+      size: 2
+      isVisible: 0
+    - x: 192
+      z: 288
+      size: 2
+      isVisible: 0
+    - x: 192
+      z: 320
+      size: 2
+      isVisible: 0
+    - x: 192
+      z: 352
+      size: 2
+      isVisible: 0
+    - x: 192
+      z: 384
+      size: 2
+      isVisible: 0
+    - x: 192
+      z: 416
+      size: 2
+      isVisible: 0
+    - x: 192
+      z: 448
+      size: 2
+      isVisible: 0
+    - x: 192
+      z: 480
+      size: 2
+      isVisible: 0
+    - x: 224
+      z: 256
+      size: 2
+      isVisible: 0
+    - x: 224
+      z: 288
+      size: 2
+      isVisible: 0
+    - x: 224
+      z: 320
+      size: 2
+      isVisible: 0
+    - x: 224
+      z: 352
+      size: 2
+      isVisible: 0
+    - x: 224
+      z: 384
+      size: 2
+      isVisible: 0
+    - x: 224
+      z: 416
+      size: 2
+      isVisible: 0
+    - x: 224
+      z: 448
+      size: 2
+      isVisible: 0
+    - x: 224
+      z: 480
+      size: 2
+      isVisible: 0
+    tileSize: 256
+    portalSize: 32
+    bigAreaSize: 128
+    middleAreaSize: 64
+    smallAreaSize: 32
+  - id: 3
+    x: 0
+    z: 512
+    portalList:
+    - id: 1
+      x: 0
+      z: 512
+    - id: 2
+      x: 0
+      z: 544
+    - id: 3
+      x: 0
+      z: 576
+    - id: 4
+      x: 0
+      z: 608
+    - id: 5
+      x: 0
+      z: 640
+    - id: 6
+      x: 0
+      z: 672
+    - id: 7
+      x: 0
+      z: 704
+    - id: 8
+      x: 0
+      z: 736
+    - id: 9
+      x: 32
+      z: 512
+    - id: 10
+      x: 32
+      z: 544
+    - id: 11
+      x: 32
+      z: 576
+    - id: 12
+      x: 32
+      z: 608
+    - id: 13
+      x: 32
+      z: 640
+    - id: 14
+      x: 32
+      z: 672
+    - id: 15
+      x: 32
+      z: 704
+    - id: 16
+      x: 32
+      z: 736
+    - id: 17
+      x: 64
+      z: 512
+    - id: 18
+      x: 64
+      z: 544
+    - id: 19
+      x: 64
+      z: 576
+    - id: 20
+      x: 64
+      z: 608
+    - id: 21
+      x: 64
+      z: 640
+    - id: 22
+      x: 64
+      z: 672
+    - id: 23
+      x: 64
+      z: 704
+    - id: 24
+      x: 64
+      z: 736
+    - id: 25
+      x: 96
+      z: 512
+    - id: 26
+      x: 96
+      z: 544
+    - id: 27
+      x: 96
+      z: 576
+    - id: 28
+      x: 96
+      z: 608
+    - id: 29
+      x: 96
+      z: 640
+    - id: 30
+      x: 96
+      z: 672
+    - id: 31
+      x: 96
+      z: 704
+    - id: 32
+      x: 96
+      z: 736
+    - id: 33
+      x: 128
+      z: 512
+    - id: 34
+      x: 128
+      z: 544
+    - id: 35
+      x: 128
+      z: 576
+    - id: 36
+      x: 128
+      z: 608
+    - id: 37
+      x: 128
+      z: 640
+    - id: 38
+      x: 128
+      z: 672
+    - id: 39
+      x: 128
+      z: 704
+    - id: 40
+      x: 128
+      z: 736
+    - id: 41
+      x: 160
+      z: 512
+    - id: 42
+      x: 160
+      z: 544
+    - id: 43
+      x: 160
+      z: 576
+    - id: 44
+      x: 160
+      z: 608
+    - id: 45
+      x: 160
+      z: 640
+    - id: 46
+      x: 160
+      z: 672
+    - id: 47
+      x: 160
+      z: 704
+    - id: 48
+      x: 160
+      z: 736
+    - id: 49
+      x: 192
+      z: 512
+    - id: 50
+      x: 192
+      z: 544
+    - id: 51
+      x: 192
+      z: 576
+    - id: 52
+      x: 192
+      z: 608
+    - id: 53
+      x: 192
+      z: 640
+    - id: 54
+      x: 192
+      z: 672
+    - id: 55
+      x: 192
+      z: 704
+    - id: 56
+      x: 192
+      z: 736
+    - id: 57
+      x: 224
+      z: 512
+    - id: 58
+      x: 224
+      z: 544
+    - id: 59
+      x: 224
+      z: 576
+    - id: 60
+      x: 224
+      z: 608
+    - id: 61
+      x: 224
+      z: 640
+    - id: 62
+      x: 224
+      z: 672
+    - id: 63
+      x: 224
+      z: 704
+    - id: 64
+      x: 224
+      z: 736
+    bigAreaList:
+    - x: 0
+      z: 512
+      size: 0
+      isVisible: 0
+    - x: 0
+      z: 640
+      size: 0
+      isVisible: 0
+    - x: 128
+      z: 512
+      size: 0
+      isVisible: 0
+    - x: 128
+      z: 640
+      size: 0
+      isVisible: 0
+    middleAreaList:
+    - x: 0
+      z: 512
+      size: 1
+      isVisible: 0
+    - x: 0
+      z: 576
+      size: 1
+      isVisible: 0
+    - x: 0
+      z: 640
+      size: 1
+      isVisible: 0
+    - x: 0
+      z: 704
+      size: 1
+      isVisible: 0
+    - x: 64
+      z: 512
+      size: 1
+      isVisible: 0
+    - x: 64
+      z: 576
+      size: 1
+      isVisible: 0
+    - x: 64
+      z: 640
+      size: 1
+      isVisible: 0
+    - x: 64
+      z: 704
+      size: 1
+      isVisible: 0
+    - x: 128
+      z: 512
+      size: 1
+      isVisible: 0
+    - x: 128
+      z: 576
+      size: 1
+      isVisible: 0
+    - x: 128
+      z: 640
+      size: 1
+      isVisible: 0
+    - x: 128
+      z: 704
+      size: 1
+      isVisible: 0
+    - x: 192
+      z: 512
+      size: 1
+      isVisible: 0
+    - x: 192
+      z: 576
+      size: 1
+      isVisible: 0
+    - x: 192
+      z: 640
+      size: 1
+      isVisible: 0
+    - x: 192
+      z: 704
+      size: 1
+      isVisible: 0
+    smallAreaList:
+    - x: 0
+      z: 512
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 544
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 576
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 608
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 640
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 672
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 704
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 736
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 512
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 544
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 576
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 608
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 640
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 672
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 704
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 736
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 512
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 544
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 576
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 608
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 640
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 672
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 704
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 736
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 512
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 544
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 576
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 608
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 640
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 672
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 704
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 736
+      size: 2
+      isVisible: 0
+    - x: 128
+      z: 512
+      size: 2
+      isVisible: 0
+    - x: 128
+      z: 544
+      size: 2
+      isVisible: 0
+    - x: 128
+      z: 576
+      size: 2
+      isVisible: 0
+    - x: 128
+      z: 608
+      size: 2
+      isVisible: 0
+    - x: 128
+      z: 640
+      size: 2
+      isVisible: 0
+    - x: 128
+      z: 672
+      size: 2
+      isVisible: 0
+    - x: 128
+      z: 704
+      size: 2
+      isVisible: 0
+    - x: 128
+      z: 736
+      size: 2
+      isVisible: 0
+    - x: 160
+      z: 512
+      size: 2
+      isVisible: 0
+    - x: 160
+      z: 544
+      size: 2
+      isVisible: 0
+    - x: 160
+      z: 576
+      size: 2
+      isVisible: 0
+    - x: 160
+      z: 608
+      size: 2
+      isVisible: 0
+    - x: 160
+      z: 640
+      size: 2
+      isVisible: 0
+    - x: 160
+      z: 672
+      size: 2
+      isVisible: 0
+    - x: 160
+      z: 704
+      size: 2
+      isVisible: 0
+    - x: 160
+      z: 736
+      size: 2
+      isVisible: 0
+    - x: 192
+      z: 512
+      size: 2
+      isVisible: 0
+    - x: 192
+      z: 544
+      size: 2
+      isVisible: 0
+    - x: 192
+      z: 576
+      size: 2
+      isVisible: 0
+    - x: 192
+      z: 608
+      size: 2
+      isVisible: 0
+    - x: 192
+      z: 640
+      size: 2
+      isVisible: 0
+    - x: 192
+      z: 672
+      size: 2
+      isVisible: 0
+    - x: 192
+      z: 704
+      size: 2
+      isVisible: 0
+    - x: 192
+      z: 736
+      size: 2
+      isVisible: 0
+    - x: 224
+      z: 512
+      size: 2
+      isVisible: 0
+    - x: 224
+      z: 544
+      size: 2
+      isVisible: 0
+    - x: 224
+      z: 576
+      size: 2
+      isVisible: 0
+    - x: 224
+      z: 608
+      size: 2
+      isVisible: 0
+    - x: 224
+      z: 640
+      size: 2
+      isVisible: 0
+    - x: 224
+      z: 672
+      size: 2
+      isVisible: 0
+    - x: 224
+      z: 704
+      size: 2
+      isVisible: 0
+    - x: 224
+      z: 736
+      size: 2
+      isVisible: 0
+    tileSize: 256
+    portalSize: 32
+    bigAreaSize: 128
+    middleAreaSize: 64
+    smallAreaSize: 32
+  - id: 4
+    x: 0
+    z: 768
+    portalList:
+    - id: 1
+      x: 0
+      z: 768
+    - id: 2
+      x: 0
+      z: 800
+    - id: 3
+      x: 0
+      z: 832
+    - id: 4
+      x: 0
+      z: 864
+    - id: 5
+      x: 0
+      z: 896
+    - id: 6
+      x: 0
+      z: 928
+    - id: 7
+      x: 0
+      z: 960
+    - id: 8
+      x: 0
+      z: 992
+    - id: 9
+      x: 32
+      z: 768
+    - id: 10
+      x: 32
+      z: 800
+    - id: 11
+      x: 32
+      z: 832
+    - id: 12
+      x: 32
+      z: 864
+    - id: 13
+      x: 32
+      z: 896
+    - id: 14
+      x: 32
+      z: 928
+    - id: 15
+      x: 32
+      z: 960
+    - id: 16
+      x: 32
+      z: 992
+    - id: 17
+      x: 64
+      z: 768
+    - id: 18
+      x: 64
+      z: 800
+    - id: 19
+      x: 64
+      z: 832
+    - id: 20
+      x: 64
+      z: 864
+    - id: 21
+      x: 64
+      z: 896
+    - id: 22
+      x: 64
+      z: 928
+    - id: 23
+      x: 64
+      z: 960
+    - id: 24
+      x: 64
+      z: 992
+    - id: 25
+      x: 96
+      z: 768
+    - id: 26
+      x: 96
+      z: 800
+    - id: 27
+      x: 96
+      z: 832
+    - id: 28
+      x: 96
+      z: 864
+    - id: 29
+      x: 96
+      z: 896
+    - id: 30
+      x: 96
+      z: 928
+    - id: 31
+      x: 96
+      z: 960
+    - id: 32
+      x: 96
+      z: 992
+    - id: 33
+      x: 128
+      z: 768
+    - id: 34
+      x: 128
+      z: 800
+    - id: 35
+      x: 128
+      z: 832
+    - id: 36
+      x: 128
+      z: 864
+    - id: 37
+      x: 128
+      z: 896
+    - id: 38
+      x: 128
+      z: 928
+    - id: 39
+      x: 128
+      z: 960
+    - id: 40
+      x: 128
+      z: 992
+    - id: 41
+      x: 160
+      z: 768
+    - id: 42
+      x: 160
+      z: 800
+    - id: 43
+      x: 160
+      z: 832
+    - id: 44
+      x: 160
+      z: 864
+    - id: 45
+      x: 160
+      z: 896
+    - id: 46
+      x: 160
+      z: 928
+    - id: 47
+      x: 160
+      z: 960
+    - id: 48
+      x: 160
+      z: 992
+    - id: 49
+      x: 192
+      z: 768
+    - id: 50
+      x: 192
+      z: 800
+    - id: 51
+      x: 192
+      z: 832
+    - id: 52
+      x: 192
+      z: 864
+    - id: 53
+      x: 192
+      z: 896
+    - id: 54
+      x: 192
+      z: 928
+    - id: 55
+      x: 192
+      z: 960
+    - id: 56
+      x: 192
+      z: 992
+    - id: 57
+      x: 224
+      z: 768
+    - id: 58
+      x: 224
+      z: 800
+    - id: 59
+      x: 224
+      z: 832
+    - id: 60
+      x: 224
+      z: 864
+    - id: 61
+      x: 224
+      z: 896
+    - id: 62
+      x: 224
+      z: 928
+    - id: 63
+      x: 224
+      z: 960
+    - id: 64
+      x: 224
+      z: 992
+    bigAreaList:
+    - x: 0
+      z: 768
+      size: 0
+      isVisible: 0
+    - x: 0
+      z: 896
+      size: 0
+      isVisible: 0
+    - x: 128
+      z: 768
+      size: 0
+      isVisible: 0
+    - x: 128
+      z: 896
+      size: 0
+      isVisible: 0
+    middleAreaList:
+    - x: 0
+      z: 768
+      size: 1
+      isVisible: 0
+    - x: 0
+      z: 832
+      size: 1
+      isVisible: 0
+    - x: 0
+      z: 896
+      size: 1
+      isVisible: 0
+    - x: 0
+      z: 960
+      size: 1
+      isVisible: 0
+    - x: 64
+      z: 768
+      size: 1
+      isVisible: 0
+    - x: 64
+      z: 832
+      size: 1
+      isVisible: 0
+    - x: 64
+      z: 896
+      size: 1
+      isVisible: 0
+    - x: 64
+      z: 960
+      size: 1
+      isVisible: 0
+    - x: 128
+      z: 768
+      size: 1
+      isVisible: 0
+    - x: 128
+      z: 832
+      size: 1
+      isVisible: 0
+    - x: 128
+      z: 896
+      size: 1
+      isVisible: 0
+    - x: 128
+      z: 960
+      size: 1
+      isVisible: 0
+    - x: 192
+      z: 768
+      size: 1
+      isVisible: 0
+    - x: 192
+      z: 832
+      size: 1
+      isVisible: 0
+    - x: 192
+      z: 896
+      size: 1
+      isVisible: 0
+    - x: 192
+      z: 960
+      size: 1
+      isVisible: 0
+    smallAreaList:
+    - x: 0
+      z: 768
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 800
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 832
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 864
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 896
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 928
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 960
+      size: 2
+      isVisible: 0
+    - x: 0
+      z: 992
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 768
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 800
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 832
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 864
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 896
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 928
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 960
+      size: 2
+      isVisible: 0
+    - x: 32
+      z: 992
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 768
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 800
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 832
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 864
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 896
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 928
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 960
+      size: 2
+      isVisible: 0
+    - x: 64
+      z: 992
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 768
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 800
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 832
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 864
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 896
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 928
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 960
+      size: 2
+      isVisible: 0
+    - x: 96
+      z: 992
+      size: 2
+      isVisible: 0
+    - x: 128
+      z: 768
+      size: 2
+      isVisible: 0
+    - x: 128
+      z: 800
+      size: 2
+      isVisible: 0
+    - x: 128
+      z: 832
+      size: 2
+      isVisible: 0
+    - x: 128
+      z: 864
+      size: 2
+      isVisible: 0
+    - x: 128
+      z: 896
+      size: 2
+      isVisible: 0
+    - x: 128
+      z: 928
+      size: 2
+      isVisible: 0
+    - x: 128
+      z: 960
+      size: 2
+      isVisible: 0
+    - x: 128
+      z: 992
+      size: 2
+      isVisible: 0
+    - x: 160
+      z: 768
+      size: 2
+      isVisible: 0
+    - x: 160
+      z: 800
+      size: 2
+      isVisible: 0
+    - x: 160
+      z: 832
+      size: 2
+      isVisible: 0
+    - x: 160
+      z: 864
+      size: 2
+      isVisible: 0
+    - x: 160
+      z: 896
+      size: 2
+      isVisible: 0
+    - x: 160
+      z: 928
+      size: 2
+      isVisible: 0
+    - x: 160
+      z: 960
+      size: 2
+      isVisible: 0
+    - x: 160
+      z: 992
+      size: 2
+      isVisible: 0
+    - x: 192
+      z: 768
+      size: 2
+      isVisible: 0
+    - x: 192
+      z: 800
+      size: 2
+      isVisible: 0
+    - x: 192
+      z: 832
+      size: 2
+      isVisible: 0
+    - x: 192
+      z: 864
+      size: 2
+      isVisible: 0
+    - x: 192
+      z: 896
+      size: 2
+      isVisible: 0
+    - x: 192
+      z: 928
+      size: 2
+      isVisible: 0
+    - x: 192
+      z: 960
+      size: 2
+      isVisible: 0
+    - x: 192
+      z: 992
+      size: 2
+      isVisible: 0
+    - x: 224
+      z: 768
+      size: 2
+      isVisible: 0
+    - x: 224
+      z: 800
+      size: 2
+      isVisible: 0
+    - x: 224
+      z: 832
+      size: 2
+      isVisible: 0
+    - x: 224
+      z: 864
+      size: 2
+      isVisible: 0
+    - x: 224
+      z: 896
+      size: 2
+      isVisible: 0
+    - x: 224
+      z: 928
+      size: 2
+      isVisible: 0
+    - x: 224
+      z: 960
+      size: 2
+      isVisible: 0
+    - x: 224
+      z: 992
+      size: 2
+      isVisible: 0
+    tileSize: 256
+    portalSize: 32
+    bigAreaSize: 128
+    middleAreaSize: 64
+    smallAreaSize: 32
+  - id: 5
+    x: 256
+    z: 0
+    portalList:
+    - id: 1
+      x: 256
+      z: 0
+    - id: 2
+      x: 256
+      z: 32
+    - id: 3
+      x: 256
+      z: 64
+    - id: 4
+      x: 256
+      z: 96
+    - id: 5
+      x: 256
+      z: 128
+    - id: 6
+      x: 256
+      z: 160
+    - id: 7
+      x: 256
+      z: 192
+    - id: 8
+      x: 256
+      z: 224
+    - id: 9
+      x: 288
+      z: 0
+    - id: 10
+      x: 288
+      z: 32
+    - id: 11
+      x: 288
+      z: 64
+    - id: 12
+      x: 288
+      z: 96
+    - id: 13
+      x: 288
+      z: 128
+    - id: 14
+      x: 288
+      z: 160
+    - id: 15
+      x: 288
+      z: 192
+    - id: 16
+      x: 288
+      z: 224
+    - id: 17
+      x: 320
+      z: 0
+    - id: 18
+      x: 320
+      z: 32
+    - id: 19
+      x: 320
+      z: 64
+    - id: 20
+      x: 320
+      z: 96
+    - id: 21
+      x: 320
+      z: 128
+    - id: 22
+      x: 320
+      z: 160
+    - id: 23
+      x: 320
+      z: 192
+    - id: 24
+      x: 320
+      z: 224
+    - id: 25
+      x: 352
+      z: 0
+    - id: 26
+      x: 352
+      z: 32
+    - id: 27
+      x: 352
+      z: 64
+    - id: 28
+      x: 352
+      z: 96
+    - id: 29
+      x: 352
+      z: 128
+    - id: 30
+      x: 352
+      z: 160
+    - id: 31
+      x: 352
+      z: 192
+    - id: 32
+      x: 352
+      z: 224
+    - id: 33
+      x: 384
+      z: 0
+    - id: 34
+      x: 384
+      z: 32
+    - id: 35
+      x: 384
+      z: 64
+    - id: 36
+      x: 384
+      z: 96
+    - id: 37
+      x: 384
+      z: 128
+    - id: 38
+      x: 384
+      z: 160
+    - id: 39
+      x: 384
+      z: 192
+    - id: 40
+      x: 384
+      z: 224
+    - id: 41
+      x: 416
+      z: 0
+    - id: 42
+      x: 416
+      z: 32
+    - id: 43
+      x: 416
+      z: 64
+    - id: 44
+      x: 416
+      z: 96
+    - id: 45
+      x: 416
+      z: 128
+    - id: 46
+      x: 416
+      z: 160
+    - id: 47
+      x: 416
+      z: 192
+    - id: 48
+      x: 416
+      z: 224
+    - id: 49
+      x: 448
+      z: 0
+    - id: 50
+      x: 448
+      z: 32
+    - id: 51
+      x: 448
+      z: 64
+    - id: 52
+      x: 448
+      z: 96
+    - id: 53
+      x: 448
+      z: 128
+    - id: 54
+      x: 448
+      z: 160
+    - id: 55
+      x: 448
+      z: 192
+    - id: 56
+      x: 448
+      z: 224
+    - id: 57
+      x: 480
+      z: 0
+    - id: 58
+      x: 480
+      z: 32
+    - id: 59
+      x: 480
+      z: 64
+    - id: 60
+      x: 480
+      z: 96
+    - id: 61
+      x: 480
+      z: 128
+    - id: 62
+      x: 480
+      z: 160
+    - id: 63
+      x: 480
+      z: 192
+    - id: 64
+      x: 480
+      z: 224
+    bigAreaList:
+    - x: 256
+      z: 0
+      size: 0
+      isVisible: 0
+    - x: 256
+      z: 128
+      size: 0
+      isVisible: 0
+    - x: 384
+      z: 0
+      size: 0
+      isVisible: 0
+    - x: 384
+      z: 128
+      size: 0
+      isVisible: 0
+    middleAreaList:
+    - x: 256
+      z: 0
+      size: 1
+      isVisible: 0
+    - x: 256
+      z: 64
+      size: 1
+      isVisible: 0
+    - x: 256
+      z: 128
+      size: 1
+      isVisible: 0
+    - x: 256
+      z: 192
+      size: 1
+      isVisible: 0
+    - x: 320
+      z: 0
+      size: 1
+      isVisible: 0
+    - x: 320
+      z: 64
+      size: 1
+      isVisible: 0
+    - x: 320
+      z: 128
+      size: 1
+      isVisible: 0
+    - x: 320
+      z: 192
+      size: 1
+      isVisible: 0
+    - x: 384
+      z: 0
+      size: 1
+      isVisible: 0
+    - x: 384
+      z: 64
+      size: 1
+      isVisible: 0
+    - x: 384
+      z: 128
+      size: 1
+      isVisible: 0
+    - x: 384
+      z: 192
+      size: 1
+      isVisible: 0
+    - x: 448
+      z: 0
+      size: 1
+      isVisible: 0
+    - x: 448
+      z: 64
+      size: 1
+      isVisible: 0
+    - x: 448
+      z: 128
+      size: 1
+      isVisible: 0
+    - x: 448
+      z: 192
+      size: 1
+      isVisible: 0
+    smallAreaList:
+    - x: 256
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 256
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 256
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 256
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 256
+      z: 128
+      size: 2
+      isVisible: 0
+    - x: 256
+      z: 160
+      size: 2
+      isVisible: 0
+    - x: 256
+      z: 192
+      size: 2
+      isVisible: 0
+    - x: 256
+      z: 224
+      size: 2
+      isVisible: 0
+    - x: 288
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 288
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 288
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 288
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 288
+      z: 128
+      size: 2
+      isVisible: 0
+    - x: 288
+      z: 160
+      size: 2
+      isVisible: 0
+    - x: 288
+      z: 192
+      size: 2
+      isVisible: 0
+    - x: 288
+      z: 224
+      size: 2
+      isVisible: 0
+    - x: 320
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 320
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 320
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 320
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 320
+      z: 128
+      size: 2
+      isVisible: 0
+    - x: 320
+      z: 160
+      size: 2
+      isVisible: 0
+    - x: 320
+      z: 192
+      size: 2
+      isVisible: 0
+    - x: 320
+      z: 224
+      size: 2
+      isVisible: 0
+    - x: 352
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 352
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 352
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 352
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 352
+      z: 128
+      size: 2
+      isVisible: 0
+    - x: 352
+      z: 160
+      size: 2
+      isVisible: 0
+    - x: 352
+      z: 192
+      size: 2
+      isVisible: 0
+    - x: 352
+      z: 224
+      size: 2
+      isVisible: 0
+    - x: 384
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 384
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 384
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 384
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 384
+      z: 128
+      size: 2
+      isVisible: 0
+    - x: 384
+      z: 160
+      size: 2
+      isVisible: 0
+    - x: 384
+      z: 192
+      size: 2
+      isVisible: 0
+    - x: 384
+      z: 224
+      size: 2
+      isVisible: 0
+    - x: 416
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 416
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 416
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 416
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 416
+      z: 128
+      size: 2
+      isVisible: 0
+    - x: 416
+      z: 160
+      size: 2
+      isVisible: 0
+    - x: 416
+      z: 192
+      size: 2
+      isVisible: 0
+    - x: 416
+      z: 224
+      size: 2
+      isVisible: 0
+    - x: 448
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 448
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 448
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 448
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 448
+      z: 128
+      size: 2
+      isVisible: 0
+    - x: 448
+      z: 160
+      size: 2
+      isVisible: 0
+    - x: 448
+      z: 192
+      size: 2
+      isVisible: 0
+    - x: 448
+      z: 224
+      size: 2
+      isVisible: 0
+    - x: 480
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 480
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 480
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 480
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 480
+      z: 128
+      size: 2
+      isVisible: 0
+    - x: 480
+      z: 160
+      size: 2
+      isVisible: 0
+    - x: 480
+      z: 192
+      size: 2
+      isVisible: 0
+    - x: 480
+      z: 224
+      size: 2
+      isVisible: 0
+    tileSize: 256
+    portalSize: 32
+    bigAreaSize: 128
+    middleAreaSize: 64
+    smallAreaSize: 32
+  - id: 6
+    x: 256
+    z: 256
+    portalList:
+    - id: 1
+      x: 256
+      z: 256
+    - id: 2
+      x: 256
+      z: 288
+    - id: 3
+      x: 256
+      z: 320
+    - id: 4
+      x: 256
+      z: 352
+    - id: 5
+      x: 256
+      z: 384
+    - id: 6
+      x: 256
+      z: 416
+    - id: 7
+      x: 256
+      z: 448
+    - id: 8
+      x: 256
+      z: 480
+    - id: 9
+      x: 288
+      z: 256
+    - id: 10
+      x: 288
+      z: 288
+    - id: 11
+      x: 288
+      z: 320
+    - id: 12
+      x: 288
+      z: 352
+    - id: 13
+      x: 288
+      z: 384
+    - id: 14
+      x: 288
+      z: 416
+    - id: 15
+      x: 288
+      z: 448
+    - id: 16
+      x: 288
+      z: 480
+    - id: 17
+      x: 320
+      z: 256
+    - id: 18
+      x: 320
+      z: 288
+    - id: 19
+      x: 320
+      z: 320
+    - id: 20
+      x: 320
+      z: 352
+    - id: 21
+      x: 320
+      z: 384
+    - id: 22
+      x: 320
+      z: 416
+    - id: 23
+      x: 320
+      z: 448
+    - id: 24
+      x: 320
+      z: 480
+    - id: 25
+      x: 352
+      z: 256
+    - id: 26
+      x: 352
+      z: 288
+    - id: 27
+      x: 352
+      z: 320
+    - id: 28
+      x: 352
+      z: 352
+    - id: 29
+      x: 352
+      z: 384
+    - id: 30
+      x: 352
+      z: 416
+    - id: 31
+      x: 352
+      z: 448
+    - id: 32
+      x: 352
+      z: 480
+    - id: 33
+      x: 384
+      z: 256
+    - id: 34
+      x: 384
+      z: 288
+    - id: 35
+      x: 384
+      z: 320
+    - id: 36
+      x: 384
+      z: 352
+    - id: 37
+      x: 384
+      z: 384
+    - id: 38
+      x: 384
+      z: 416
+    - id: 39
+      x: 384
+      z: 448
+    - id: 40
+      x: 384
+      z: 480
+    - id: 41
+      x: 416
+      z: 256
+    - id: 42
+      x: 416
+      z: 288
+    - id: 43
+      x: 416
+      z: 320
+    - id: 44
+      x: 416
+      z: 352
+    - id: 45
+      x: 416
+      z: 384
+    - id: 46
+      x: 416
+      z: 416
+    - id: 47
+      x: 416
+      z: 448
+    - id: 48
+      x: 416
+      z: 480
+    - id: 49
+      x: 448
+      z: 256
+    - id: 50
+      x: 448
+      z: 288
+    - id: 51
+      x: 448
+      z: 320
+    - id: 52
+      x: 448
+      z: 352
+    - id: 53
+      x: 448
+      z: 384
+    - id: 54
+      x: 448
+      z: 416
+    - id: 55
+      x: 448
+      z: 448
+    - id: 56
+      x: 448
+      z: 480
+    - id: 57
+      x: 480
+      z: 256
+    - id: 58
+      x: 480
+      z: 288
+    - id: 59
+      x: 480
+      z: 320
+    - id: 60
+      x: 480
+      z: 352
+    - id: 61
+      x: 480
+      z: 384
+    - id: 62
+      x: 480
+      z: 416
+    - id: 63
+      x: 480
+      z: 448
+    - id: 64
+      x: 480
+      z: 480
+    bigAreaList:
+    - x: 256
+      z: 256
+      size: 0
+      isVisible: 0
+    - x: 256
+      z: 384
+      size: 0
+      isVisible: 0
+    - x: 384
+      z: 256
+      size: 0
+      isVisible: 0
+    - x: 384
+      z: 384
+      size: 0
+      isVisible: 0
+    middleAreaList:
+    - x: 256
+      z: 256
+      size: 1
+      isVisible: 0
+    - x: 256
+      z: 320
+      size: 1
+      isVisible: 0
+    - x: 256
+      z: 384
+      size: 1
+      isVisible: 0
+    - x: 256
+      z: 448
+      size: 1
+      isVisible: 0
+    - x: 320
+      z: 256
+      size: 1
+      isVisible: 0
+    - x: 320
+      z: 320
+      size: 1
+      isVisible: 0
+    - x: 320
+      z: 384
+      size: 1
+      isVisible: 0
+    - x: 320
+      z: 448
+      size: 1
+      isVisible: 0
+    - x: 384
+      z: 256
+      size: 1
+      isVisible: 0
+    - x: 384
+      z: 320
+      size: 1
+      isVisible: 0
+    - x: 384
+      z: 384
+      size: 1
+      isVisible: 0
+    - x: 384
+      z: 448
+      size: 1
+      isVisible: 0
+    - x: 448
+      z: 256
+      size: 1
+      isVisible: 0
+    - x: 448
+      z: 320
+      size: 1
+      isVisible: 0
+    - x: 448
+      z: 384
+      size: 1
+      isVisible: 0
+    - x: 448
+      z: 448
+      size: 1
+      isVisible: 0
+    smallAreaList:
+    - x: 256
+      z: 256
+      size: 2
+      isVisible: 0
+    - x: 256
+      z: 288
+      size: 2
+      isVisible: 0
+    - x: 256
+      z: 320
+      size: 2
+      isVisible: 0
+    - x: 256
+      z: 352
+      size: 2
+      isVisible: 0
+    - x: 256
+      z: 384
+      size: 2
+      isVisible: 0
+    - x: 256
+      z: 416
+      size: 2
+      isVisible: 0
+    - x: 256
+      z: 448
+      size: 2
+      isVisible: 0
+    - x: 256
+      z: 480
+      size: 2
+      isVisible: 0
+    - x: 288
+      z: 256
+      size: 2
+      isVisible: 0
+    - x: 288
+      z: 288
+      size: 2
+      isVisible: 0
+    - x: 288
+      z: 320
+      size: 2
+      isVisible: 0
+    - x: 288
+      z: 352
+      size: 2
+      isVisible: 0
+    - x: 288
+      z: 384
+      size: 2
+      isVisible: 0
+    - x: 288
+      z: 416
+      size: 2
+      isVisible: 0
+    - x: 288
+      z: 448
+      size: 2
+      isVisible: 0
+    - x: 288
+      z: 480
+      size: 2
+      isVisible: 0
+    - x: 320
+      z: 256
+      size: 2
+      isVisible: 0
+    - x: 320
+      z: 288
+      size: 2
+      isVisible: 0
+    - x: 320
+      z: 320
+      size: 2
+      isVisible: 0
+    - x: 320
+      z: 352
+      size: 2
+      isVisible: 0
+    - x: 320
+      z: 384
+      size: 2
+      isVisible: 0
+    - x: 320
+      z: 416
+      size: 2
+      isVisible: 0
+    - x: 320
+      z: 448
+      size: 2
+      isVisible: 0
+    - x: 320
+      z: 480
+      size: 2
+      isVisible: 0
+    - x: 352
+      z: 256
+      size: 2
+      isVisible: 0
+    - x: 352
+      z: 288
+      size: 2
+      isVisible: 0
+    - x: 352
+      z: 320
+      size: 2
+      isVisible: 0
+    - x: 352
+      z: 352
+      size: 2
+      isVisible: 0
+    - x: 352
+      z: 384
+      size: 2
+      isVisible: 0
+    - x: 352
+      z: 416
+      size: 2
+      isVisible: 0
+    - x: 352
+      z: 448
+      size: 2
+      isVisible: 0
+    - x: 352
+      z: 480
+      size: 2
+      isVisible: 0
+    - x: 384
+      z: 256
+      size: 2
+      isVisible: 0
+    - x: 384
+      z: 288
+      size: 2
+      isVisible: 0
+    - x: 384
+      z: 320
+      size: 2
+      isVisible: 0
+    - x: 384
+      z: 352
+      size: 2
+      isVisible: 0
+    - x: 384
+      z: 384
+      size: 2
+      isVisible: 0
+    - x: 384
+      z: 416
+      size: 2
+      isVisible: 0
+    - x: 384
+      z: 448
+      size: 2
+      isVisible: 0
+    - x: 384
+      z: 480
+      size: 2
+      isVisible: 0
+    - x: 416
+      z: 256
+      size: 2
+      isVisible: 0
+    - x: 416
+      z: 288
+      size: 2
+      isVisible: 0
+    - x: 416
+      z: 320
+      size: 2
+      isVisible: 0
+    - x: 416
+      z: 352
+      size: 2
+      isVisible: 0
+    - x: 416
+      z: 384
+      size: 2
+      isVisible: 0
+    - x: 416
+      z: 416
+      size: 2
+      isVisible: 0
+    - x: 416
+      z: 448
+      size: 2
+      isVisible: 0
+    - x: 416
+      z: 480
+      size: 2
+      isVisible: 0
+    - x: 448
+      z: 256
+      size: 2
+      isVisible: 0
+    - x: 448
+      z: 288
+      size: 2
+      isVisible: 0
+    - x: 448
+      z: 320
+      size: 2
+      isVisible: 0
+    - x: 448
+      z: 352
+      size: 2
+      isVisible: 0
+    - x: 448
+      z: 384
+      size: 2
+      isVisible: 0
+    - x: 448
+      z: 416
+      size: 2
+      isVisible: 0
+    - x: 448
+      z: 448
+      size: 2
+      isVisible: 0
+    - x: 448
+      z: 480
+      size: 2
+      isVisible: 0
+    - x: 480
+      z: 256
+      size: 2
+      isVisible: 0
+    - x: 480
+      z: 288
+      size: 2
+      isVisible: 0
+    - x: 480
+      z: 320
+      size: 2
+      isVisible: 0
+    - x: 480
+      z: 352
+      size: 2
+      isVisible: 0
+    - x: 480
+      z: 384
+      size: 2
+      isVisible: 0
+    - x: 480
+      z: 416
+      size: 2
+      isVisible: 0
+    - x: 480
+      z: 448
+      size: 2
+      isVisible: 0
+    - x: 480
+      z: 480
+      size: 2
+      isVisible: 0
+    tileSize: 256
+    portalSize: 32
+    bigAreaSize: 128
+    middleAreaSize: 64
+    smallAreaSize: 32
+  - id: 7
+    x: 256
+    z: 512
+    portalList:
+    - id: 1
+      x: 256
+      z: 512
+    - id: 2
+      x: 256
+      z: 544
+    - id: 3
+      x: 256
+      z: 576
+    - id: 4
+      x: 256
+      z: 608
+    - id: 5
+      x: 256
+      z: 640
+    - id: 6
+      x: 256
+      z: 672
+    - id: 7
+      x: 256
+      z: 704
+    - id: 8
+      x: 256
+      z: 736
+    - id: 9
+      x: 288
+      z: 512
+    - id: 10
+      x: 288
+      z: 544
+    - id: 11
+      x: 288
+      z: 576
+    - id: 12
+      x: 288
+      z: 608
+    - id: 13
+      x: 288
+      z: 640
+    - id: 14
+      x: 288
+      z: 672
+    - id: 15
+      x: 288
+      z: 704
+    - id: 16
+      x: 288
+      z: 736
+    - id: 17
+      x: 320
+      z: 512
+    - id: 18
+      x: 320
+      z: 544
+    - id: 19
+      x: 320
+      z: 576
+    - id: 20
+      x: 320
+      z: 608
+    - id: 21
+      x: 320
+      z: 640
+    - id: 22
+      x: 320
+      z: 672
+    - id: 23
+      x: 320
+      z: 704
+    - id: 24
+      x: 320
+      z: 736
+    - id: 25
+      x: 352
+      z: 512
+    - id: 26
+      x: 352
+      z: 544
+    - id: 27
+      x: 352
+      z: 576
+    - id: 28
+      x: 352
+      z: 608
+    - id: 29
+      x: 352
+      z: 640
+    - id: 30
+      x: 352
+      z: 672
+    - id: 31
+      x: 352
+      z: 704
+    - id: 32
+      x: 352
+      z: 736
+    - id: 33
+      x: 384
+      z: 512
+    - id: 34
+      x: 384
+      z: 544
+    - id: 35
+      x: 384
+      z: 576
+    - id: 36
+      x: 384
+      z: 608
+    - id: 37
+      x: 384
+      z: 640
+    - id: 38
+      x: 384
+      z: 672
+    - id: 39
+      x: 384
+      z: 704
+    - id: 40
+      x: 384
+      z: 736
+    - id: 41
+      x: 416
+      z: 512
+    - id: 42
+      x: 416
+      z: 544
+    - id: 43
+      x: 416
+      z: 576
+    - id: 44
+      x: 416
+      z: 608
+    - id: 45
+      x: 416
+      z: 640
+    - id: 46
+      x: 416
+      z: 672
+    - id: 47
+      x: 416
+      z: 704
+    - id: 48
+      x: 416
+      z: 736
+    - id: 49
+      x: 448
+      z: 512
+    - id: 50
+      x: 448
+      z: 544
+    - id: 51
+      x: 448
+      z: 576
+    - id: 52
+      x: 448
+      z: 608
+    - id: 53
+      x: 448
+      z: 640
+    - id: 54
+      x: 448
+      z: 672
+    - id: 55
+      x: 448
+      z: 704
+    - id: 56
+      x: 448
+      z: 736
+    - id: 57
+      x: 480
+      z: 512
+    - id: 58
+      x: 480
+      z: 544
+    - id: 59
+      x: 480
+      z: 576
+    - id: 60
+      x: 480
+      z: 608
+    - id: 61
+      x: 480
+      z: 640
+    - id: 62
+      x: 480
+      z: 672
+    - id: 63
+      x: 480
+      z: 704
+    - id: 64
+      x: 480
+      z: 736
+    bigAreaList:
+    - x: 256
+      z: 512
+      size: 0
+      isVisible: 0
+    - x: 256
+      z: 640
+      size: 0
+      isVisible: 0
+    - x: 384
+      z: 512
+      size: 0
+      isVisible: 0
+    - x: 384
+      z: 640
+      size: 0
+      isVisible: 0
+    middleAreaList:
+    - x: 256
+      z: 512
+      size: 1
+      isVisible: 0
+    - x: 256
+      z: 576
+      size: 1
+      isVisible: 0
+    - x: 256
+      z: 640
+      size: 1
+      isVisible: 0
+    - x: 256
+      z: 704
+      size: 1
+      isVisible: 0
+    - x: 320
+      z: 512
+      size: 1
+      isVisible: 0
+    - x: 320
+      z: 576
+      size: 1
+      isVisible: 0
+    - x: 320
+      z: 640
+      size: 1
+      isVisible: 0
+    - x: 320
+      z: 704
+      size: 1
+      isVisible: 0
+    - x: 384
+      z: 512
+      size: 1
+      isVisible: 0
+    - x: 384
+      z: 576
+      size: 1
+      isVisible: 0
+    - x: 384
+      z: 640
+      size: 1
+      isVisible: 0
+    - x: 384
+      z: 704
+      size: 1
+      isVisible: 0
+    - x: 448
+      z: 512
+      size: 1
+      isVisible: 0
+    - x: 448
+      z: 576
+      size: 1
+      isVisible: 0
+    - x: 448
+      z: 640
+      size: 1
+      isVisible: 0
+    - x: 448
+      z: 704
+      size: 1
+      isVisible: 0
+    smallAreaList:
+    - x: 256
+      z: 512
+      size: 2
+      isVisible: 0
+    - x: 256
+      z: 544
+      size: 2
+      isVisible: 0
+    - x: 256
+      z: 576
+      size: 2
+      isVisible: 0
+    - x: 256
+      z: 608
+      size: 2
+      isVisible: 0
+    - x: 256
+      z: 640
+      size: 2
+      isVisible: 0
+    - x: 256
+      z: 672
+      size: 2
+      isVisible: 0
+    - x: 256
+      z: 704
+      size: 2
+      isVisible: 0
+    - x: 256
+      z: 736
+      size: 2
+      isVisible: 0
+    - x: 288
+      z: 512
+      size: 2
+      isVisible: 0
+    - x: 288
+      z: 544
+      size: 2
+      isVisible: 0
+    - x: 288
+      z: 576
+      size: 2
+      isVisible: 0
+    - x: 288
+      z: 608
+      size: 2
+      isVisible: 0
+    - x: 288
+      z: 640
+      size: 2
+      isVisible: 0
+    - x: 288
+      z: 672
+      size: 2
+      isVisible: 0
+    - x: 288
+      z: 704
+      size: 2
+      isVisible: 0
+    - x: 288
+      z: 736
+      size: 2
+      isVisible: 0
+    - x: 320
+      z: 512
+      size: 2
+      isVisible: 0
+    - x: 320
+      z: 544
+      size: 2
+      isVisible: 0
+    - x: 320
+      z: 576
+      size: 2
+      isVisible: 0
+    - x: 320
+      z: 608
+      size: 2
+      isVisible: 0
+    - x: 320
+      z: 640
+      size: 2
+      isVisible: 0
+    - x: 320
+      z: 672
+      size: 2
+      isVisible: 0
+    - x: 320
+      z: 704
+      size: 2
+      isVisible: 0
+    - x: 320
+      z: 736
+      size: 2
+      isVisible: 0
+    - x: 352
+      z: 512
+      size: 2
+      isVisible: 0
+    - x: 352
+      z: 544
+      size: 2
+      isVisible: 0
+    - x: 352
+      z: 576
+      size: 2
+      isVisible: 0
+    - x: 352
+      z: 608
+      size: 2
+      isVisible: 0
+    - x: 352
+      z: 640
+      size: 2
+      isVisible: 0
+    - x: 352
+      z: 672
+      size: 2
+      isVisible: 0
+    - x: 352
+      z: 704
+      size: 2
+      isVisible: 0
+    - x: 352
+      z: 736
+      size: 2
+      isVisible: 0
+    - x: 384
+      z: 512
+      size: 2
+      isVisible: 0
+    - x: 384
+      z: 544
+      size: 2
+      isVisible: 0
+    - x: 384
+      z: 576
+      size: 2
+      isVisible: 0
+    - x: 384
+      z: 608
+      size: 2
+      isVisible: 0
+    - x: 384
+      z: 640
+      size: 2
+      isVisible: 0
+    - x: 384
+      z: 672
+      size: 2
+      isVisible: 0
+    - x: 384
+      z: 704
+      size: 2
+      isVisible: 0
+    - x: 384
+      z: 736
+      size: 2
+      isVisible: 0
+    - x: 416
+      z: 512
+      size: 2
+      isVisible: 0
+    - x: 416
+      z: 544
+      size: 2
+      isVisible: 0
+    - x: 416
+      z: 576
+      size: 2
+      isVisible: 0
+    - x: 416
+      z: 608
+      size: 2
+      isVisible: 0
+    - x: 416
+      z: 640
+      size: 2
+      isVisible: 0
+    - x: 416
+      z: 672
+      size: 2
+      isVisible: 0
+    - x: 416
+      z: 704
+      size: 2
+      isVisible: 0
+    - x: 416
+      z: 736
+      size: 2
+      isVisible: 0
+    - x: 448
+      z: 512
+      size: 2
+      isVisible: 0
+    - x: 448
+      z: 544
+      size: 2
+      isVisible: 0
+    - x: 448
+      z: 576
+      size: 2
+      isVisible: 0
+    - x: 448
+      z: 608
+      size: 2
+      isVisible: 0
+    - x: 448
+      z: 640
+      size: 2
+      isVisible: 0
+    - x: 448
+      z: 672
+      size: 2
+      isVisible: 0
+    - x: 448
+      z: 704
+      size: 2
+      isVisible: 0
+    - x: 448
+      z: 736
+      size: 2
+      isVisible: 0
+    - x: 480
+      z: 512
+      size: 2
+      isVisible: 0
+    - x: 480
+      z: 544
+      size: 2
+      isVisible: 0
+    - x: 480
+      z: 576
+      size: 2
+      isVisible: 0
+    - x: 480
+      z: 608
+      size: 2
+      isVisible: 0
+    - x: 480
+      z: 640
+      size: 2
+      isVisible: 0
+    - x: 480
+      z: 672
+      size: 2
+      isVisible: 0
+    - x: 480
+      z: 704
+      size: 2
+      isVisible: 0
+    - x: 480
+      z: 736
+      size: 2
+      isVisible: 0
+    tileSize: 256
+    portalSize: 32
+    bigAreaSize: 128
+    middleAreaSize: 64
+    smallAreaSize: 32
+  - id: 8
+    x: 256
+    z: 768
+    portalList:
+    - id: 1
+      x: 256
+      z: 768
+    - id: 2
+      x: 256
+      z: 800
+    - id: 3
+      x: 256
+      z: 832
+    - id: 4
+      x: 256
+      z: 864
+    - id: 5
+      x: 256
+      z: 896
+    - id: 6
+      x: 256
+      z: 928
+    - id: 7
+      x: 256
+      z: 960
+    - id: 8
+      x: 256
+      z: 992
+    - id: 9
+      x: 288
+      z: 768
+    - id: 10
+      x: 288
+      z: 800
+    - id: 11
+      x: 288
+      z: 832
+    - id: 12
+      x: 288
+      z: 864
+    - id: 13
+      x: 288
+      z: 896
+    - id: 14
+      x: 288
+      z: 928
+    - id: 15
+      x: 288
+      z: 960
+    - id: 16
+      x: 288
+      z: 992
+    - id: 17
+      x: 320
+      z: 768
+    - id: 18
+      x: 320
+      z: 800
+    - id: 19
+      x: 320
+      z: 832
+    - id: 20
+      x: 320
+      z: 864
+    - id: 21
+      x: 320
+      z: 896
+    - id: 22
+      x: 320
+      z: 928
+    - id: 23
+      x: 320
+      z: 960
+    - id: 24
+      x: 320
+      z: 992
+    - id: 25
+      x: 352
+      z: 768
+    - id: 26
+      x: 352
+      z: 800
+    - id: 27
+      x: 352
+      z: 832
+    - id: 28
+      x: 352
+      z: 864
+    - id: 29
+      x: 352
+      z: 896
+    - id: 30
+      x: 352
+      z: 928
+    - id: 31
+      x: 352
+      z: 960
+    - id: 32
+      x: 352
+      z: 992
+    - id: 33
+      x: 384
+      z: 768
+    - id: 34
+      x: 384
+      z: 800
+    - id: 35
+      x: 384
+      z: 832
+    - id: 36
+      x: 384
+      z: 864
+    - id: 37
+      x: 384
+      z: 896
+    - id: 38
+      x: 384
+      z: 928
+    - id: 39
+      x: 384
+      z: 960
+    - id: 40
+      x: 384
+      z: 992
+    - id: 41
+      x: 416
+      z: 768
+    - id: 42
+      x: 416
+      z: 800
+    - id: 43
+      x: 416
+      z: 832
+    - id: 44
+      x: 416
+      z: 864
+    - id: 45
+      x: 416
+      z: 896
+    - id: 46
+      x: 416
+      z: 928
+    - id: 47
+      x: 416
+      z: 960
+    - id: 48
+      x: 416
+      z: 992
+    - id: 49
+      x: 448
+      z: 768
+    - id: 50
+      x: 448
+      z: 800
+    - id: 51
+      x: 448
+      z: 832
+    - id: 52
+      x: 448
+      z: 864
+    - id: 53
+      x: 448
+      z: 896
+    - id: 54
+      x: 448
+      z: 928
+    - id: 55
+      x: 448
+      z: 960
+    - id: 56
+      x: 448
+      z: 992
+    - id: 57
+      x: 480
+      z: 768
+    - id: 58
+      x: 480
+      z: 800
+    - id: 59
+      x: 480
+      z: 832
+    - id: 60
+      x: 480
+      z: 864
+    - id: 61
+      x: 480
+      z: 896
+    - id: 62
+      x: 480
+      z: 928
+    - id: 63
+      x: 480
+      z: 960
+    - id: 64
+      x: 480
+      z: 992
+    bigAreaList:
+    - x: 256
+      z: 768
+      size: 0
+      isVisible: 0
+    - x: 256
+      z: 896
+      size: 0
+      isVisible: 0
+    - x: 384
+      z: 768
+      size: 0
+      isVisible: 0
+    - x: 384
+      z: 896
+      size: 0
+      isVisible: 0
+    middleAreaList:
+    - x: 256
+      z: 768
+      size: 1
+      isVisible: 0
+    - x: 256
+      z: 832
+      size: 1
+      isVisible: 0
+    - x: 256
+      z: 896
+      size: 1
+      isVisible: 0
+    - x: 256
+      z: 960
+      size: 1
+      isVisible: 0
+    - x: 320
+      z: 768
+      size: 1
+      isVisible: 0
+    - x: 320
+      z: 832
+      size: 1
+      isVisible: 0
+    - x: 320
+      z: 896
+      size: 1
+      isVisible: 0
+    - x: 320
+      z: 960
+      size: 1
+      isVisible: 0
+    - x: 384
+      z: 768
+      size: 1
+      isVisible: 0
+    - x: 384
+      z: 832
+      size: 1
+      isVisible: 0
+    - x: 384
+      z: 896
+      size: 1
+      isVisible: 0
+    - x: 384
+      z: 960
+      size: 1
+      isVisible: 0
+    - x: 448
+      z: 768
+      size: 1
+      isVisible: 0
+    - x: 448
+      z: 832
+      size: 1
+      isVisible: 0
+    - x: 448
+      z: 896
+      size: 1
+      isVisible: 0
+    - x: 448
+      z: 960
+      size: 1
+      isVisible: 0
+    smallAreaList:
+    - x: 256
+      z: 768
+      size: 2
+      isVisible: 0
+    - x: 256
+      z: 800
+      size: 2
+      isVisible: 0
+    - x: 256
+      z: 832
+      size: 2
+      isVisible: 0
+    - x: 256
+      z: 864
+      size: 2
+      isVisible: 0
+    - x: 256
+      z: 896
+      size: 2
+      isVisible: 0
+    - x: 256
+      z: 928
+      size: 2
+      isVisible: 0
+    - x: 256
+      z: 960
+      size: 2
+      isVisible: 0
+    - x: 256
+      z: 992
+      size: 2
+      isVisible: 0
+    - x: 288
+      z: 768
+      size: 2
+      isVisible: 0
+    - x: 288
+      z: 800
+      size: 2
+      isVisible: 0
+    - x: 288
+      z: 832
+      size: 2
+      isVisible: 0
+    - x: 288
+      z: 864
+      size: 2
+      isVisible: 0
+    - x: 288
+      z: 896
+      size: 2
+      isVisible: 0
+    - x: 288
+      z: 928
+      size: 2
+      isVisible: 0
+    - x: 288
+      z: 960
+      size: 2
+      isVisible: 0
+    - x: 288
+      z: 992
+      size: 2
+      isVisible: 0
+    - x: 320
+      z: 768
+      size: 2
+      isVisible: 0
+    - x: 320
+      z: 800
+      size: 2
+      isVisible: 0
+    - x: 320
+      z: 832
+      size: 2
+      isVisible: 0
+    - x: 320
+      z: 864
+      size: 2
+      isVisible: 0
+    - x: 320
+      z: 896
+      size: 2
+      isVisible: 0
+    - x: 320
+      z: 928
+      size: 2
+      isVisible: 0
+    - x: 320
+      z: 960
+      size: 2
+      isVisible: 0
+    - x: 320
+      z: 992
+      size: 2
+      isVisible: 0
+    - x: 352
+      z: 768
+      size: 2
+      isVisible: 0
+    - x: 352
+      z: 800
+      size: 2
+      isVisible: 0
+    - x: 352
+      z: 832
+      size: 2
+      isVisible: 0
+    - x: 352
+      z: 864
+      size: 2
+      isVisible: 0
+    - x: 352
+      z: 896
+      size: 2
+      isVisible: 0
+    - x: 352
+      z: 928
+      size: 2
+      isVisible: 0
+    - x: 352
+      z: 960
+      size: 2
+      isVisible: 0
+    - x: 352
+      z: 992
+      size: 2
+      isVisible: 0
+    - x: 384
+      z: 768
+      size: 2
+      isVisible: 0
+    - x: 384
+      z: 800
+      size: 2
+      isVisible: 0
+    - x: 384
+      z: 832
+      size: 2
+      isVisible: 0
+    - x: 384
+      z: 864
+      size: 2
+      isVisible: 0
+    - x: 384
+      z: 896
+      size: 2
+      isVisible: 0
+    - x: 384
+      z: 928
+      size: 2
+      isVisible: 0
+    - x: 384
+      z: 960
+      size: 2
+      isVisible: 0
+    - x: 384
+      z: 992
+      size: 2
+      isVisible: 0
+    - x: 416
+      z: 768
+      size: 2
+      isVisible: 0
+    - x: 416
+      z: 800
+      size: 2
+      isVisible: 0
+    - x: 416
+      z: 832
+      size: 2
+      isVisible: 0
+    - x: 416
+      z: 864
+      size: 2
+      isVisible: 0
+    - x: 416
+      z: 896
+      size: 2
+      isVisible: 0
+    - x: 416
+      z: 928
+      size: 2
+      isVisible: 0
+    - x: 416
+      z: 960
+      size: 2
+      isVisible: 0
+    - x: 416
+      z: 992
+      size: 2
+      isVisible: 0
+    - x: 448
+      z: 768
+      size: 2
+      isVisible: 0
+    - x: 448
+      z: 800
+      size: 2
+      isVisible: 0
+    - x: 448
+      z: 832
+      size: 2
+      isVisible: 0
+    - x: 448
+      z: 864
+      size: 2
+      isVisible: 0
+    - x: 448
+      z: 896
+      size: 2
+      isVisible: 0
+    - x: 448
+      z: 928
+      size: 2
+      isVisible: 0
+    - x: 448
+      z: 960
+      size: 2
+      isVisible: 0
+    - x: 448
+      z: 992
+      size: 2
+      isVisible: 0
+    - x: 480
+      z: 768
+      size: 2
+      isVisible: 0
+    - x: 480
+      z: 800
+      size: 2
+      isVisible: 0
+    - x: 480
+      z: 832
+      size: 2
+      isVisible: 0
+    - x: 480
+      z: 864
+      size: 2
+      isVisible: 0
+    - x: 480
+      z: 896
+      size: 2
+      isVisible: 0
+    - x: 480
+      z: 928
+      size: 2
+      isVisible: 0
+    - x: 480
+      z: 960
+      size: 2
+      isVisible: 0
+    - x: 480
+      z: 992
+      size: 2
+      isVisible: 0
+    tileSize: 256
+    portalSize: 32
+    bigAreaSize: 128
+    middleAreaSize: 64
+    smallAreaSize: 32
+  - id: 9
+    x: 512
+    z: 0
+    portalList:
+    - id: 1
+      x: 512
+      z: 0
+    - id: 2
+      x: 512
+      z: 32
+    - id: 3
+      x: 512
+      z: 64
+    - id: 4
+      x: 512
+      z: 96
+    - id: 5
+      x: 512
+      z: 128
+    - id: 6
+      x: 512
+      z: 160
+    - id: 7
+      x: 512
+      z: 192
+    - id: 8
+      x: 512
+      z: 224
+    - id: 9
+      x: 544
+      z: 0
+    - id: 10
+      x: 544
+      z: 32
+    - id: 11
+      x: 544
+      z: 64
+    - id: 12
+      x: 544
+      z: 96
+    - id: 13
+      x: 544
+      z: 128
+    - id: 14
+      x: 544
+      z: 160
+    - id: 15
+      x: 544
+      z: 192
+    - id: 16
+      x: 544
+      z: 224
+    - id: 17
+      x: 576
+      z: 0
+    - id: 18
+      x: 576
+      z: 32
+    - id: 19
+      x: 576
+      z: 64
+    - id: 20
+      x: 576
+      z: 96
+    - id: 21
+      x: 576
+      z: 128
+    - id: 22
+      x: 576
+      z: 160
+    - id: 23
+      x: 576
+      z: 192
+    - id: 24
+      x: 576
+      z: 224
+    - id: 25
+      x: 608
+      z: 0
+    - id: 26
+      x: 608
+      z: 32
+    - id: 27
+      x: 608
+      z: 64
+    - id: 28
+      x: 608
+      z: 96
+    - id: 29
+      x: 608
+      z: 128
+    - id: 30
+      x: 608
+      z: 160
+    - id: 31
+      x: 608
+      z: 192
+    - id: 32
+      x: 608
+      z: 224
+    - id: 33
+      x: 640
+      z: 0
+    - id: 34
+      x: 640
+      z: 32
+    - id: 35
+      x: 640
+      z: 64
+    - id: 36
+      x: 640
+      z: 96
+    - id: 37
+      x: 640
+      z: 128
+    - id: 38
+      x: 640
+      z: 160
+    - id: 39
+      x: 640
+      z: 192
+    - id: 40
+      x: 640
+      z: 224
+    - id: 41
+      x: 672
+      z: 0
+    - id: 42
+      x: 672
+      z: 32
+    - id: 43
+      x: 672
+      z: 64
+    - id: 44
+      x: 672
+      z: 96
+    - id: 45
+      x: 672
+      z: 128
+    - id: 46
+      x: 672
+      z: 160
+    - id: 47
+      x: 672
+      z: 192
+    - id: 48
+      x: 672
+      z: 224
+    - id: 49
+      x: 704
+      z: 0
+    - id: 50
+      x: 704
+      z: 32
+    - id: 51
+      x: 704
+      z: 64
+    - id: 52
+      x: 704
+      z: 96
+    - id: 53
+      x: 704
+      z: 128
+    - id: 54
+      x: 704
+      z: 160
+    - id: 55
+      x: 704
+      z: 192
+    - id: 56
+      x: 704
+      z: 224
+    - id: 57
+      x: 736
+      z: 0
+    - id: 58
+      x: 736
+      z: 32
+    - id: 59
+      x: 736
+      z: 64
+    - id: 60
+      x: 736
+      z: 96
+    - id: 61
+      x: 736
+      z: 128
+    - id: 62
+      x: 736
+      z: 160
+    - id: 63
+      x: 736
+      z: 192
+    - id: 64
+      x: 736
+      z: 224
+    bigAreaList:
+    - x: 512
+      z: 0
+      size: 0
+      isVisible: 0
+    - x: 512
+      z: 128
+      size: 0
+      isVisible: 0
+    - x: 640
+      z: 0
+      size: 0
+      isVisible: 0
+    - x: 640
+      z: 128
+      size: 0
+      isVisible: 0
+    middleAreaList:
+    - x: 512
+      z: 0
+      size: 1
+      isVisible: 0
+    - x: 512
+      z: 64
+      size: 1
+      isVisible: 0
+    - x: 512
+      z: 128
+      size: 1
+      isVisible: 0
+    - x: 512
+      z: 192
+      size: 1
+      isVisible: 0
+    - x: 576
+      z: 0
+      size: 1
+      isVisible: 0
+    - x: 576
+      z: 64
+      size: 1
+      isVisible: 0
+    - x: 576
+      z: 128
+      size: 1
+      isVisible: 0
+    - x: 576
+      z: 192
+      size: 1
+      isVisible: 0
+    - x: 640
+      z: 0
+      size: 1
+      isVisible: 0
+    - x: 640
+      z: 64
+      size: 1
+      isVisible: 0
+    - x: 640
+      z: 128
+      size: 1
+      isVisible: 0
+    - x: 640
+      z: 192
+      size: 1
+      isVisible: 0
+    - x: 704
+      z: 0
+      size: 1
+      isVisible: 0
+    - x: 704
+      z: 64
+      size: 1
+      isVisible: 0
+    - x: 704
+      z: 128
+      size: 1
+      isVisible: 0
+    - x: 704
+      z: 192
+      size: 1
+      isVisible: 0
+    smallAreaList:
+    - x: 512
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 512
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 512
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 512
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 512
+      z: 128
+      size: 2
+      isVisible: 0
+    - x: 512
+      z: 160
+      size: 2
+      isVisible: 0
+    - x: 512
+      z: 192
+      size: 2
+      isVisible: 0
+    - x: 512
+      z: 224
+      size: 2
+      isVisible: 0
+    - x: 544
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 544
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 544
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 544
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 544
+      z: 128
+      size: 2
+      isVisible: 0
+    - x: 544
+      z: 160
+      size: 2
+      isVisible: 0
+    - x: 544
+      z: 192
+      size: 2
+      isVisible: 0
+    - x: 544
+      z: 224
+      size: 2
+      isVisible: 0
+    - x: 576
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 576
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 576
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 576
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 576
+      z: 128
+      size: 2
+      isVisible: 0
+    - x: 576
+      z: 160
+      size: 2
+      isVisible: 0
+    - x: 576
+      z: 192
+      size: 2
+      isVisible: 0
+    - x: 576
+      z: 224
+      size: 2
+      isVisible: 0
+    - x: 608
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 608
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 608
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 608
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 608
+      z: 128
+      size: 2
+      isVisible: 0
+    - x: 608
+      z: 160
+      size: 2
+      isVisible: 0
+    - x: 608
+      z: 192
+      size: 2
+      isVisible: 0
+    - x: 608
+      z: 224
+      size: 2
+      isVisible: 0
+    - x: 640
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 640
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 640
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 640
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 640
+      z: 128
+      size: 2
+      isVisible: 0
+    - x: 640
+      z: 160
+      size: 2
+      isVisible: 0
+    - x: 640
+      z: 192
+      size: 2
+      isVisible: 0
+    - x: 640
+      z: 224
+      size: 2
+      isVisible: 0
+    - x: 672
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 672
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 672
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 672
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 672
+      z: 128
+      size: 2
+      isVisible: 0
+    - x: 672
+      z: 160
+      size: 2
+      isVisible: 0
+    - x: 672
+      z: 192
+      size: 2
+      isVisible: 0
+    - x: 672
+      z: 224
+      size: 2
+      isVisible: 0
+    - x: 704
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 704
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 704
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 704
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 704
+      z: 128
+      size: 2
+      isVisible: 0
+    - x: 704
+      z: 160
+      size: 2
+      isVisible: 0
+    - x: 704
+      z: 192
+      size: 2
+      isVisible: 0
+    - x: 704
+      z: 224
+      size: 2
+      isVisible: 0
+    - x: 736
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 736
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 736
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 736
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 736
+      z: 128
+      size: 2
+      isVisible: 0
+    - x: 736
+      z: 160
+      size: 2
+      isVisible: 0
+    - x: 736
+      z: 192
+      size: 2
+      isVisible: 0
+    - x: 736
+      z: 224
+      size: 2
+      isVisible: 0
+    tileSize: 256
+    portalSize: 32
+    bigAreaSize: 128
+    middleAreaSize: 64
+    smallAreaSize: 32
+  - id: 10
+    x: 512
+    z: 256
+    portalList:
+    - id: 1
+      x: 512
+      z: 256
+    - id: 2
+      x: 512
+      z: 288
+    - id: 3
+      x: 512
+      z: 320
+    - id: 4
+      x: 512
+      z: 352
+    - id: 5
+      x: 512
+      z: 384
+    - id: 6
+      x: 512
+      z: 416
+    - id: 7
+      x: 512
+      z: 448
+    - id: 8
+      x: 512
+      z: 480
+    - id: 9
+      x: 544
+      z: 256
+    - id: 10
+      x: 544
+      z: 288
+    - id: 11
+      x: 544
+      z: 320
+    - id: 12
+      x: 544
+      z: 352
+    - id: 13
+      x: 544
+      z: 384
+    - id: 14
+      x: 544
+      z: 416
+    - id: 15
+      x: 544
+      z: 448
+    - id: 16
+      x: 544
+      z: 480
+    - id: 17
+      x: 576
+      z: 256
+    - id: 18
+      x: 576
+      z: 288
+    - id: 19
+      x: 576
+      z: 320
+    - id: 20
+      x: 576
+      z: 352
+    - id: 21
+      x: 576
+      z: 384
+    - id: 22
+      x: 576
+      z: 416
+    - id: 23
+      x: 576
+      z: 448
+    - id: 24
+      x: 576
+      z: 480
+    - id: 25
+      x: 608
+      z: 256
+    - id: 26
+      x: 608
+      z: 288
+    - id: 27
+      x: 608
+      z: 320
+    - id: 28
+      x: 608
+      z: 352
+    - id: 29
+      x: 608
+      z: 384
+    - id: 30
+      x: 608
+      z: 416
+    - id: 31
+      x: 608
+      z: 448
+    - id: 32
+      x: 608
+      z: 480
+    - id: 33
+      x: 640
+      z: 256
+    - id: 34
+      x: 640
+      z: 288
+    - id: 35
+      x: 640
+      z: 320
+    - id: 36
+      x: 640
+      z: 352
+    - id: 37
+      x: 640
+      z: 384
+    - id: 38
+      x: 640
+      z: 416
+    - id: 39
+      x: 640
+      z: 448
+    - id: 40
+      x: 640
+      z: 480
+    - id: 41
+      x: 672
+      z: 256
+    - id: 42
+      x: 672
+      z: 288
+    - id: 43
+      x: 672
+      z: 320
+    - id: 44
+      x: 672
+      z: 352
+    - id: 45
+      x: 672
+      z: 384
+    - id: 46
+      x: 672
+      z: 416
+    - id: 47
+      x: 672
+      z: 448
+    - id: 48
+      x: 672
+      z: 480
+    - id: 49
+      x: 704
+      z: 256
+    - id: 50
+      x: 704
+      z: 288
+    - id: 51
+      x: 704
+      z: 320
+    - id: 52
+      x: 704
+      z: 352
+    - id: 53
+      x: 704
+      z: 384
+    - id: 54
+      x: 704
+      z: 416
+    - id: 55
+      x: 704
+      z: 448
+    - id: 56
+      x: 704
+      z: 480
+    - id: 57
+      x: 736
+      z: 256
+    - id: 58
+      x: 736
+      z: 288
+    - id: 59
+      x: 736
+      z: 320
+    - id: 60
+      x: 736
+      z: 352
+    - id: 61
+      x: 736
+      z: 384
+    - id: 62
+      x: 736
+      z: 416
+    - id: 63
+      x: 736
+      z: 448
+    - id: 64
+      x: 736
+      z: 480
+    bigAreaList:
+    - x: 512
+      z: 256
+      size: 0
+      isVisible: 0
+    - x: 512
+      z: 384
+      size: 0
+      isVisible: 0
+    - x: 640
+      z: 256
+      size: 0
+      isVisible: 0
+    - x: 640
+      z: 384
+      size: 0
+      isVisible: 0
+    middleAreaList:
+    - x: 512
+      z: 256
+      size: 1
+      isVisible: 0
+    - x: 512
+      z: 320
+      size: 1
+      isVisible: 0
+    - x: 512
+      z: 384
+      size: 1
+      isVisible: 0
+    - x: 512
+      z: 448
+      size: 1
+      isVisible: 0
+    - x: 576
+      z: 256
+      size: 1
+      isVisible: 0
+    - x: 576
+      z: 320
+      size: 1
+      isVisible: 0
+    - x: 576
+      z: 384
+      size: 1
+      isVisible: 0
+    - x: 576
+      z: 448
+      size: 1
+      isVisible: 0
+    - x: 640
+      z: 256
+      size: 1
+      isVisible: 0
+    - x: 640
+      z: 320
+      size: 1
+      isVisible: 0
+    - x: 640
+      z: 384
+      size: 1
+      isVisible: 0
+    - x: 640
+      z: 448
+      size: 1
+      isVisible: 0
+    - x: 704
+      z: 256
+      size: 1
+      isVisible: 0
+    - x: 704
+      z: 320
+      size: 1
+      isVisible: 0
+    - x: 704
+      z: 384
+      size: 1
+      isVisible: 0
+    - x: 704
+      z: 448
+      size: 1
+      isVisible: 0
+    smallAreaList:
+    - x: 512
+      z: 256
+      size: 2
+      isVisible: 0
+    - x: 512
+      z: 288
+      size: 2
+      isVisible: 0
+    - x: 512
+      z: 320
+      size: 2
+      isVisible: 0
+    - x: 512
+      z: 352
+      size: 2
+      isVisible: 0
+    - x: 512
+      z: 384
+      size: 2
+      isVisible: 0
+    - x: 512
+      z: 416
+      size: 2
+      isVisible: 0
+    - x: 512
+      z: 448
+      size: 2
+      isVisible: 0
+    - x: 512
+      z: 480
+      size: 2
+      isVisible: 0
+    - x: 544
+      z: 256
+      size: 2
+      isVisible: 0
+    - x: 544
+      z: 288
+      size: 2
+      isVisible: 0
+    - x: 544
+      z: 320
+      size: 2
+      isVisible: 0
+    - x: 544
+      z: 352
+      size: 2
+      isVisible: 0
+    - x: 544
+      z: 384
+      size: 2
+      isVisible: 0
+    - x: 544
+      z: 416
+      size: 2
+      isVisible: 0
+    - x: 544
+      z: 448
+      size: 2
+      isVisible: 0
+    - x: 544
+      z: 480
+      size: 2
+      isVisible: 0
+    - x: 576
+      z: 256
+      size: 2
+      isVisible: 0
+    - x: 576
+      z: 288
+      size: 2
+      isVisible: 0
+    - x: 576
+      z: 320
+      size: 2
+      isVisible: 0
+    - x: 576
+      z: 352
+      size: 2
+      isVisible: 0
+    - x: 576
+      z: 384
+      size: 2
+      isVisible: 0
+    - x: 576
+      z: 416
+      size: 2
+      isVisible: 0
+    - x: 576
+      z: 448
+      size: 2
+      isVisible: 0
+    - x: 576
+      z: 480
+      size: 2
+      isVisible: 0
+    - x: 608
+      z: 256
+      size: 2
+      isVisible: 0
+    - x: 608
+      z: 288
+      size: 2
+      isVisible: 0
+    - x: 608
+      z: 320
+      size: 2
+      isVisible: 0
+    - x: 608
+      z: 352
+      size: 2
+      isVisible: 0
+    - x: 608
+      z: 384
+      size: 2
+      isVisible: 0
+    - x: 608
+      z: 416
+      size: 2
+      isVisible: 0
+    - x: 608
+      z: 448
+      size: 2
+      isVisible: 0
+    - x: 608
+      z: 480
+      size: 2
+      isVisible: 0
+    - x: 640
+      z: 256
+      size: 2
+      isVisible: 0
+    - x: 640
+      z: 288
+      size: 2
+      isVisible: 0
+    - x: 640
+      z: 320
+      size: 2
+      isVisible: 0
+    - x: 640
+      z: 352
+      size: 2
+      isVisible: 0
+    - x: 640
+      z: 384
+      size: 2
+      isVisible: 0
+    - x: 640
+      z: 416
+      size: 2
+      isVisible: 0
+    - x: 640
+      z: 448
+      size: 2
+      isVisible: 0
+    - x: 640
+      z: 480
+      size: 2
+      isVisible: 0
+    - x: 672
+      z: 256
+      size: 2
+      isVisible: 0
+    - x: 672
+      z: 288
+      size: 2
+      isVisible: 0
+    - x: 672
+      z: 320
+      size: 2
+      isVisible: 0
+    - x: 672
+      z: 352
+      size: 2
+      isVisible: 0
+    - x: 672
+      z: 384
+      size: 2
+      isVisible: 0
+    - x: 672
+      z: 416
+      size: 2
+      isVisible: 0
+    - x: 672
+      z: 448
+      size: 2
+      isVisible: 0
+    - x: 672
+      z: 480
+      size: 2
+      isVisible: 0
+    - x: 704
+      z: 256
+      size: 2
+      isVisible: 0
+    - x: 704
+      z: 288
+      size: 2
+      isVisible: 0
+    - x: 704
+      z: 320
+      size: 2
+      isVisible: 0
+    - x: 704
+      z: 352
+      size: 2
+      isVisible: 0
+    - x: 704
+      z: 384
+      size: 2
+      isVisible: 0
+    - x: 704
+      z: 416
+      size: 2
+      isVisible: 0
+    - x: 704
+      z: 448
+      size: 2
+      isVisible: 0
+    - x: 704
+      z: 480
+      size: 2
+      isVisible: 0
+    - x: 736
+      z: 256
+      size: 2
+      isVisible: 0
+    - x: 736
+      z: 288
+      size: 2
+      isVisible: 0
+    - x: 736
+      z: 320
+      size: 2
+      isVisible: 0
+    - x: 736
+      z: 352
+      size: 2
+      isVisible: 0
+    - x: 736
+      z: 384
+      size: 2
+      isVisible: 0
+    - x: 736
+      z: 416
+      size: 2
+      isVisible: 0
+    - x: 736
+      z: 448
+      size: 2
+      isVisible: 0
+    - x: 736
+      z: 480
+      size: 2
+      isVisible: 0
+    tileSize: 256
+    portalSize: 32
+    bigAreaSize: 128
+    middleAreaSize: 64
+    smallAreaSize: 32
+  - id: 11
+    x: 512
+    z: 512
+    portalList:
+    - id: 1
+      x: 512
+      z: 512
+    - id: 2
+      x: 512
+      z: 544
+    - id: 3
+      x: 512
+      z: 576
+    - id: 4
+      x: 512
+      z: 608
+    - id: 5
+      x: 512
+      z: 640
+    - id: 6
+      x: 512
+      z: 672
+    - id: 7
+      x: 512
+      z: 704
+    - id: 8
+      x: 512
+      z: 736
+    - id: 9
+      x: 544
+      z: 512
+    - id: 10
+      x: 544
+      z: 544
+    - id: 11
+      x: 544
+      z: 576
+    - id: 12
+      x: 544
+      z: 608
+    - id: 13
+      x: 544
+      z: 640
+    - id: 14
+      x: 544
+      z: 672
+    - id: 15
+      x: 544
+      z: 704
+    - id: 16
+      x: 544
+      z: 736
+    - id: 17
+      x: 576
+      z: 512
+    - id: 18
+      x: 576
+      z: 544
+    - id: 19
+      x: 576
+      z: 576
+    - id: 20
+      x: 576
+      z: 608
+    - id: 21
+      x: 576
+      z: 640
+    - id: 22
+      x: 576
+      z: 672
+    - id: 23
+      x: 576
+      z: 704
+    - id: 24
+      x: 576
+      z: 736
+    - id: 25
+      x: 608
+      z: 512
+    - id: 26
+      x: 608
+      z: 544
+    - id: 27
+      x: 608
+      z: 576
+    - id: 28
+      x: 608
+      z: 608
+    - id: 29
+      x: 608
+      z: 640
+    - id: 30
+      x: 608
+      z: 672
+    - id: 31
+      x: 608
+      z: 704
+    - id: 32
+      x: 608
+      z: 736
+    - id: 33
+      x: 640
+      z: 512
+    - id: 34
+      x: 640
+      z: 544
+    - id: 35
+      x: 640
+      z: 576
+    - id: 36
+      x: 640
+      z: 608
+    - id: 37
+      x: 640
+      z: 640
+    - id: 38
+      x: 640
+      z: 672
+    - id: 39
+      x: 640
+      z: 704
+    - id: 40
+      x: 640
+      z: 736
+    - id: 41
+      x: 672
+      z: 512
+    - id: 42
+      x: 672
+      z: 544
+    - id: 43
+      x: 672
+      z: 576
+    - id: 44
+      x: 672
+      z: 608
+    - id: 45
+      x: 672
+      z: 640
+    - id: 46
+      x: 672
+      z: 672
+    - id: 47
+      x: 672
+      z: 704
+    - id: 48
+      x: 672
+      z: 736
+    - id: 49
+      x: 704
+      z: 512
+    - id: 50
+      x: 704
+      z: 544
+    - id: 51
+      x: 704
+      z: 576
+    - id: 52
+      x: 704
+      z: 608
+    - id: 53
+      x: 704
+      z: 640
+    - id: 54
+      x: 704
+      z: 672
+    - id: 55
+      x: 704
+      z: 704
+    - id: 56
+      x: 704
+      z: 736
+    - id: 57
+      x: 736
+      z: 512
+    - id: 58
+      x: 736
+      z: 544
+    - id: 59
+      x: 736
+      z: 576
+    - id: 60
+      x: 736
+      z: 608
+    - id: 61
+      x: 736
+      z: 640
+    - id: 62
+      x: 736
+      z: 672
+    - id: 63
+      x: 736
+      z: 704
+    - id: 64
+      x: 736
+      z: 736
+    bigAreaList:
+    - x: 512
+      z: 512
+      size: 0
+      isVisible: 0
+    - x: 512
+      z: 640
+      size: 0
+      isVisible: 0
+    - x: 640
+      z: 512
+      size: 0
+      isVisible: 0
+    - x: 640
+      z: 640
+      size: 0
+      isVisible: 0
+    middleAreaList:
+    - x: 512
+      z: 512
+      size: 1
+      isVisible: 0
+    - x: 512
+      z: 576
+      size: 1
+      isVisible: 0
+    - x: 512
+      z: 640
+      size: 1
+      isVisible: 0
+    - x: 512
+      z: 704
+      size: 1
+      isVisible: 0
+    - x: 576
+      z: 512
+      size: 1
+      isVisible: 0
+    - x: 576
+      z: 576
+      size: 1
+      isVisible: 0
+    - x: 576
+      z: 640
+      size: 1
+      isVisible: 0
+    - x: 576
+      z: 704
+      size: 1
+      isVisible: 0
+    - x: 640
+      z: 512
+      size: 1
+      isVisible: 0
+    - x: 640
+      z: 576
+      size: 1
+      isVisible: 0
+    - x: 640
+      z: 640
+      size: 1
+      isVisible: 0
+    - x: 640
+      z: 704
+      size: 1
+      isVisible: 0
+    - x: 704
+      z: 512
+      size: 1
+      isVisible: 0
+    - x: 704
+      z: 576
+      size: 1
+      isVisible: 0
+    - x: 704
+      z: 640
+      size: 1
+      isVisible: 0
+    - x: 704
+      z: 704
+      size: 1
+      isVisible: 0
+    smallAreaList:
+    - x: 512
+      z: 512
+      size: 2
+      isVisible: 0
+    - x: 512
+      z: 544
+      size: 2
+      isVisible: 0
+    - x: 512
+      z: 576
+      size: 2
+      isVisible: 0
+    - x: 512
+      z: 608
+      size: 2
+      isVisible: 0
+    - x: 512
+      z: 640
+      size: 2
+      isVisible: 0
+    - x: 512
+      z: 672
+      size: 2
+      isVisible: 0
+    - x: 512
+      z: 704
+      size: 2
+      isVisible: 0
+    - x: 512
+      z: 736
+      size: 2
+      isVisible: 0
+    - x: 544
+      z: 512
+      size: 2
+      isVisible: 0
+    - x: 544
+      z: 544
+      size: 2
+      isVisible: 0
+    - x: 544
+      z: 576
+      size: 2
+      isVisible: 0
+    - x: 544
+      z: 608
+      size: 2
+      isVisible: 0
+    - x: 544
+      z: 640
+      size: 2
+      isVisible: 0
+    - x: 544
+      z: 672
+      size: 2
+      isVisible: 0
+    - x: 544
+      z: 704
+      size: 2
+      isVisible: 0
+    - x: 544
+      z: 736
+      size: 2
+      isVisible: 0
+    - x: 576
+      z: 512
+      size: 2
+      isVisible: 0
+    - x: 576
+      z: 544
+      size: 2
+      isVisible: 0
+    - x: 576
+      z: 576
+      size: 2
+      isVisible: 0
+    - x: 576
+      z: 608
+      size: 2
+      isVisible: 0
+    - x: 576
+      z: 640
+      size: 2
+      isVisible: 0
+    - x: 576
+      z: 672
+      size: 2
+      isVisible: 0
+    - x: 576
+      z: 704
+      size: 2
+      isVisible: 0
+    - x: 576
+      z: 736
+      size: 2
+      isVisible: 0
+    - x: 608
+      z: 512
+      size: 2
+      isVisible: 0
+    - x: 608
+      z: 544
+      size: 2
+      isVisible: 0
+    - x: 608
+      z: 576
+      size: 2
+      isVisible: 0
+    - x: 608
+      z: 608
+      size: 2
+      isVisible: 0
+    - x: 608
+      z: 640
+      size: 2
+      isVisible: 0
+    - x: 608
+      z: 672
+      size: 2
+      isVisible: 0
+    - x: 608
+      z: 704
+      size: 2
+      isVisible: 0
+    - x: 608
+      z: 736
+      size: 2
+      isVisible: 0
+    - x: 640
+      z: 512
+      size: 2
+      isVisible: 0
+    - x: 640
+      z: 544
+      size: 2
+      isVisible: 0
+    - x: 640
+      z: 576
+      size: 2
+      isVisible: 0
+    - x: 640
+      z: 608
+      size: 2
+      isVisible: 0
+    - x: 640
+      z: 640
+      size: 2
+      isVisible: 0
+    - x: 640
+      z: 672
+      size: 2
+      isVisible: 0
+    - x: 640
+      z: 704
+      size: 2
+      isVisible: 0
+    - x: 640
+      z: 736
+      size: 2
+      isVisible: 0
+    - x: 672
+      z: 512
+      size: 2
+      isVisible: 0
+    - x: 672
+      z: 544
+      size: 2
+      isVisible: 0
+    - x: 672
+      z: 576
+      size: 2
+      isVisible: 0
+    - x: 672
+      z: 608
+      size: 2
+      isVisible: 0
+    - x: 672
+      z: 640
+      size: 2
+      isVisible: 0
+    - x: 672
+      z: 672
+      size: 2
+      isVisible: 0
+    - x: 672
+      z: 704
+      size: 2
+      isVisible: 0
+    - x: 672
+      z: 736
+      size: 2
+      isVisible: 0
+    - x: 704
+      z: 512
+      size: 2
+      isVisible: 0
+    - x: 704
+      z: 544
+      size: 2
+      isVisible: 0
+    - x: 704
+      z: 576
+      size: 2
+      isVisible: 0
+    - x: 704
+      z: 608
+      size: 2
+      isVisible: 0
+    - x: 704
+      z: 640
+      size: 2
+      isVisible: 0
+    - x: 704
+      z: 672
+      size: 2
+      isVisible: 0
+    - x: 704
+      z: 704
+      size: 2
+      isVisible: 0
+    - x: 704
+      z: 736
+      size: 2
+      isVisible: 0
+    - x: 736
+      z: 512
+      size: 2
+      isVisible: 0
+    - x: 736
+      z: 544
+      size: 2
+      isVisible: 0
+    - x: 736
+      z: 576
+      size: 2
+      isVisible: 0
+    - x: 736
+      z: 608
+      size: 2
+      isVisible: 0
+    - x: 736
+      z: 640
+      size: 2
+      isVisible: 0
+    - x: 736
+      z: 672
+      size: 2
+      isVisible: 0
+    - x: 736
+      z: 704
+      size: 2
+      isVisible: 0
+    - x: 736
+      z: 736
+      size: 2
+      isVisible: 0
+    tileSize: 256
+    portalSize: 32
+    bigAreaSize: 128
+    middleAreaSize: 64
+    smallAreaSize: 32
+  - id: 12
+    x: 512
+    z: 768
+    portalList:
+    - id: 1
+      x: 512
+      z: 768
+    - id: 2
+      x: 512
+      z: 800
+    - id: 3
+      x: 512
+      z: 832
+    - id: 4
+      x: 512
+      z: 864
+    - id: 5
+      x: 512
+      z: 896
+    - id: 6
+      x: 512
+      z: 928
+    - id: 7
+      x: 512
+      z: 960
+    - id: 8
+      x: 512
+      z: 992
+    - id: 9
+      x: 544
+      z: 768
+    - id: 10
+      x: 544
+      z: 800
+    - id: 11
+      x: 544
+      z: 832
+    - id: 12
+      x: 544
+      z: 864
+    - id: 13
+      x: 544
+      z: 896
+    - id: 14
+      x: 544
+      z: 928
+    - id: 15
+      x: 544
+      z: 960
+    - id: 16
+      x: 544
+      z: 992
+    - id: 17
+      x: 576
+      z: 768
+    - id: 18
+      x: 576
+      z: 800
+    - id: 19
+      x: 576
+      z: 832
+    - id: 20
+      x: 576
+      z: 864
+    - id: 21
+      x: 576
+      z: 896
+    - id: 22
+      x: 576
+      z: 928
+    - id: 23
+      x: 576
+      z: 960
+    - id: 24
+      x: 576
+      z: 992
+    - id: 25
+      x: 608
+      z: 768
+    - id: 26
+      x: 608
+      z: 800
+    - id: 27
+      x: 608
+      z: 832
+    - id: 28
+      x: 608
+      z: 864
+    - id: 29
+      x: 608
+      z: 896
+    - id: 30
+      x: 608
+      z: 928
+    - id: 31
+      x: 608
+      z: 960
+    - id: 32
+      x: 608
+      z: 992
+    - id: 33
+      x: 640
+      z: 768
+    - id: 34
+      x: 640
+      z: 800
+    - id: 35
+      x: 640
+      z: 832
+    - id: 36
+      x: 640
+      z: 864
+    - id: 37
+      x: 640
+      z: 896
+    - id: 38
+      x: 640
+      z: 928
+    - id: 39
+      x: 640
+      z: 960
+    - id: 40
+      x: 640
+      z: 992
+    - id: 41
+      x: 672
+      z: 768
+    - id: 42
+      x: 672
+      z: 800
+    - id: 43
+      x: 672
+      z: 832
+    - id: 44
+      x: 672
+      z: 864
+    - id: 45
+      x: 672
+      z: 896
+    - id: 46
+      x: 672
+      z: 928
+    - id: 47
+      x: 672
+      z: 960
+    - id: 48
+      x: 672
+      z: 992
+    - id: 49
+      x: 704
+      z: 768
+    - id: 50
+      x: 704
+      z: 800
+    - id: 51
+      x: 704
+      z: 832
+    - id: 52
+      x: 704
+      z: 864
+    - id: 53
+      x: 704
+      z: 896
+    - id: 54
+      x: 704
+      z: 928
+    - id: 55
+      x: 704
+      z: 960
+    - id: 56
+      x: 704
+      z: 992
+    - id: 57
+      x: 736
+      z: 768
+    - id: 58
+      x: 736
+      z: 800
+    - id: 59
+      x: 736
+      z: 832
+    - id: 60
+      x: 736
+      z: 864
+    - id: 61
+      x: 736
+      z: 896
+    - id: 62
+      x: 736
+      z: 928
+    - id: 63
+      x: 736
+      z: 960
+    - id: 64
+      x: 736
+      z: 992
+    bigAreaList:
+    - x: 512
+      z: 768
+      size: 0
+      isVisible: 0
+    - x: 512
+      z: 896
+      size: 0
+      isVisible: 0
+    - x: 640
+      z: 768
+      size: 0
+      isVisible: 0
+    - x: 640
+      z: 896
+      size: 0
+      isVisible: 0
+    middleAreaList:
+    - x: 512
+      z: 768
+      size: 1
+      isVisible: 0
+    - x: 512
+      z: 832
+      size: 1
+      isVisible: 0
+    - x: 512
+      z: 896
+      size: 1
+      isVisible: 0
+    - x: 512
+      z: 960
+      size: 1
+      isVisible: 0
+    - x: 576
+      z: 768
+      size: 1
+      isVisible: 0
+    - x: 576
+      z: 832
+      size: 1
+      isVisible: 0
+    - x: 576
+      z: 896
+      size: 1
+      isVisible: 0
+    - x: 576
+      z: 960
+      size: 1
+      isVisible: 0
+    - x: 640
+      z: 768
+      size: 1
+      isVisible: 0
+    - x: 640
+      z: 832
+      size: 1
+      isVisible: 0
+    - x: 640
+      z: 896
+      size: 1
+      isVisible: 0
+    - x: 640
+      z: 960
+      size: 1
+      isVisible: 0
+    - x: 704
+      z: 768
+      size: 1
+      isVisible: 0
+    - x: 704
+      z: 832
+      size: 1
+      isVisible: 0
+    - x: 704
+      z: 896
+      size: 1
+      isVisible: 0
+    - x: 704
+      z: 960
+      size: 1
+      isVisible: 0
+    smallAreaList:
+    - x: 512
+      z: 768
+      size: 2
+      isVisible: 0
+    - x: 512
+      z: 800
+      size: 2
+      isVisible: 0
+    - x: 512
+      z: 832
+      size: 2
+      isVisible: 0
+    - x: 512
+      z: 864
+      size: 2
+      isVisible: 0
+    - x: 512
+      z: 896
+      size: 2
+      isVisible: 0
+    - x: 512
+      z: 928
+      size: 2
+      isVisible: 0
+    - x: 512
+      z: 960
+      size: 2
+      isVisible: 0
+    - x: 512
+      z: 992
+      size: 2
+      isVisible: 0
+    - x: 544
+      z: 768
+      size: 2
+      isVisible: 0
+    - x: 544
+      z: 800
+      size: 2
+      isVisible: 0
+    - x: 544
+      z: 832
+      size: 2
+      isVisible: 0
+    - x: 544
+      z: 864
+      size: 2
+      isVisible: 0
+    - x: 544
+      z: 896
+      size: 2
+      isVisible: 0
+    - x: 544
+      z: 928
+      size: 2
+      isVisible: 0
+    - x: 544
+      z: 960
+      size: 2
+      isVisible: 0
+    - x: 544
+      z: 992
+      size: 2
+      isVisible: 0
+    - x: 576
+      z: 768
+      size: 2
+      isVisible: 0
+    - x: 576
+      z: 800
+      size: 2
+      isVisible: 0
+    - x: 576
+      z: 832
+      size: 2
+      isVisible: 0
+    - x: 576
+      z: 864
+      size: 2
+      isVisible: 0
+    - x: 576
+      z: 896
+      size: 2
+      isVisible: 0
+    - x: 576
+      z: 928
+      size: 2
+      isVisible: 0
+    - x: 576
+      z: 960
+      size: 2
+      isVisible: 0
+    - x: 576
+      z: 992
+      size: 2
+      isVisible: 0
+    - x: 608
+      z: 768
+      size: 2
+      isVisible: 0
+    - x: 608
+      z: 800
+      size: 2
+      isVisible: 0
+    - x: 608
+      z: 832
+      size: 2
+      isVisible: 0
+    - x: 608
+      z: 864
+      size: 2
+      isVisible: 0
+    - x: 608
+      z: 896
+      size: 2
+      isVisible: 0
+    - x: 608
+      z: 928
+      size: 2
+      isVisible: 0
+    - x: 608
+      z: 960
+      size: 2
+      isVisible: 0
+    - x: 608
+      z: 992
+      size: 2
+      isVisible: 0
+    - x: 640
+      z: 768
+      size: 2
+      isVisible: 0
+    - x: 640
+      z: 800
+      size: 2
+      isVisible: 0
+    - x: 640
+      z: 832
+      size: 2
+      isVisible: 0
+    - x: 640
+      z: 864
+      size: 2
+      isVisible: 0
+    - x: 640
+      z: 896
+      size: 2
+      isVisible: 0
+    - x: 640
+      z: 928
+      size: 2
+      isVisible: 0
+    - x: 640
+      z: 960
+      size: 2
+      isVisible: 0
+    - x: 640
+      z: 992
+      size: 2
+      isVisible: 0
+    - x: 672
+      z: 768
+      size: 2
+      isVisible: 0
+    - x: 672
+      z: 800
+      size: 2
+      isVisible: 0
+    - x: 672
+      z: 832
+      size: 2
+      isVisible: 0
+    - x: 672
+      z: 864
+      size: 2
+      isVisible: 0
+    - x: 672
+      z: 896
+      size: 2
+      isVisible: 0
+    - x: 672
+      z: 928
+      size: 2
+      isVisible: 0
+    - x: 672
+      z: 960
+      size: 2
+      isVisible: 0
+    - x: 672
+      z: 992
+      size: 2
+      isVisible: 0
+    - x: 704
+      z: 768
+      size: 2
+      isVisible: 0
+    - x: 704
+      z: 800
+      size: 2
+      isVisible: 0
+    - x: 704
+      z: 832
+      size: 2
+      isVisible: 0
+    - x: 704
+      z: 864
+      size: 2
+      isVisible: 0
+    - x: 704
+      z: 896
+      size: 2
+      isVisible: 0
+    - x: 704
+      z: 928
+      size: 2
+      isVisible: 0
+    - x: 704
+      z: 960
+      size: 2
+      isVisible: 0
+    - x: 704
+      z: 992
+      size: 2
+      isVisible: 0
+    - x: 736
+      z: 768
+      size: 2
+      isVisible: 0
+    - x: 736
+      z: 800
+      size: 2
+      isVisible: 0
+    - x: 736
+      z: 832
+      size: 2
+      isVisible: 0
+    - x: 736
+      z: 864
+      size: 2
+      isVisible: 0
+    - x: 736
+      z: 896
+      size: 2
+      isVisible: 0
+    - x: 736
+      z: 928
+      size: 2
+      isVisible: 0
+    - x: 736
+      z: 960
+      size: 2
+      isVisible: 0
+    - x: 736
+      z: 992
+      size: 2
+      isVisible: 0
+    tileSize: 256
+    portalSize: 32
+    bigAreaSize: 128
+    middleAreaSize: 64
+    smallAreaSize: 32
+  - id: 13
+    x: 768
+    z: 0
+    portalList:
+    - id: 1
+      x: 768
+      z: 0
+    - id: 2
+      x: 768
+      z: 32
+    - id: 3
+      x: 768
+      z: 64
+    - id: 4
+      x: 768
+      z: 96
+    - id: 5
+      x: 768
+      z: 128
+    - id: 6
+      x: 768
+      z: 160
+    - id: 7
+      x: 768
+      z: 192
+    - id: 8
+      x: 768
+      z: 224
+    - id: 9
+      x: 800
+      z: 0
+    - id: 10
+      x: 800
+      z: 32
+    - id: 11
+      x: 800
+      z: 64
+    - id: 12
+      x: 800
+      z: 96
+    - id: 13
+      x: 800
+      z: 128
+    - id: 14
+      x: 800
+      z: 160
+    - id: 15
+      x: 800
+      z: 192
+    - id: 16
+      x: 800
+      z: 224
+    - id: 17
+      x: 832
+      z: 0
+    - id: 18
+      x: 832
+      z: 32
+    - id: 19
+      x: 832
+      z: 64
+    - id: 20
+      x: 832
+      z: 96
+    - id: 21
+      x: 832
+      z: 128
+    - id: 22
+      x: 832
+      z: 160
+    - id: 23
+      x: 832
+      z: 192
+    - id: 24
+      x: 832
+      z: 224
+    - id: 25
+      x: 864
+      z: 0
+    - id: 26
+      x: 864
+      z: 32
+    - id: 27
+      x: 864
+      z: 64
+    - id: 28
+      x: 864
+      z: 96
+    - id: 29
+      x: 864
+      z: 128
+    - id: 30
+      x: 864
+      z: 160
+    - id: 31
+      x: 864
+      z: 192
+    - id: 32
+      x: 864
+      z: 224
+    - id: 33
+      x: 896
+      z: 0
+    - id: 34
+      x: 896
+      z: 32
+    - id: 35
+      x: 896
+      z: 64
+    - id: 36
+      x: 896
+      z: 96
+    - id: 37
+      x: 896
+      z: 128
+    - id: 38
+      x: 896
+      z: 160
+    - id: 39
+      x: 896
+      z: 192
+    - id: 40
+      x: 896
+      z: 224
+    - id: 41
+      x: 928
+      z: 0
+    - id: 42
+      x: 928
+      z: 32
+    - id: 43
+      x: 928
+      z: 64
+    - id: 44
+      x: 928
+      z: 96
+    - id: 45
+      x: 928
+      z: 128
+    - id: 46
+      x: 928
+      z: 160
+    - id: 47
+      x: 928
+      z: 192
+    - id: 48
+      x: 928
+      z: 224
+    - id: 49
+      x: 960
+      z: 0
+    - id: 50
+      x: 960
+      z: 32
+    - id: 51
+      x: 960
+      z: 64
+    - id: 52
+      x: 960
+      z: 96
+    - id: 53
+      x: 960
+      z: 128
+    - id: 54
+      x: 960
+      z: 160
+    - id: 55
+      x: 960
+      z: 192
+    - id: 56
+      x: 960
+      z: 224
+    - id: 57
+      x: 992
+      z: 0
+    - id: 58
+      x: 992
+      z: 32
+    - id: 59
+      x: 992
+      z: 64
+    - id: 60
+      x: 992
+      z: 96
+    - id: 61
+      x: 992
+      z: 128
+    - id: 62
+      x: 992
+      z: 160
+    - id: 63
+      x: 992
+      z: 192
+    - id: 64
+      x: 992
+      z: 224
+    bigAreaList:
+    - x: 768
+      z: 0
+      size: 0
+      isVisible: 0
+    - x: 768
+      z: 128
+      size: 0
+      isVisible: 0
+    - x: 896
+      z: 0
+      size: 0
+      isVisible: 0
+    - x: 896
+      z: 128
+      size: 0
+      isVisible: 0
+    middleAreaList:
+    - x: 768
+      z: 0
+      size: 1
+      isVisible: 0
+    - x: 768
+      z: 64
+      size: 1
+      isVisible: 0
+    - x: 768
+      z: 128
+      size: 1
+      isVisible: 0
+    - x: 768
+      z: 192
+      size: 1
+      isVisible: 0
+    - x: 832
+      z: 0
+      size: 1
+      isVisible: 0
+    - x: 832
+      z: 64
+      size: 1
+      isVisible: 0
+    - x: 832
+      z: 128
+      size: 1
+      isVisible: 0
+    - x: 832
+      z: 192
+      size: 1
+      isVisible: 0
+    - x: 896
+      z: 0
+      size: 1
+      isVisible: 0
+    - x: 896
+      z: 64
+      size: 1
+      isVisible: 0
+    - x: 896
+      z: 128
+      size: 1
+      isVisible: 0
+    - x: 896
+      z: 192
+      size: 1
+      isVisible: 0
+    - x: 960
+      z: 0
+      size: 1
+      isVisible: 0
+    - x: 960
+      z: 64
+      size: 1
+      isVisible: 0
+    - x: 960
+      z: 128
+      size: 1
+      isVisible: 0
+    - x: 960
+      z: 192
+      size: 1
+      isVisible: 0
+    smallAreaList:
+    - x: 768
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 768
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 768
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 768
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 768
+      z: 128
+      size: 2
+      isVisible: 0
+    - x: 768
+      z: 160
+      size: 2
+      isVisible: 0
+    - x: 768
+      z: 192
+      size: 2
+      isVisible: 0
+    - x: 768
+      z: 224
+      size: 2
+      isVisible: 0
+    - x: 800
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 800
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 800
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 800
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 800
+      z: 128
+      size: 2
+      isVisible: 0
+    - x: 800
+      z: 160
+      size: 2
+      isVisible: 0
+    - x: 800
+      z: 192
+      size: 2
+      isVisible: 0
+    - x: 800
+      z: 224
+      size: 2
+      isVisible: 0
+    - x: 832
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 832
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 832
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 832
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 832
+      z: 128
+      size: 2
+      isVisible: 0
+    - x: 832
+      z: 160
+      size: 2
+      isVisible: 0
+    - x: 832
+      z: 192
+      size: 2
+      isVisible: 0
+    - x: 832
+      z: 224
+      size: 2
+      isVisible: 0
+    - x: 864
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 864
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 864
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 864
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 864
+      z: 128
+      size: 2
+      isVisible: 0
+    - x: 864
+      z: 160
+      size: 2
+      isVisible: 0
+    - x: 864
+      z: 192
+      size: 2
+      isVisible: 0
+    - x: 864
+      z: 224
+      size: 2
+      isVisible: 0
+    - x: 896
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 896
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 896
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 896
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 896
+      z: 128
+      size: 2
+      isVisible: 0
+    - x: 896
+      z: 160
+      size: 2
+      isVisible: 0
+    - x: 896
+      z: 192
+      size: 2
+      isVisible: 0
+    - x: 896
+      z: 224
+      size: 2
+      isVisible: 0
+    - x: 928
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 928
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 928
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 928
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 928
+      z: 128
+      size: 2
+      isVisible: 0
+    - x: 928
+      z: 160
+      size: 2
+      isVisible: 0
+    - x: 928
+      z: 192
+      size: 2
+      isVisible: 0
+    - x: 928
+      z: 224
+      size: 2
+      isVisible: 0
+    - x: 960
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 960
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 960
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 960
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 960
+      z: 128
+      size: 2
+      isVisible: 0
+    - x: 960
+      z: 160
+      size: 2
+      isVisible: 0
+    - x: 960
+      z: 192
+      size: 2
+      isVisible: 0
+    - x: 960
+      z: 224
+      size: 2
+      isVisible: 0
+    - x: 992
+      z: 0
+      size: 2
+      isVisible: 0
+    - x: 992
+      z: 32
+      size: 2
+      isVisible: 0
+    - x: 992
+      z: 64
+      size: 2
+      isVisible: 0
+    - x: 992
+      z: 96
+      size: 2
+      isVisible: 0
+    - x: 992
+      z: 128
+      size: 2
+      isVisible: 0
+    - x: 992
+      z: 160
+      size: 2
+      isVisible: 0
+    - x: 992
+      z: 192
+      size: 2
+      isVisible: 0
+    - x: 992
+      z: 224
+      size: 2
+      isVisible: 0
+    tileSize: 256
+    portalSize: 32
+    bigAreaSize: 128
+    middleAreaSize: 64
+    smallAreaSize: 32
+  - id: 14
+    x: 768
+    z: 256
+    portalList:
+    - id: 1
+      x: 768
+      z: 256
+    - id: 2
+      x: 768
+      z: 288
+    - id: 3
+      x: 768
+      z: 320
+    - id: 4
+      x: 768
+      z: 352
+    - id: 5
+      x: 768
+      z: 384
+    - id: 6
+      x: 768
+      z: 416
+    - id: 7
+      x: 768
+      z: 448
+    - id: 8
+      x: 768
+      z: 480
+    - id: 9
+      x: 800
+      z: 256
+    - id: 10
+      x: 800
+      z: 288
+    - id: 11
+      x: 800
+      z: 320
+    - id: 12
+      x: 800
+      z: 352
+    - id: 13
+      x: 800
+      z: 384
+    - id: 14
+      x: 800
+      z: 416
+    - id: 15
+      x: 800
+      z: 448
+    - id: 16
+      x: 800
+      z: 480
+    - id: 17
+      x: 832
+      z: 256
+    - id: 18
+      x: 832
+      z: 288
+    - id: 19
+      x: 832
+      z: 320
+    - id: 20
+      x: 832
+      z: 352
+    - id: 21
+      x: 832
+      z: 384
+    - id: 22
+      x: 832
+      z: 416
+    - id: 23
+      x: 832
+      z: 448
+    - id: 24
+      x: 832
+      z: 480
+    - id: 25
+      x: 864
+      z: 256
+    - id: 26
+      x: 864
+      z: 288
+    - id: 27
+      x: 864
+      z: 320
+    - id: 28
+      x: 864
+      z: 352
+    - id: 29
+      x: 864
+      z: 384
+    - id: 30
+      x: 864
+      z: 416
+    - id: 31
+      x: 864
+      z: 448
+    - id: 32
+      x: 864
+      z: 480
+    - id: 33
+      x: 896
+      z: 256
+    - id: 34
+      x: 896
+      z: 288
+    - id: 35
+      x: 896
+      z: 320
+    - id: 36
+      x: 896
+      z: 352
+    - id: 37
+      x: 896
+      z: 384
+    - id: 38
+      x: 896
+      z: 416
+    - id: 39
+      x: 896
+      z: 448
+    - id: 40
+      x: 896
+      z: 480
+    - id: 41
+      x: 928
+      z: 256
+    - id: 42
+      x: 928
+      z: 288
+    - id: 43
+      x: 928
+      z: 320
+    - id: 44
+      x: 928
+      z: 352
+    - id: 45
+      x: 928
+      z: 384
+    - id: 46
+      x: 928
+      z: 416
+    - id: 47
+      x: 928
+      z: 448
+    - id: 48
+      x: 928
+      z: 480
+    - id: 49
+      x: 960
+      z: 256
+    - id: 50
+      x: 960
+      z: 288
+    - id: 51
+      x: 960
+      z: 320
+    - id: 52
+      x: 960
+      z: 352
+    - id: 53
+      x: 960
+      z: 384
+    - id: 54
+      x: 960
+      z: 416
+    - id: 55
+      x: 960
+      z: 448
+    - id: 56
+      x: 960
+      z: 480
+    - id: 57
+      x: 992
+      z: 256
+    - id: 58
+      x: 992
+      z: 288
+    - id: 59
+      x: 992
+      z: 320
+    - id: 60
+      x: 992
+      z: 352
+    - id: 61
+      x: 992
+      z: 384
+    - id: 62
+      x: 992
+      z: 416
+    - id: 63
+      x: 992
+      z: 448
+    - id: 64
+      x: 992
+      z: 480
+    bigAreaList:
+    - x: 768
+      z: 256
+      size: 0
+      isVisible: 0
+    - x: 768
+      z: 384
+      size: 0
+      isVisible: 0
+    - x: 896
+      z: 256
+      size: 0
+      isVisible: 0
+    - x: 896
+      z: 384
+      size: 0
+      isVisible: 0
+    middleAreaList:
+    - x: 768
+      z: 256
+      size: 1
+      isVisible: 0
+    - x: 768
+      z: 320
+      size: 1
+      isVisible: 0
+    - x: 768
+      z: 384
+      size: 1
+      isVisible: 0
+    - x: 768
+      z: 448
+      size: 1
+      isVisible: 0
+    - x: 832
+      z: 256
+      size: 1
+      isVisible: 0
+    - x: 832
+      z: 320
+      size: 1
+      isVisible: 0
+    - x: 832
+      z: 384
+      size: 1
+      isVisible: 0
+    - x: 832
+      z: 448
+      size: 1
+      isVisible: 0
+    - x: 896
+      z: 256
+      size: 1
+      isVisible: 0
+    - x: 896
+      z: 320
+      size: 1
+      isVisible: 0
+    - x: 896
+      z: 384
+      size: 1
+      isVisible: 0
+    - x: 896
+      z: 448
+      size: 1
+      isVisible: 0
+    - x: 960
+      z: 256
+      size: 1
+      isVisible: 0
+    - x: 960
+      z: 320
+      size: 1
+      isVisible: 0
+    - x: 960
+      z: 384
+      size: 1
+      isVisible: 0
+    - x: 960
+      z: 448
+      size: 1
+      isVisible: 0
+    smallAreaList:
+    - x: 768
+      z: 256
+      size: 2
+      isVisible: 0
+    - x: 768
+      z: 288
+      size: 2
+      isVisible: 0
+    - x: 768
+      z: 320
+      size: 2
+      isVisible: 0
+    - x: 768
+      z: 352
+      size: 2
+      isVisible: 0
+    - x: 768
+      z: 384
+      size: 2
+      isVisible: 0
+    - x: 768
+      z: 416
+      size: 2
+      isVisible: 0
+    - x: 768
+      z: 448
+      size: 2
+      isVisible: 0
+    - x: 768
+      z: 480
+      size: 2
+      isVisible: 0
+    - x: 800
+      z: 256
+      size: 2
+      isVisible: 0
+    - x: 800
+      z: 288
+      size: 2
+      isVisible: 0
+    - x: 800
+      z: 320
+      size: 2
+      isVisible: 0
+    - x: 800
+      z: 352
+      size: 2
+      isVisible: 0
+    - x: 800
+      z: 384
+      size: 2
+      isVisible: 0
+    - x: 800
+      z: 416
+      size: 2
+      isVisible: 0
+    - x: 800
+      z: 448
+      size: 2
+      isVisible: 0
+    - x: 800
+      z: 480
+      size: 2
+      isVisible: 0
+    - x: 832
+      z: 256
+      size: 2
+      isVisible: 0
+    - x: 832
+      z: 288
+      size: 2
+      isVisible: 0
+    - x: 832
+      z: 320
+      size: 2
+      isVisible: 0
+    - x: 832
+      z: 352
+      size: 2
+      isVisible: 0
+    - x: 832
+      z: 384
+      size: 2
+      isVisible: 0
+    - x: 832
+      z: 416
+      size: 2
+      isVisible: 0
+    - x: 832
+      z: 448
+      size: 2
+      isVisible: 0
+    - x: 832
+      z: 480
+      size: 2
+      isVisible: 0
+    - x: 864
+      z: 256
+      size: 2
+      isVisible: 0
+    - x: 864
+      z: 288
+      size: 2
+      isVisible: 0
+    - x: 864
+      z: 320
+      size: 2
+      isVisible: 0
+    - x: 864
+      z: 352
+      size: 2
+      isVisible: 0
+    - x: 864
+      z: 384
+      size: 2
+      isVisible: 0
+    - x: 864
+      z: 416
+      size: 2
+      isVisible: 0
+    - x: 864
+      z: 448
+      size: 2
+      isVisible: 0
+    - x: 864
+      z: 480
+      size: 2
+      isVisible: 0
+    - x: 896
+      z: 256
+      size: 2
+      isVisible: 0
+    - x: 896
+      z: 288
+      size: 2
+      isVisible: 0
+    - x: 896
+      z: 320
+      size: 2
+      isVisible: 0
+    - x: 896
+      z: 352
+      size: 2
+      isVisible: 0
+    - x: 896
+      z: 384
+      size: 2
+      isVisible: 0
+    - x: 896
+      z: 416
+      size: 2
+      isVisible: 0
+    - x: 896
+      z: 448
+      size: 2
+      isVisible: 0
+    - x: 896
+      z: 480
+      size: 2
+      isVisible: 0
+    - x: 928
+      z: 256
+      size: 2
+      isVisible: 0
+    - x: 928
+      z: 288
+      size: 2
+      isVisible: 0
+    - x: 928
+      z: 320
+      size: 2
+      isVisible: 0
+    - x: 928
+      z: 352
+      size: 2
+      isVisible: 0
+    - x: 928
+      z: 384
+      size: 2
+      isVisible: 0
+    - x: 928
+      z: 416
+      size: 2
+      isVisible: 0
+    - x: 928
+      z: 448
+      size: 2
+      isVisible: 0
+    - x: 928
+      z: 480
+      size: 2
+      isVisible: 0
+    - x: 960
+      z: 256
+      size: 2
+      isVisible: 0
+    - x: 960
+      z: 288
+      size: 2
+      isVisible: 0
+    - x: 960
+      z: 320
+      size: 2
+      isVisible: 0
+    - x: 960
+      z: 352
+      size: 2
+      isVisible: 0
+    - x: 960
+      z: 384
+      size: 2
+      isVisible: 0
+    - x: 960
+      z: 416
+      size: 2
+      isVisible: 0
+    - x: 960
+      z: 448
+      size: 2
+      isVisible: 0
+    - x: 960
+      z: 480
+      size: 2
+      isVisible: 0
+    - x: 992
+      z: 256
+      size: 2
+      isVisible: 0
+    - x: 992
+      z: 288
+      size: 2
+      isVisible: 0
+    - x: 992
+      z: 320
+      size: 2
+      isVisible: 0
+    - x: 992
+      z: 352
+      size: 2
+      isVisible: 0
+    - x: 992
+      z: 384
+      size: 2
+      isVisible: 0
+    - x: 992
+      z: 416
+      size: 2
+      isVisible: 0
+    - x: 992
+      z: 448
+      size: 2
+      isVisible: 0
+    - x: 992
+      z: 480
+      size: 2
+      isVisible: 0
+    tileSize: 256
+    portalSize: 32
+    bigAreaSize: 128
+    middleAreaSize: 64
+    smallAreaSize: 32
+  - id: 15
+    x: 768
+    z: 512
+    portalList:
+    - id: 1
+      x: 768
+      z: 512
+    - id: 2
+      x: 768
+      z: 544
+    - id: 3
+      x: 768
+      z: 576
+    - id: 4
+      x: 768
+      z: 608
+    - id: 5
+      x: 768
+      z: 640
+    - id: 6
+      x: 768
+      z: 672
+    - id: 7
+      x: 768
+      z: 704
+    - id: 8
+      x: 768
+      z: 736
+    - id: 9
+      x: 800
+      z: 512
+    - id: 10
+      x: 800
+      z: 544
+    - id: 11
+      x: 800
+      z: 576
+    - id: 12
+      x: 800
+      z: 608
+    - id: 13
+      x: 800
+      z: 640
+    - id: 14
+      x: 800
+      z: 672
+    - id: 15
+      x: 800
+      z: 704
+    - id: 16
+      x: 800
+      z: 736
+    - id: 17
+      x: 832
+      z: 512
+    - id: 18
+      x: 832
+      z: 544
+    - id: 19
+      x: 832
+      z: 576
+    - id: 20
+      x: 832
+      z: 608
+    - id: 21
+      x: 832
+      z: 640
+    - id: 22
+      x: 832
+      z: 672
+    - id: 23
+      x: 832
+      z: 704
+    - id: 24
+      x: 832
+      z: 736
+    - id: 25
+      x: 864
+      z: 512
+    - id: 26
+      x: 864
+      z: 544
+    - id: 27
+      x: 864
+      z: 576
+    - id: 28
+      x: 864
+      z: 608
+    - id: 29
+      x: 864
+      z: 640
+    - id: 30
+      x: 864
+      z: 672
+    - id: 31
+      x: 864
+      z: 704
+    - id: 32
+      x: 864
+      z: 736
+    - id: 33
+      x: 896
+      z: 512
+    - id: 34
+      x: 896
+      z: 544
+    - id: 35
+      x: 896
+      z: 576
+    - id: 36
+      x: 896
+      z: 608
+    - id: 37
+      x: 896
+      z: 640
+    - id: 38
+      x: 896
+      z: 672
+    - id: 39
+      x: 896
+      z: 704
+    - id: 40
+      x: 896
+      z: 736
+    - id: 41
+      x: 928
+      z: 512
+    - id: 42
+      x: 928
+      z: 544
+    - id: 43
+      x: 928
+      z: 576
+    - id: 44
+      x: 928
+      z: 608
+    - id: 45
+      x: 928
+      z: 640
+    - id: 46
+      x: 928
+      z: 672
+    - id: 47
+      x: 928
+      z: 704
+    - id: 48
+      x: 928
+      z: 736
+    - id: 49
+      x: 960
+      z: 512
+    - id: 50
+      x: 960
+      z: 544
+    - id: 51
+      x: 960
+      z: 576
+    - id: 52
+      x: 960
+      z: 608
+    - id: 53
+      x: 960
+      z: 640
+    - id: 54
+      x: 960
+      z: 672
+    - id: 55
+      x: 960
+      z: 704
+    - id: 56
+      x: 960
+      z: 736
+    - id: 57
+      x: 992
+      z: 512
+    - id: 58
+      x: 992
+      z: 544
+    - id: 59
+      x: 992
+      z: 576
+    - id: 60
+      x: 992
+      z: 608
+    - id: 61
+      x: 992
+      z: 640
+    - id: 62
+      x: 992
+      z: 672
+    - id: 63
+      x: 992
+      z: 704
+    - id: 64
+      x: 992
+      z: 736
+    bigAreaList:
+    - x: 768
+      z: 512
+      size: 0
+      isVisible: 0
+    - x: 768
+      z: 640
+      size: 0
+      isVisible: 0
+    - x: 896
+      z: 512
+      size: 0
+      isVisible: 0
+    - x: 896
+      z: 640
+      size: 0
+      isVisible: 0
+    middleAreaList:
+    - x: 768
+      z: 512
+      size: 1
+      isVisible: 0
+    - x: 768
+      z: 576
+      size: 1
+      isVisible: 0
+    - x: 768
+      z: 640
+      size: 1
+      isVisible: 0
+    - x: 768
+      z: 704
+      size: 1
+      isVisible: 0
+    - x: 832
+      z: 512
+      size: 1
+      isVisible: 0
+    - x: 832
+      z: 576
+      size: 1
+      isVisible: 0
+    - x: 832
+      z: 640
+      size: 1
+      isVisible: 0
+    - x: 832
+      z: 704
+      size: 1
+      isVisible: 0
+    - x: 896
+      z: 512
+      size: 1
+      isVisible: 0
+    - x: 896
+      z: 576
+      size: 1
+      isVisible: 0
+    - x: 896
+      z: 640
+      size: 1
+      isVisible: 0
+    - x: 896
+      z: 704
+      size: 1
+      isVisible: 0
+    - x: 960
+      z: 512
+      size: 1
+      isVisible: 0
+    - x: 960
+      z: 576
+      size: 1
+      isVisible: 0
+    - x: 960
+      z: 640
+      size: 1
+      isVisible: 0
+    - x: 960
+      z: 704
+      size: 1
+      isVisible: 0
+    smallAreaList:
+    - x: 768
+      z: 512
+      size: 2
+      isVisible: 0
+    - x: 768
+      z: 544
+      size: 2
+      isVisible: 0
+    - x: 768
+      z: 576
+      size: 2
+      isVisible: 0
+    - x: 768
+      z: 608
+      size: 2
+      isVisible: 0
+    - x: 768
+      z: 640
+      size: 2
+      isVisible: 0
+    - x: 768
+      z: 672
+      size: 2
+      isVisible: 0
+    - x: 768
+      z: 704
+      size: 2
+      isVisible: 0
+    - x: 768
+      z: 736
+      size: 2
+      isVisible: 0
+    - x: 800
+      z: 512
+      size: 2
+      isVisible: 0
+    - x: 800
+      z: 544
+      size: 2
+      isVisible: 0
+    - x: 800
+      z: 576
+      size: 2
+      isVisible: 0
+    - x: 800
+      z: 608
+      size: 2
+      isVisible: 0
+    - x: 800
+      z: 640
+      size: 2
+      isVisible: 0
+    - x: 800
+      z: 672
+      size: 2
+      isVisible: 0
+    - x: 800
+      z: 704
+      size: 2
+      isVisible: 0
+    - x: 800
+      z: 736
+      size: 2
+      isVisible: 0
+    - x: 832
+      z: 512
+      size: 2
+      isVisible: 0
+    - x: 832
+      z: 544
+      size: 2
+      isVisible: 0
+    - x: 832
+      z: 576
+      size: 2
+      isVisible: 0
+    - x: 832
+      z: 608
+      size: 2
+      isVisible: 0
+    - x: 832
+      z: 640
+      size: 2
+      isVisible: 0
+    - x: 832
+      z: 672
+      size: 2
+      isVisible: 0
+    - x: 832
+      z: 704
+      size: 2
+      isVisible: 0
+    - x: 832
+      z: 736
+      size: 2
+      isVisible: 0
+    - x: 864
+      z: 512
+      size: 2
+      isVisible: 0
+    - x: 864
+      z: 544
+      size: 2
+      isVisible: 0
+    - x: 864
+      z: 576
+      size: 2
+      isVisible: 0
+    - x: 864
+      z: 608
+      size: 2
+      isVisible: 0
+    - x: 864
+      z: 640
+      size: 2
+      isVisible: 0
+    - x: 864
+      z: 672
+      size: 2
+      isVisible: 0
+    - x: 864
+      z: 704
+      size: 2
+      isVisible: 0
+    - x: 864
+      z: 736
+      size: 2
+      isVisible: 0
+    - x: 896
+      z: 512
+      size: 2
+      isVisible: 0
+    - x: 896
+      z: 544
+      size: 2
+      isVisible: 0
+    - x: 896
+      z: 576
+      size: 2
+      isVisible: 0
+    - x: 896
+      z: 608
+      size: 2
+      isVisible: 0
+    - x: 896
+      z: 640
+      size: 2
+      isVisible: 0
+    - x: 896
+      z: 672
+      size: 2
+      isVisible: 0
+    - x: 896
+      z: 704
+      size: 2
+      isVisible: 0
+    - x: 896
+      z: 736
+      size: 2
+      isVisible: 0
+    - x: 928
+      z: 512
+      size: 2
+      isVisible: 0
+    - x: 928
+      z: 544
+      size: 2
+      isVisible: 0
+    - x: 928
+      z: 576
+      size: 2
+      isVisible: 0
+    - x: 928
+      z: 608
+      size: 2
+      isVisible: 0
+    - x: 928
+      z: 640
+      size: 2
+      isVisible: 0
+    - x: 928
+      z: 672
+      size: 2
+      isVisible: 0
+    - x: 928
+      z: 704
+      size: 2
+      isVisible: 0
+    - x: 928
+      z: 736
+      size: 2
+      isVisible: 0
+    - x: 960
+      z: 512
+      size: 2
+      isVisible: 0
+    - x: 960
+      z: 544
+      size: 2
+      isVisible: 0
+    - x: 960
+      z: 576
+      size: 2
+      isVisible: 0
+    - x: 960
+      z: 608
+      size: 2
+      isVisible: 0
+    - x: 960
+      z: 640
+      size: 2
+      isVisible: 0
+    - x: 960
+      z: 672
+      size: 2
+      isVisible: 0
+    - x: 960
+      z: 704
+      size: 2
+      isVisible: 0
+    - x: 960
+      z: 736
+      size: 2
+      isVisible: 0
+    - x: 992
+      z: 512
+      size: 2
+      isVisible: 0
+    - x: 992
+      z: 544
+      size: 2
+      isVisible: 0
+    - x: 992
+      z: 576
+      size: 2
+      isVisible: 0
+    - x: 992
+      z: 608
+      size: 2
+      isVisible: 0
+    - x: 992
+      z: 640
+      size: 2
+      isVisible: 0
+    - x: 992
+      z: 672
+      size: 2
+      isVisible: 0
+    - x: 992
+      z: 704
+      size: 2
+      isVisible: 0
+    - x: 992
+      z: 736
+      size: 2
+      isVisible: 0
+    tileSize: 256
+    portalSize: 32
+    bigAreaSize: 128
+    middleAreaSize: 64
+    smallAreaSize: 32
+  - id: 16
+    x: 768
+    z: 768
+    portalList:
+    - id: 1
+      x: 768
+      z: 768
+    - id: 2
+      x: 768
+      z: 800
+    - id: 3
+      x: 768
+      z: 832
+    - id: 4
+      x: 768
+      z: 864
+    - id: 5
+      x: 768
+      z: 896
+    - id: 6
+      x: 768
+      z: 928
+    - id: 7
+      x: 768
+      z: 960
+    - id: 8
+      x: 768
+      z: 992
+    - id: 9
+      x: 800
+      z: 768
+    - id: 10
+      x: 800
+      z: 800
+    - id: 11
+      x: 800
+      z: 832
+    - id: 12
+      x: 800
+      z: 864
+    - id: 13
+      x: 800
+      z: 896
+    - id: 14
+      x: 800
+      z: 928
+    - id: 15
+      x: 800
+      z: 960
+    - id: 16
+      x: 800
+      z: 992
+    - id: 17
+      x: 832
+      z: 768
+    - id: 18
+      x: 832
+      z: 800
+    - id: 19
+      x: 832
+      z: 832
+    - id: 20
+      x: 832
+      z: 864
+    - id: 21
+      x: 832
+      z: 896
+    - id: 22
+      x: 832
+      z: 928
+    - id: 23
+      x: 832
+      z: 960
+    - id: 24
+      x: 832
+      z: 992
+    - id: 25
+      x: 864
+      z: 768
+    - id: 26
+      x: 864
+      z: 800
+    - id: 27
+      x: 864
+      z: 832
+    - id: 28
+      x: 864
+      z: 864
+    - id: 29
+      x: 864
+      z: 896
+    - id: 30
+      x: 864
+      z: 928
+    - id: 31
+      x: 864
+      z: 960
+    - id: 32
+      x: 864
+      z: 992
+    - id: 33
+      x: 896
+      z: 768
+    - id: 34
+      x: 896
+      z: 800
+    - id: 35
+      x: 896
+      z: 832
+    - id: 36
+      x: 896
+      z: 864
+    - id: 37
+      x: 896
+      z: 896
+    - id: 38
+      x: 896
+      z: 928
+    - id: 39
+      x: 896
+      z: 960
+    - id: 40
+      x: 896
+      z: 992
+    - id: 41
+      x: 928
+      z: 768
+    - id: 42
+      x: 928
+      z: 800
+    - id: 43
+      x: 928
+      z: 832
+    - id: 44
+      x: 928
+      z: 864
+    - id: 45
+      x: 928
+      z: 896
+    - id: 46
+      x: 928
+      z: 928
+    - id: 47
+      x: 928
+      z: 960
+    - id: 48
+      x: 928
+      z: 992
+    - id: 49
+      x: 960
+      z: 768
+    - id: 50
+      x: 960
+      z: 800
+    - id: 51
+      x: 960
+      z: 832
+    - id: 52
+      x: 960
+      z: 864
+    - id: 53
+      x: 960
+      z: 896
+    - id: 54
+      x: 960
+      z: 928
+    - id: 55
+      x: 960
+      z: 960
+    - id: 56
+      x: 960
+      z: 992
+    - id: 57
+      x: 992
+      z: 768
+    - id: 58
+      x: 992
+      z: 800
+    - id: 59
+      x: 992
+      z: 832
+    - id: 60
+      x: 992
+      z: 864
+    - id: 61
+      x: 992
+      z: 896
+    - id: 62
+      x: 992
+      z: 928
+    - id: 63
+      x: 992
+      z: 960
+    - id: 64
+      x: 992
+      z: 992
+    bigAreaList:
+    - x: 768
+      z: 768
+      size: 0
+      isVisible: 0
+    - x: 768
+      z: 896
+      size: 0
+      isVisible: 0
+    - x: 896
+      z: 768
+      size: 0
+      isVisible: 0
+    - x: 896
+      z: 896
+      size: 0
+      isVisible: 0
+    middleAreaList:
+    - x: 768
+      z: 768
+      size: 1
+      isVisible: 0
+    - x: 768
+      z: 832
+      size: 1
+      isVisible: 0
+    - x: 768
+      z: 896
+      size: 1
+      isVisible: 0
+    - x: 768
+      z: 960
+      size: 1
+      isVisible: 0
+    - x: 832
+      z: 768
+      size: 1
+      isVisible: 0
+    - x: 832
+      z: 832
+      size: 1
+      isVisible: 0
+    - x: 832
+      z: 896
+      size: 1
+      isVisible: 0
+    - x: 832
+      z: 960
+      size: 1
+      isVisible: 0
+    - x: 896
+      z: 768
+      size: 1
+      isVisible: 0
+    - x: 896
+      z: 832
+      size: 1
+      isVisible: 0
+    - x: 896
+      z: 896
+      size: 1
+      isVisible: 0
+    - x: 896
+      z: 960
+      size: 1
+      isVisible: 0
+    - x: 960
+      z: 768
+      size: 1
+      isVisible: 0
+    - x: 960
+      z: 832
+      size: 1
+      isVisible: 0
+    - x: 960
+      z: 896
+      size: 1
+      isVisible: 0
+    - x: 960
+      z: 960
+      size: 1
+      isVisible: 0
+    smallAreaList:
+    - x: 768
+      z: 768
+      size: 2
+      isVisible: 0
+    - x: 768
+      z: 800
+      size: 2
+      isVisible: 0
+    - x: 768
+      z: 832
+      size: 2
+      isVisible: 0
+    - x: 768
+      z: 864
+      size: 2
+      isVisible: 0
+    - x: 768
+      z: 896
+      size: 2
+      isVisible: 0
+    - x: 768
+      z: 928
+      size: 2
+      isVisible: 0
+    - x: 768
+      z: 960
+      size: 2
+      isVisible: 0
+    - x: 768
+      z: 992
+      size: 2
+      isVisible: 0
+    - x: 800
+      z: 768
+      size: 2
+      isVisible: 0
+    - x: 800
+      z: 800
+      size: 2
+      isVisible: 0
+    - x: 800
+      z: 832
+      size: 2
+      isVisible: 0
+    - x: 800
+      z: 864
+      size: 2
+      isVisible: 0
+    - x: 800
+      z: 896
+      size: 2
+      isVisible: 0
+    - x: 800
+      z: 928
+      size: 2
+      isVisible: 0
+    - x: 800
+      z: 960
+      size: 2
+      isVisible: 0
+    - x: 800
+      z: 992
+      size: 2
+      isVisible: 0
+    - x: 832
+      z: 768
+      size: 2
+      isVisible: 0
+    - x: 832
+      z: 800
+      size: 2
+      isVisible: 0
+    - x: 832
+      z: 832
+      size: 2
+      isVisible: 0
+    - x: 832
+      z: 864
+      size: 2
+      isVisible: 0
+    - x: 832
+      z: 896
+      size: 2
+      isVisible: 0
+    - x: 832
+      z: 928
+      size: 2
+      isVisible: 0
+    - x: 832
+      z: 960
+      size: 2
+      isVisible: 0
+    - x: 832
+      z: 992
+      size: 2
+      isVisible: 0
+    - x: 864
+      z: 768
+      size: 2
+      isVisible: 0
+    - x: 864
+      z: 800
+      size: 2
+      isVisible: 0
+    - x: 864
+      z: 832
+      size: 2
+      isVisible: 0
+    - x: 864
+      z: 864
+      size: 2
+      isVisible: 0
+    - x: 864
+      z: 896
+      size: 2
+      isVisible: 0
+    - x: 864
+      z: 928
+      size: 2
+      isVisible: 0
+    - x: 864
+      z: 960
+      size: 2
+      isVisible: 0
+    - x: 864
+      z: 992
+      size: 2
+      isVisible: 0
+    - x: 896
+      z: 768
+      size: 2
+      isVisible: 0
+    - x: 896
+      z: 800
+      size: 2
+      isVisible: 0
+    - x: 896
+      z: 832
+      size: 2
+      isVisible: 0
+    - x: 896
+      z: 864
+      size: 2
+      isVisible: 0
+    - x: 896
+      z: 896
+      size: 2
+      isVisible: 0
+    - x: 896
+      z: 928
+      size: 2
+      isVisible: 0
+    - x: 896
+      z: 960
+      size: 2
+      isVisible: 0
+    - x: 896
+      z: 992
+      size: 2
+      isVisible: 0
+    - x: 928
+      z: 768
+      size: 2
+      isVisible: 0
+    - x: 928
+      z: 800
+      size: 2
+      isVisible: 0
+    - x: 928
+      z: 832
+      size: 2
+      isVisible: 0
+    - x: 928
+      z: 864
+      size: 2
+      isVisible: 0
+    - x: 928
+      z: 896
+      size: 2
+      isVisible: 0
+    - x: 928
+      z: 928
+      size: 2
+      isVisible: 0
+    - x: 928
+      z: 960
+      size: 2
+      isVisible: 0
+    - x: 928
+      z: 992
+      size: 2
+      isVisible: 0
+    - x: 960
+      z: 768
+      size: 2
+      isVisible: 0
+    - x: 960
+      z: 800
+      size: 2
+      isVisible: 0
+    - x: 960
+      z: 832
+      size: 2
+      isVisible: 0
+    - x: 960
+      z: 864
+      size: 2
+      isVisible: 0
+    - x: 960
+      z: 896
+      size: 2
+      isVisible: 0
+    - x: 960
+      z: 928
+      size: 2
+      isVisible: 0
+    - x: 960
+      z: 960
+      size: 2
+      isVisible: 0
+    - x: 960
+      z: 992
+      size: 2
+      isVisible: 0
+    - x: 992
+      z: 768
+      size: 2
+      isVisible: 0
+    - x: 992
+      z: 800
+      size: 2
+      isVisible: 0
+    - x: 992
+      z: 832
+      size: 2
+      isVisible: 0
+    - x: 992
+      z: 864
+      size: 2
+      isVisible: 0
+    - x: 992
+      z: 896
+      size: 2
+      isVisible: 0
+    - x: 992
+      z: 928
+      size: 2
+      isVisible: 0
+    - x: 992
+      z: 960
+      size: 2
+      isVisible: 0
+    - x: 992
+      z: 992
+      size: 2
+      isVisible: 0
+    tileSize: 256
+    portalSize: 32
+    bigAreaSize: 128
+    middleAreaSize: 64
+    smallAreaSize: 32

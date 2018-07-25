@@ -5,23 +5,20 @@ using UnityEditor;
 using System.Xml;
 
 /// <summary>
-/// TODO 
-/// 基于Item大小、距离的加载
-/// 基于Item大小的视野检测
 /// Nash
 /// </summary>
 public class PoteniallyVisibleSet
 {
-    private Vector3 tileSize = new Vector3(128, 0, 128);
+    private Vector3 tileSize = new Vector3(256, 0, 256);
     private List<float> verticalSize = new List<float> { 1f, 3f};
-    private Vector3 bigCellSize = new Vector3(64, 0, 64);
-    private Vector3 middleCellSize = new Vector3(32, 0, 32);
-    private Vector3 smallCellSize = new Vector3(8, 0, 8);
+    private Vector3 bigCellSize = new Vector3(128, 0, 128);
+    private Vector3 middleCellSize = new Vector3(64, 0, 64);
+    private Vector3 smallCellSize = new Vector3(32, 0, 32);
 
-    private Vector3 mapSize = new Vector3(32, 0, 32);
-    private Vector3 portalSize = new Vector3(16, 0, 16);
-    private const int startPortalPointCount = 4;
-    private Vector4 endPortalPointList = new Vector4(4, 4, 2, 2);
+    private Vector3 mapSize = new Vector3(1024, 0, 1024);
+    private Vector3 portalSize = new Vector3(32, 0, 32);
+    private const int startPortalPointCount = 16;
+    private Vector4 endPortalPointList = new Vector4(32, 16, 8, 4);
     private int targetAreaPointCount = 0;
 
     private List<PoteniallyVisibleSetItem> poteniallyVisibleSetItemList;

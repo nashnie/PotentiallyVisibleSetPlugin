@@ -1,0 +1,573 @@
+<root>
+  <tile x="768" z="768">
+    <portal x="768" z="768">
+      <cell id="2" />
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10003" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="768" z="800">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10003" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="768" z="832">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="768" z="864">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="768" z="896">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="768" z="928">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="768" z="960">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="768" z="992">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="800" z="768">
+      <cell id="1" />
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="800" z="800">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="800" z="832">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="800" z="864">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="800" z="896">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="800" z="928">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="800" z="960">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="800" z="992">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="832" z="768">
+      <cell id="1" />
+      <cell id="2" />
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="832" z="800">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="832" z="832">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="832" z="864">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="832" z="896">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="832" z="928">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="832" z="960">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="832" z="992">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="864" z="768">
+      <cell id="1" />
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="864" z="800">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="864" z="832">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="864" z="864">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="864" z="896">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="864" z="928">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="864" z="960">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="864" z="992">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="896" z="768">
+      <cell id="1" />
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="896" z="800">
+      <cell id="1" />
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="896" z="832">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="896" z="864">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="896" z="896">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="896" z="928">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="896" z="960">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="896" z="992">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="928" z="768">
+      <cell id="1" />
+      <cell id="2" />
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="928" z="800">
+      <cell id="1" />
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="928" z="832">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+    </portal>
+    <portal x="928" z="864">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="928" z="896">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="928" z="928">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="928" z="960">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="928" z="992">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="960" z="768">
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="960" z="800">
+      <cell id="1" />
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+    </portal>
+    <portal x="960" z="832">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+    </portal>
+    <portal x="960" z="864">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10019" />
+    </portal>
+    <portal x="960" z="896">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="960" z="928">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="960" z="960">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="960" z="992">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="992" z="768">
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="992" z="800">
+      <cell id="1" />
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10018" />
+    </portal>
+    <portal x="992" z="832">
+      <cell id="1" />
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+    </portal>
+    <portal x="992" z="864">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10019" />
+    </portal>
+    <portal x="992" z="896">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10019" />
+    </portal>
+    <portal x="992" z="928">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="992" z="960">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+    <portal x="992" z="992">
+      <cell id="3" />
+      <cell id="1006" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="10011" />
+      <cell id="10018" />
+      <cell id="10019" />
+    </portal>
+  </tile>
+</root>
