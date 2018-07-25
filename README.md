@@ -1,7 +1,7 @@
 # PotentiallyVisibleSetPlugin
 https://en.wikipedia.org/wiki/Potentially_visible_set
 
-# 步骤如下：
+# 步骤如下
 step1 地图切割成Tile，Tile切割成Portal（视口）和Cell（大物件、中物件、小物件）；
 step2 检测场景物件所属Cell，一个物件可以属于多个Cell；
 step3 利用蒙特卡洛方法Portal随机一些起点，Cell随机一些终点（根据大、中、小随机不同数量的点）；
