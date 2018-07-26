@@ -34,7 +34,7 @@ public class PoteniallyVisibleSet
         poteniallyVisibleSet.InitPoteniallyVisibleSetSettings();
         poteniallyVisibleSet.CaptureMapGrid();
         poteniallyVisibleSet.AnalyzerMapItemOwner();
-        //poteniallyVisibleSet.CalculateMapPVS();
+        poteniallyVisibleSet.CalculateMapPVS();
         EditorUtility.DisplayDialog("CalculatePVS", "Calculated PVS successfully!", "OK");
     }
 
