@@ -28,17 +28,18 @@ public class PoteniallyVisibleSetData : Singleton<PoteniallyVisibleSetData>
         }
     }
 
-    public void Update(Vector2 playerPosition)
+    public void Update(Player player)
     {
         for (int i = 0; i < tileList.Count; i++)
         {
             Rect rect = tileList[i];
-            if (rect.Contains(playerPosition))
+            if (rect.Contains(player.playerPosition))
             {
                 if (currentTileIndex != i + 1)
                 {
                     //TODO 缓冲区域以及缓存Tile数据
                     currentTileIndex = i + 1;
+                    player.currentTileIndex = currentTileIndex;
                     LoadCellItemVisibleSetMapXml(currentTileIndex);
                 }
                 break;
@@ -46,12 +47,14 @@ public class PoteniallyVisibleSetData : Singleton<PoteniallyVisibleSetData>
         }
         foreach (Rect portal in currentTilePortalMap.Keys)
         {
-            if (portal.Contains(playerPosition))
+            if (portal.Contains(player.playerPosition))
             {
                 if (currentPortalIndex != portal)
                 {
                     currentPortalIndex = portal;
+                    player.currentPortalIndex = currentPortalIndex;
                     currentTilePortalVisibleCellList = currentTilePortalMap[currentPortalIndex];
+                    player.currentTilePortalVisibleCellList = currentTilePortalVisibleCellList;
                 }
                 break;
             }

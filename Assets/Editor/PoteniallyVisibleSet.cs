@@ -17,7 +17,7 @@ public class PoteniallyVisibleSet
 
     private Vector3 mapSize = new Vector3(1024, 0, 1024);
     private Vector3 portalSize = new Vector3(32, 0, 32);
-    private const int startPortalPointCount = 16;
+    private int startPortalPointCount = 16;
     private Vector4 endPortalPointList = new Vector4(32, 16, 8, 4);
     private int targetAreaPointCount = 0;
 
@@ -31,10 +31,25 @@ public class PoteniallyVisibleSet
     public static void CalculatePVS()
     {
         PoteniallyVisibleSet poteniallyVisibleSet = new PoteniallyVisibleSet();
+        poteniallyVisibleSet.InitPoteniallyVisibleSetSettings();
         poteniallyVisibleSet.CaptureMapGrid();
         poteniallyVisibleSet.AnalyzerMapItemOwner();
-        poteniallyVisibleSet.CalculateMapPVS();
+        //poteniallyVisibleSet.CalculateMapPVS();
         EditorUtility.DisplayDialog("CalculatePVS", "Calculated PVS successfully!", "OK");
+    }
+
+    private void InitPoteniallyVisibleSetSettings()
+    {
+        PoteniallyVisibleSetSettings poteniallyVisibleSetSettings = AssetDatabase.LoadAssetAtPath("Assets/Resources/PoteniallyVisibleSetSettings.asset", typeof(PoteniallyVisibleSetSettings)) as PoteniallyVisibleSetSettings;
+        tileSize = poteniallyVisibleSetSettings.tileSize;
+        bigCellSize = poteniallyVisibleSetSettings.bigCellSize;
+        middleCellSize = poteniallyVisibleSetSettings.middleCellSize;
+        smallCellSize = poteniallyVisibleSetSettings.smallCellSize;
+        mapSize = poteniallyVisibleSetSettings.mapSize;
+        portalSize = poteniallyVisibleSetSettings.portalSize;
+        startPortalPointCount = poteniallyVisibleSetSettings.startPortalPointCount;
+        endPortalPointList = poteniallyVisibleSetSettings.endPortalPointList;
+        verticalSize = poteniallyVisibleSetSettings.verticalSize;
     }
 
     private void AnalyzerMapItemOwner()
@@ -122,53 +137,57 @@ public class PoteniallyVisibleSet
     {
         for (int i = 0; i < tileList.Count; i++)
         {
-            MapTile tile = tileList[i];
+            MapTile tile1 = tileList[i];
             XmlDocument xmlDoc = new XmlDocument();
             XmlElement xmlRoot = xmlDoc.CreateElement("root");
 
             XmlElement tileElement = xmlDoc.CreateElement("tile");
-            tileElement.SetAttribute("x", tile.x.ToString());
-            tileElement.SetAttribute("z", tile.z.ToString());
+            tileElement.SetAttribute("x", tile1.x.ToString());
+            tileElement.SetAttribute("z", tile1.z.ToString());
             xmlRoot.AppendChild(tileElement);
 
-            for (int j = 0; j < tile.portalList.Count; j++)
+            for (int j = 0; j < tile1.portalList.Count; j++)
             {
-                Portal portal = tile.portalList[j];
+                Portal portal = tile1.portalList[j];
                 XmlElement portalElement = xmlDoc.CreateElement("portal");
                 portalElement.SetAttribute("x", portal.x.ToString());
                 portalElement.SetAttribute("z", portal.z.ToString());
                 tileElement.AppendChild(portalElement);
 
-                for (int c1 = 0; c1 < tile.bigAreaList.Count; c1++)
+                for (int k = 0; k < tileList.Count; k++)
                 {
-                    Cell cell = tile.bigAreaList[c1];
-                    XmlElement cellElement = CalculateCellPVS(cell, portal, xmlDoc);
-                    if (cellElement != null)
+                    MapTile tile2 = tileList[k];
+                    for (int c1 = 0; c1 < tile2.bigAreaList.Count; c1++)
                     {
-                        portalElement.AppendChild(cellElement);
+                        Cell cell = tile2.bigAreaList[c1];
+                        XmlElement cellElement = CalculateCellPVS(cell, portal, xmlDoc);
+                        if (cellElement != null)
+                        {
+                            portalElement.AppendChild(cellElement);
+                        }
                     }
-                }
-                for (int c2 = 0; c2 < tile.middleAreaList.Count; c2++)
-                {
-                    Cell cell = tile.middleAreaList[c2];
-                    XmlElement cellElement = CalculateCellPVS(cell, portal, xmlDoc);
-                    if (cellElement != null)
+                    for (int c2 = 0; c2 < tile2.middleAreaList.Count; c2++)
                     {
-                        portalElement.AppendChild(cellElement);
+                        Cell cell = tile2.middleAreaList[c2];
+                        XmlElement cellElement = CalculateCellPVS(cell, portal, xmlDoc);
+                        if (cellElement != null)
+                        {
+                            portalElement.AppendChild(cellElement);
+                        }
                     }
-                }
-                for (int c3 = 0; c3 < tile.smallAreaList.Count; c3++)
-                {
-                    Cell cell = tile.smallAreaList[c3];
-                    XmlElement cellElement = CalculateCellPVS(cell, portal, xmlDoc);
-                    if (cellElement != null)
+                    for (int c3 = 0; c3 < tile2.smallAreaList.Count; c3++)
                     {
-                        portalElement.AppendChild(cellElement);
+                        Cell cell = tile2.smallAreaList[c3];
+                        XmlElement cellElement = CalculateCellPVS(cell, portal, xmlDoc);
+                        if (cellElement != null)
+                        {
+                            portalElement.AppendChild(cellElement);
+                        }
                     }
                 }
             }
 
-            string xmlDataPath = Application.dataPath + "/Resources/" + tile.id + ".xml";
+            string xmlDataPath = Application.dataPath + "/Resources/" + tile1.id + ".xml";
             xmlDoc.AppendChild(xmlRoot);
             xmlDoc.Save(xmlDataPath);
         }
@@ -203,7 +222,6 @@ public class PoteniallyVisibleSet
                             else if (pvsItem.occlusionType != MapItemOcclusionType.Occluder)
                             {
                                 Debug.LogWarning(string.Format("CalculateMapPVS PVSItem occlusionType{0} is not equal Occluder.", pvsItem.occlusionType));
-                                //TODO HideSpecified(not Occluder)MapItem 
                                 continue;
                             }
                             else if (pvsItem.ownerCellIdList.IndexOf(cell.Id) >= 0)
@@ -271,7 +289,7 @@ public class PoteniallyVisibleSet
             for (int j = 0; j < tileVerticalPortals; j++)
             {
                 Portal portal = new Portal();
-                portal.id = portalList.Count + 1;
+                portal.id = portalList.Count + 1 + (tile.id - 1) * tileHorizontalPortals * tileVerticalPortals;
                 portal.x = (int)(tile.x + i * portalSize.x);
                 portal.z = (int)(tile.z + j * portalSize.z);
                 portal.rayStartPointList = new List<Vector3>(startPortalPointCount);
@@ -325,7 +343,7 @@ public class PoteniallyVisibleSet
             {
                 Cell cell = new Cell();
                 cell.size = size;
-                cell.Id = cellList.Count + 1;
+                cell.Id = cellList.Count + 1 + (tile.id - 1) * tileHorizontalCells * tileVerticalCells;
                 cell.x = (int)(tile.x + i * cellSize.x);
                 cell.z = (int)(tile.z + j * cellSize.z);
                 cell.rayEndPointList = new List<Vector3>(targetAreaPointCount);

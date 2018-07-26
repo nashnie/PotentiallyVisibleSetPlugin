@@ -31,72 +31,54 @@
     <portal x="608" z="896" />
     <portal x="608" z="928" />
     <portal x="608" z="960" />
-    <portal x="608" z="992">
-      <cell id="10058" />
-    </portal>
+    <portal x="608" z="992" />
     <portal x="640" z="768" />
     <portal x="640" z="800" />
     <portal x="640" z="832" />
     <portal x="640" z="864" />
     <portal x="640" z="896" />
     <portal x="640" z="928" />
-    <portal x="640" z="960">
-      <cell id="10058" />
-    </portal>
-    <portal x="640" z="992">
-      <cell id="10058" />
-    </portal>
+    <portal x="640" z="960" />
+    <portal x="640" z="992" />
     <portal x="672" z="768" />
     <portal x="672" z="800" />
     <portal x="672" z="832" />
     <portal x="672" z="864" />
     <portal x="672" z="896" />
-    <portal x="672" z="928">
-      <cell id="10058" />
-    </portal>
-    <portal x="672" z="960">
-      <cell id="10058" />
-    </portal>
-    <portal x="672" z="992">
-      <cell id="10058" />
-    </portal>
+    <portal x="672" z="928" />
+    <portal x="672" z="960" />
+    <portal x="672" z="992" />
     <portal x="704" z="768" />
     <portal x="704" z="800" />
     <portal x="704" z="832" />
-    <portal x="704" z="864">
-      <cell id="10058" />
+    <portal x="704" z="864" />
+    <portal x="704" z="896" />
+    <portal x="704" z="928" />
+    <portal x="704" z="960" />
+    <portal x="704" z="992" />
+    <portal x="736" z="768">
+      <cell id="10763" />
     </portal>
-    <portal x="704" z="896">
-      <cell id="10058" />
+    <portal x="736" z="800">
+      <cell id="10763" />
     </portal>
-    <portal x="704" z="928">
-      <cell id="10058" />
-    </portal>
-    <portal x="704" z="960">
-      <cell id="10058" />
-    </portal>
-    <portal x="704" z="992">
-      <cell id="10058" />
-    </portal>
-    <portal x="736" z="768" />
-    <portal x="736" z="800" />
     <portal x="736" z="832">
-      <cell id="10058" />
+      <cell id="10762" />
     </portal>
     <portal x="736" z="864">
-      <cell id="10058" />
+      <cell id="10762" />
     </portal>
     <portal x="736" z="896">
-      <cell id="10058" />
+      <cell id="10762" />
     </portal>
     <portal x="736" z="928">
-      <cell id="10058" />
+      <cell id="10762" />
     </portal>
     <portal x="736" z="960">
-      <cell id="10058" />
+      <cell id="10762" />
     </portal>
     <portal x="736" z="992">
-      <cell id="10058" />
+      <cell id="10762" />
     </portal>
   </tile>
 </root>

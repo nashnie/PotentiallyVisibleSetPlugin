@@ -1,21 +1,19 @@
 <root>
   <tile x="0" z="0">
     <portal x="0" z="0">
-      <cell id="3" />
       <cell id="4" />
       <cell id="1001" />
       <cell id="1002" />
       <cell id="1006" />
       <cell id="1009" />
       <cell id="1010" />
-      <cell id="10017" />
-      <cell id="10025" />
-      <cell id="10027" />
+      <cell id="1013" />
+      <cell id="10001" />
       <cell id="10033" />
       <cell id="10035" />
+      <cell id="10041" />
     </portal>
     <portal x="0" z="32">
-      <cell id="3" />
       <cell id="4" />
       <cell id="1001" />
       <cell id="1002" />
@@ -23,38 +21,34 @@
       <cell id="1009" />
       <cell id="1010" />
       <cell id="1014" />
-      <cell id="10017" />
       <cell id="10025" />
-      <cell id="10027" />
+      <cell id="10033" />
       <cell id="10035" />
-      <cell id="10042" />
       <cell id="10043" />
     </portal>
     <portal x="0" z="64">
-      <cell id="4" />
       <cell id="1002" />
       <cell id="1006" />
       <cell id="1009" />
       <cell id="1013" />
-      <cell id="10007" />
       <cell id="10008" />
-      <cell id="10027" />
-      <cell id="10035" />
+      <cell id="10025" />
       <cell id="10042" />
+      <cell id="10043" />
     </portal>
     <portal x="0" z="96">
+      <cell id="3" />
       <cell id="1002" />
       <cell id="1006" />
       <cell id="1010" />
-      <cell id="10007" />
       <cell id="10008" />
+      <cell id="10024" />
+      <cell id="10025" />
     </portal>
     <portal x="0" z="128">
       <cell id="1002" />
-      <cell id="1006" />
-      <cell id="1012" />
-      <cell id="10007" />
       <cell id="10008" />
+      <cell id="10024" />
       <cell id="10031" />
       <cell id="10032" />
     </portal>
@@ -63,7 +57,6 @@
       <cell id="1002" />
       <cell id="1012" />
       <cell id="1015" />
-      <cell id="10007" />
       <cell id="10008" />
       <cell id="10024" />
       <cell id="10031" />
@@ -82,19 +75,20 @@
       <cell id="10032" />
     </portal>
     <portal x="0" z="224">
+      <cell id="2" />
       <cell id="3" />
       <cell id="4" />
       <cell id="1002" />
       <cell id="1012" />
       <cell id="1015" />
       <cell id="10007" />
+      <cell id="10008" />
       <cell id="10024" />
       <cell id="10031" />
       <cell id="10032" />
     </portal>
     <portal x="32" z="0">
       <cell id="2" />
-      <cell id="3" />
       <cell id="4" />
       <cell id="1001" />
       <cell id="1002" />
@@ -102,16 +96,12 @@
       <cell id="1009" />
       <cell id="1010" />
       <cell id="1013" />
-      <cell id="10007" />
       <cell id="10008" />
-      <cell id="10017" />
-      <cell id="10025" />
-      <cell id="10027" />
       <cell id="10033" />
       <cell id="10035" />
+      <cell id="10041" />
     </portal>
     <portal x="32" z="32">
-      <cell id="3" />
       <cell id="4" />
       <cell id="1001" />
       <cell id="1002" />
@@ -119,13 +109,10 @@
       <cell id="1009" />
       <cell id="1010" />
       <cell id="1014" />
-      <cell id="10007" />
       <cell id="10008" />
-      <cell id="10017" />
       <cell id="10025" />
-      <cell id="10027" />
+      <cell id="10033" />
       <cell id="10035" />
-      <cell id="10042" />
       <cell id="10043" />
     </portal>
     <portal x="32" z="64">
@@ -136,30 +123,11 @@
       <cell id="1009" />
       <cell id="1010" />
       <cell id="1013" />
-      <cell id="10007" />
       <cell id="10008" />
-      <cell id="10017" />
       <cell id="10025" />
-      <cell id="10027" />
-      <cell id="10035" />
       <cell id="10042" />
     </portal>
     <portal x="32" z="96">
-      <cell id="3" />
-      <cell id="4" />
-      <cell id="1002" />
-      <cell id="1006" />
-      <cell id="1009" />
-      <cell id="1010" />
-      <cell id="1012" />
-      <cell id="1013" />
-      <cell id="10007" />
-      <cell id="10008" />
-      <cell id="10024" />
-      <cell id="10031" />
-      <cell id="10032" />
-    </portal>
-    <portal x="32" z="128">
       <cell id="2" />
       <cell id="3" />
       <cell id="4" />
@@ -168,11 +136,25 @@
       <cell id="1009" />
       <cell id="1010" />
       <cell id="1012" />
-      <cell id="10007" />
+      <cell id="1013" />
+      <cell id="10008" />
+      <cell id="10024" />
+      <cell id="10029" />
+      <cell id="10031" />
+      <cell id="10032" />
+    </portal>
+    <portal x="32" z="128">
+      <cell id="2" />
+      <cell id="3" />
+      <cell id="4" />
+      <cell id="1002" />
+      <cell id="1009" />
+      <cell id="1010" />
+      <cell id="1012" />
       <cell id="10008" />
       <cell id="10024" />
       <cell id="10025" />
-      <cell id="10027" />
+      <cell id="10029" />
       <cell id="10031" />
       <cell id="10032" />
       <cell id="10041" />
@@ -182,64 +164,45 @@
       <cell id="3" />
       <cell id="4" />
       <cell id="1002" />
-      <cell id="1006" />
       <cell id="1009" />
       <cell id="1010" />
       <cell id="1012" />
       <cell id="1015" />
-      <cell id="10007" />
       <cell id="10008" />
       <cell id="10024" />
       <cell id="10025" />
-      <cell id="10027" />
-      <cell id="10029" />
       <cell id="10031" />
       <cell id="10032" />
       <cell id="10041" />
     </portal>
     <portal x="32" z="192">
+      <cell id="2" />
       <cell id="3" />
       <cell id="4" />
       <cell id="1002" />
       <cell id="1012" />
       <cell id="1015" />
-      <cell id="10007" />
       <cell id="10008" />
       <cell id="10024" />
       <cell id="10031" />
       <cell id="10032" />
     </portal>
     <portal x="32" z="224">
+      <cell id="2" />
       <cell id="3" />
       <cell id="4" />
       <cell id="1002" />
       <cell id="1012" />
       <cell id="1015" />
       <cell id="10007" />
+      <cell id="10008" />
       <cell id="10024" />
       <cell id="10031" />
       <cell id="10032" />
     </portal>
     <portal x="64" z="0">
       <cell id="2" />
-      <cell id="3" />
       <cell id="4" />
-      <cell id="1006" />
-      <cell id="1009" />
-      <cell id="1010" />
-      <cell id="1013" />
-      <cell id="1014" />
-      <cell id="10025" />
-      <cell id="10027" />
-      <cell id="10033" />
-      <cell id="10035" />
-      <cell id="10041" />
-    </portal>
-    <portal x="64" z="32">
-      <cell id="2" />
-      <cell id="3" />
-      <cell id="4" />
-      <cell id="1002" />
       <cell id="1006" />
       <cell id="1009" />
       <cell id="1010" />
@@ -249,6 +212,23 @@
       <cell id="10025" />
       <cell id="10027" />
       <cell id="10029" />
+      <cell id="10033" />
+      <cell id="10035" />
+      <cell id="10041" />
+    </portal>
+    <portal x="64" z="32">
+      <cell id="2" />
+      <cell id="4" />
+      <cell id="1002" />
+      <cell id="1006" />
+      <cell id="1009" />
+      <cell id="1010" />
+      <cell id="1013" />
+      <cell id="1014" />
+      <cell id="10017" />
+      <cell id="10025" />
+      <cell id="10029" />
+      <cell id="10033" />
       <cell id="10035" />
       <cell id="10042" />
       <cell id="10043" />
@@ -264,25 +244,23 @@
       <cell id="1013" />
       <cell id="10017" />
       <cell id="10025" />
-      <cell id="10027" />
       <cell id="10035" />
       <cell id="10042" />
+      <cell id="10043" />
     </portal>
     <portal x="64" z="96">
+      <cell id="2" />
       <cell id="3" />
       <cell id="4" />
       <cell id="1002" />
-      <cell id="1006" />
       <cell id="1009" />
       <cell id="1010" />
       <cell id="1012" />
       <cell id="1013" />
-      <cell id="10007" />
       <cell id="10008" />
       <cell id="10017" />
       <cell id="10024" />
       <cell id="10025" />
-      <cell id="10027" />
       <cell id="10029" />
       <cell id="10031" />
       <cell id="10032" />
@@ -293,15 +271,13 @@
       <cell id="3" />
       <cell id="4" />
       <cell id="1002" />
-      <cell id="1006" />
       <cell id="1009" />
       <cell id="1010" />
       <cell id="1012" />
-      <cell id="10007" />
+      <cell id="10008" />
       <cell id="10017" />
       <cell id="10024" />
       <cell id="10025" />
-      <cell id="10027" />
       <cell id="10029" />
       <cell id="10031" />
       <cell id="10032" />
@@ -312,28 +288,24 @@
       <cell id="3" />
       <cell id="4" />
       <cell id="1002" />
-      <cell id="1006" />
       <cell id="1009" />
       <cell id="1010" />
       <cell id="1012" />
       <cell id="1015" />
-      <cell id="10007" />
-      <cell id="10017" />
+      <cell id="10008" />
       <cell id="10024" />
       <cell id="10025" />
-      <cell id="10027" />
-      <cell id="10029" />
       <cell id="10031" />
       <cell id="10032" />
+      <cell id="10041" />
     </portal>
     <portal x="64" z="192">
       <cell id="2" />
       <cell id="3" />
       <cell id="4" />
-      <cell id="1009" />
       <cell id="1012" />
       <cell id="1015" />
-      <cell id="10007" />
+      <cell id="10008" />
       <cell id="10024" />
       <cell id="10031" />
       <cell id="10032" />
@@ -342,25 +314,23 @@
       <cell id="2" />
       <cell id="3" />
       <cell id="4" />
-      <cell id="1002" />
-      <cell id="1009" />
       <cell id="1012" />
       <cell id="1015" />
       <cell id="10007" />
+      <cell id="10008" />
       <cell id="10024" />
       <cell id="10031" />
+      <cell id="10032" />
     </portal>
     <portal x="96" z="0">
       <cell id="2" />
-      <cell id="3" />
       <cell id="4" />
       <cell id="1002" />
-      <cell id="1005" />
-      <cell id="1006" />
       <cell id="1009" />
       <cell id="1010" />
       <cell id="1013" />
       <cell id="1014" />
+      <cell id="10017" />
       <cell id="10025" />
       <cell id="10027" />
       <cell id="10029" />
@@ -368,19 +338,18 @@
       <cell id="10033" />
       <cell id="10035" />
       <cell id="10041" />
-      <cell id="10043" />
+      <cell id="10042" />
     </portal>
     <portal x="96" z="32">
       <cell id="2" />
-      <cell id="3" />
       <cell id="4" />
       <cell id="1002" />
       <cell id="1005" />
-      <cell id="1006" />
       <cell id="1009" />
       <cell id="1010" />
       <cell id="1013" />
       <cell id="1014" />
+      <cell id="10017" />
       <cell id="10025" />
       <cell id="10027" />
       <cell id="10029" />
@@ -392,15 +361,13 @@
       <cell id="10043" />
     </portal>
     <portal x="96" z="64">
-      <cell id="1" />
       <cell id="2" />
       <cell id="3" />
       <cell id="4" />
-      <cell id="1005" />
-      <cell id="1006" />
       <cell id="1009" />
       <cell id="1010" />
       <cell id="1013" />
+      <cell id="1014" />
       <cell id="10017" />
       <cell id="10025" />
       <cell id="10027" />
@@ -409,24 +376,21 @@
       <cell id="10035" />
       <cell id="10041" />
       <cell id="10042" />
+      <cell id="10043" />
     </portal>
     <portal x="96" z="96">
       <cell id="2" />
       <cell id="3" />
       <cell id="4" />
       <cell id="1002" />
-      <cell id="1005" />
-      <cell id="1006" />
       <cell id="1009" />
       <cell id="1010" />
       <cell id="1012" />
       <cell id="1013" />
       <cell id="1015" />
-      <cell id="10007" />
+      <cell id="10008" />
       <cell id="10017" />
-      <cell id="10024" />
       <cell id="10025" />
-      <cell id="10027" />
       <cell id="10029" />
       <cell id="10031" />
       <cell id="10041" />
@@ -436,51 +400,47 @@
       <cell id="3" />
       <cell id="4" />
       <cell id="1002" />
-      <cell id="1005" />
-      <cell id="1006" />
       <cell id="1009" />
       <cell id="1010" />
       <cell id="1012" />
       <cell id="1013" />
       <cell id="1015" />
-      <cell id="10007" />
+      <cell id="10008" />
       <cell id="10017" />
       <cell id="10025" />
-      <cell id="10027" />
       <cell id="10029" />
       <cell id="10031" />
-      <cell id="10032" />
+      <cell id="10042" />
     </portal>
     <portal x="96" z="160">
       <cell id="1" />
       <cell id="2" />
       <cell id="3" />
       <cell id="4" />
-      <cell id="1005" />
+      <cell id="1002" />
       <cell id="1009" />
       <cell id="1010" />
       <cell id="1012" />
       <cell id="1013" />
       <cell id="1015" />
-      <cell id="10007" />
+      <cell id="10008" />
       <cell id="10017" />
       <cell id="10025" />
-      <cell id="10027" />
+      <cell id="10029" />
       <cell id="10031" />
       <cell id="10032" />
+      <cell id="10042" />
     </portal>
     <portal x="96" z="192">
       <cell id="1" />
       <cell id="2" />
       <cell id="3" />
       <cell id="4" />
-      <cell id="1005" />
-      <cell id="1009" />
       <cell id="1012" />
       <cell id="1015" />
-      <cell id="10007" />
+      <cell id="10008" />
       <cell id="10025" />
-      <cell id="10027" />
+      <cell id="10029" />
       <cell id="10031" />
       <cell id="10032" />
     </portal>
@@ -489,40 +449,43 @@
       <cell id="2" />
       <cell id="3" />
       <cell id="4" />
-      <cell id="1005" />
       <cell id="1012" />
       <cell id="1015" />
-      <cell id="10007" />
-      <cell id="10027" />
+      <cell id="10008" />
+      <cell id="10025" />
+      <cell id="10029" />
       <cell id="10031" />
       <cell id="10032" />
     </portal>
     <portal x="128" z="0">
-      <cell id="3" />
+      <cell id="2" />
       <cell id="4" />
       <cell id="1002" />
       <cell id="1005" />
-      <cell id="1006" />
       <cell id="1009" />
       <cell id="1010" />
       <cell id="1013" />
       <cell id="1014" />
+      <cell id="1015" />
+      <cell id="10017" />
+      <cell id="10025" />
+      <cell id="10027" />
       <cell id="10033" />
       <cell id="10041" />
+      <cell id="10042" />
       <cell id="10043" />
     </portal>
     <portal x="128" z="32">
-      <cell id="1" />
       <cell id="2" />
-      <cell id="3" />
       <cell id="4" />
       <cell id="1002" />
       <cell id="1005" />
-      <cell id="1006" />
       <cell id="1009" />
       <cell id="1010" />
       <cell id="1013" />
       <cell id="1014" />
+      <cell id="1015" />
+      <cell id="10017" />
       <cell id="10025" />
       <cell id="10027" />
       <cell id="10029" />
@@ -535,19 +498,17 @@
     <portal x="128" z="64">
       <cell id="1" />
       <cell id="2" />
-      <cell id="3" />
       <cell id="4" />
       <cell id="1005" />
-      <cell id="1006" />
       <cell id="1009" />
       <cell id="1010" />
       <cell id="1013" />
       <cell id="1014" />
+      <cell id="10017" />
       <cell id="10025" />
       <cell id="10027" />
       <cell id="10029" />
       <cell id="10033" />
-      <cell id="10035" />
       <cell id="10041" />
       <cell id="10042" />
     </portal>
@@ -558,14 +519,13 @@
       <cell id="4" />
       <cell id="1002" />
       <cell id="1005" />
-      <cell id="1006" />
       <cell id="1009" />
       <cell id="1010" />
       <cell id="1012" />
       <cell id="1013" />
       <cell id="1015" />
+      <cell id="10017" />
       <cell id="10025" />
-      <cell id="10027" />
       <cell id="10029" />
       <cell id="10031" />
       <cell id="10032" />
@@ -574,16 +534,14 @@
       <cell id="10042" />
     </portal>
     <portal x="128" z="128">
-      <cell id="1006" />
       <cell id="1009" />
       <cell id="1010" />
       <cell id="1012" />
       <cell id="1013" />
       <cell id="1015" />
-      <cell id="10007" />
+      <cell id="10008" />
       <cell id="10017" />
       <cell id="10025" />
-      <cell id="10027" />
       <cell id="10029" />
       <cell id="10031" />
       <cell id="10032" />
@@ -600,10 +558,10 @@
       <cell id="1012" />
       <cell id="1013" />
       <cell id="1015" />
-      <cell id="10007" />
+      <cell id="10008" />
       <cell id="10017" />
       <cell id="10025" />
-      <cell id="10027" />
+      <cell id="10029" />
       <cell id="10031" />
       <cell id="10032" />
       <cell id="10041" />
@@ -616,7 +574,8 @@
       <cell id="4" />
       <cell id="1012" />
       <cell id="1015" />
-      <cell id="10007" />
+      <cell id="10008" />
+      <cell id="10029" />
       <cell id="10031" />
       <cell id="10032" />
     </portal>
@@ -627,34 +586,31 @@
       <cell id="4" />
       <cell id="1012" />
       <cell id="1015" />
-      <cell id="10007" />
+      <cell id="10029" />
       <cell id="10031" />
       <cell id="10032" />
     </portal>
     <portal x="160" z="0">
-      <cell id="3" />
       <cell id="4" />
-      <cell id="1002" />
       <cell id="1005" />
-      <cell id="1006" />
       <cell id="1009" />
       <cell id="1010" />
       <cell id="1011" />
       <cell id="1013" />
       <cell id="1014" />
       <cell id="1015" />
+      <cell id="10017" />
+      <cell id="10025" />
       <cell id="10027" />
       <cell id="10033" />
       <cell id="10041" />
+      <cell id="10042" />
       <cell id="10043" />
     </portal>
     <portal x="160" z="32">
       <cell id="2" />
-      <cell id="3" />
       <cell id="4" />
-      <cell id="1002" />
       <cell id="1005" />
-      <cell id="1006" />
       <cell id="1009" />
       <cell id="1010" />
       <cell id="1011" />
@@ -670,10 +626,8 @@
     <portal x="160" z="64">
       <cell id="1" />
       <cell id="2" />
-      <cell id="3" />
       <cell id="4" />
       <cell id="1005" />
-      <cell id="1006" />
       <cell id="1009" />
       <cell id="1010" />
       <cell id="1011" />
@@ -692,7 +646,6 @@
       <cell id="4" />
       <cell id="1002" />
       <cell id="1005" />
-      <cell id="1006" />
       <cell id="1009" />
       <cell id="1010" />
       <cell id="1011" />
@@ -711,18 +664,19 @@
       <cell id="2" />
       <cell id="3" />
       <cell id="4" />
-      <cell id="1006" />
       <cell id="1009" />
       <cell id="1010" />
       <cell id="1011" />
       <cell id="1012" />
       <cell id="1013" />
       <cell id="1015" />
-      <cell id="10007" />
+      <cell id="10008" />
+      <cell id="10017" />
       <cell id="10029" />
       <cell id="10031" />
       <cell id="10032" />
       <cell id="10033" />
+      <cell id="10041" />
       <cell id="10042" />
     </portal>
     <portal x="160" z="160">
@@ -730,18 +684,18 @@
       <cell id="2" />
       <cell id="3" />
       <cell id="4" />
-      <cell id="1006" />
       <cell id="1010" />
       <cell id="1011" />
       <cell id="1012" />
       <cell id="1013" />
       <cell id="1015" />
-      <cell id="10007" />
-      <cell id="10027" />
+      <cell id="10008" />
+      <cell id="10017" />
       <cell id="10029" />
       <cell id="10031" />
       <cell id="10032" />
       <cell id="10033" />
+      <cell id="10041" />
       <cell id="10042" />
     </portal>
     <portal x="160" z="192">
@@ -752,7 +706,7 @@
       <cell id="1011" />
       <cell id="1012" />
       <cell id="1015" />
-      <cell id="10007" />
+      <cell id="10008" />
       <cell id="10031" />
       <cell id="10032" />
     </portal>
@@ -764,7 +718,6 @@
       <cell id="1011" />
       <cell id="1012" />
       <cell id="1015" />
-      <cell id="10007" />
       <cell id="10031" />
       <cell id="10032" />
     </portal>
@@ -774,36 +727,17 @@
       <cell id="1005" />
       <cell id="1009" />
       <cell id="1010" />
-      <cell id="1013" />
       <cell id="1014" />
       <cell id="1015" />
-      <cell id="10027" />
-      <cell id="10033" />
-      <cell id="10043" />
-    </portal>
-    <portal x="192" z="32">
-      <cell id="1" />
-      <cell id="2" />
-      <cell id="3" />
-      <cell id="4" />
-      <cell id="1002" />
-      <cell id="1005" />
-      <cell id="1006" />
-      <cell id="1009" />
-      <cell id="1010" />
-      <cell id="1011" />
-      <cell id="1013" />
-      <cell id="1014" />
-      <cell id="1015" />
+      <cell id="10025" />
       <cell id="10027" />
       <cell id="10033" />
       <cell id="10041" />
+      <cell id="10042" />
       <cell id="10043" />
     </portal>
-    <portal x="192" z="64">
-      <cell id="1" />
+    <portal x="192" z="32">
       <cell id="2" />
-      <cell id="3" />
       <cell id="4" />
       <cell id="1005" />
       <cell id="1009" />
@@ -816,14 +750,31 @@
       <cell id="10033" />
       <cell id="10041" />
       <cell id="10042" />
+      <cell id="10043" />
+    </portal>
+    <portal x="192" z="64">
+      <cell id="1" />
+      <cell id="2" />
+      <cell id="4" />
+      <cell id="1005" />
+      <cell id="1009" />
+      <cell id="1010" />
+      <cell id="1011" />
+      <cell id="1013" />
+      <cell id="1015" />
+      <cell id="10027" />
+      <cell id="10033" />
+      <cell id="10041" />
+      <cell id="10042" />
+      <cell id="10043" />
     </portal>
     <portal x="192" z="96">
       <cell id="1" />
       <cell id="2" />
       <cell id="3" />
       <cell id="4" />
+      <cell id="1002" />
       <cell id="1005" />
-      <cell id="1006" />
       <cell id="1009" />
       <cell id="1010" />
       <cell id="1011" />
@@ -842,6 +793,7 @@
       <cell id="1009" />
       <cell id="1010" />
       <cell id="1011" />
+      <cell id="1012" />
       <cell id="1013" />
       <cell id="1015" />
       <cell id="10033" />
@@ -853,14 +805,13 @@
       <cell id="2" />
       <cell id="3" />
       <cell id="4" />
-      <cell id="1005" />
-      <cell id="1009" />
       <cell id="1011" />
       <cell id="1012" />
       <cell id="1013" />
       <cell id="1015" />
-      <cell id="10007" />
+      <cell id="10008" />
       <cell id="10031" />
+      <cell id="10032" />
       <cell id="10033" />
       <cell id="10041" />
       <cell id="10042" />
@@ -874,8 +825,9 @@
       <cell id="1012" />
       <cell id="1013" />
       <cell id="1015" />
-      <cell id="10007" />
+      <cell id="10008" />
       <cell id="10031" />
+      <cell id="10032" />
     </portal>
     <portal x="192" z="224">
       <cell id="1" />
@@ -889,37 +841,34 @@
     </portal>
     <portal x="224" z="0">
       <cell id="2" />
-      <cell id="3" />
       <cell id="4" />
       <cell id="1005" />
       <cell id="1009" />
       <cell id="1010" />
       <cell id="1011" />
-      <cell id="1013" />
       <cell id="1014" />
       <cell id="1015" />
+      <cell id="10017" />
+      <cell id="10025" />
       <cell id="10027" />
       <cell id="10033" />
-      <cell id="10043" />
+      <cell id="10041" />
     </portal>
     <portal x="224" z="32">
       <cell id="1" />
       <cell id="2" />
-      <cell id="3" />
       <cell id="4" />
       <cell id="1005" />
       <cell id="1009" />
       <cell id="1010" />
       <cell id="1011" />
-      <cell id="1013" />
       <cell id="1014" />
       <cell id="1015" />
-      <cell id="10033" />
+      <cell id="10041" />
     </portal>
     <portal x="224" z="64">
       <cell id="1" />
       <cell id="2" />
-      <cell id="3" />
       <cell id="4" />
       <cell id="1005" />
       <cell id="1009" />
@@ -928,14 +877,15 @@
       <cell id="1013" />
       <cell id="1015" />
       <cell id="10027" />
+      <cell id="10042" />
     </portal>
     <portal x="224" z="96">
       <cell id="1" />
       <cell id="2" />
       <cell id="3" />
       <cell id="4" />
+      <cell id="1002" />
       <cell id="1005" />
-      <cell id="1006" />
       <cell id="1009" />
       <cell id="1010" />
       <cell id="1011" />
@@ -961,6 +911,7 @@
     </portal>
     <portal x="224" z="160">
       <cell id="1" />
+      <cell id="2" />
       <cell id="3" />
       <cell id="4" />
       <cell id="1005" />
@@ -970,8 +921,9 @@
       <cell id="1012" />
       <cell id="1013" />
       <cell id="1015" />
-      <cell id="10007" />
+      <cell id="10008" />
       <cell id="10031" />
+      <cell id="10032" />
       <cell id="10033" />
       <cell id="10041" />
       <cell id="10042" />
@@ -982,14 +934,12 @@
       <cell id="3" />
       <cell id="4" />
       <cell id="1005" />
-      <cell id="1009" />
       <cell id="1011" />
       <cell id="1012" />
       <cell id="1013" />
       <cell id="1015" />
-      <cell id="10007" />
+      <cell id="10008" />
       <cell id="10031" />
-      <cell id="10033" />
       <cell id="10041" />
       <cell id="10042" />
     </portal>
@@ -998,13 +948,10 @@
       <cell id="2" />
       <cell id="3" />
       <cell id="4" />
-      <cell id="1005" />
-      <cell id="1009" />
       <cell id="1011" />
       <cell id="1012" />
       <cell id="1013" />
       <cell id="1015" />
-      <cell id="10033" />
       <cell id="10041" />
       <cell id="10042" />
     </portal>

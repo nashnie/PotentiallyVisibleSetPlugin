@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class Main : MonoBehaviour
 {
-    public GameObject player;
+    public Player player;
     private PoteniallyVisibleSetItem[] poteniallyVisibleSetItems;
-
 
     void Start ()
     {
@@ -17,7 +16,7 @@ public class Main : MonoBehaviour
 
     private void Update()
     {
-        PoteniallyVisibleSetData.Instance.Update(new Vector2(player.transform.position.x, player.transform.position.z));
+        PoteniallyVisibleSetData.Instance.Update(player);
         for (int i = 0; i < poteniallyVisibleSetItems.Length; i++)
         {
             PoteniallyVisibleSetItem pvsItem = poteniallyVisibleSetItems[i];

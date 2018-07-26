@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e76feee4cb85942861fa82f6f87185, type: 3}
+  m_Name: PoteniallyVisibleSetSettings
+  m_EditorClassIdentifier: 
+  tileSize: {x: 256, y: 0, z: 256}
+  verticalSize:
+  - 1
+  - 3
+  bigCellSize: {x: 128, y: 0, z: 128}
+  middleCellSize: {x: 64, y: 0, z: 64}
+  smallCellSize: {x: 32, y: 0, z: 32}
+  mapSize: {x: 1024, y: 0, z: 1024}
+  portalSize: {x: 32, y: 0, z: 32}
+  startPortalPointCount: 16
+  endPortalPointList: {x: 32, y: 16, z: 8, w: 4}
