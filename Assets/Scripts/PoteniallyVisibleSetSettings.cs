@@ -20,6 +20,9 @@ public class PoteniallyVisibleSetSettings : ScriptableObject
     [Tooltip("蒙特卡洛方法，随机起点数量")]
     [Range(1, 32)]
     public int startPortalPointCount = 16;
+    [Tooltip("视野距离")]
+    [Range(64, 1024)]
+    public int visibleRange = 365;//Mathf.sqrt(tileSize * tileSize + tileSize * tileSize);
     [Tooltip("蒙特卡洛方法，随机终点数量，分大>>>中>>>小>>>最小值")]
     public Vector4 endPortalPointList = new Vector4(32, 16, 8, 4);
     [Tooltip("射线检测高度，可以分两层，或者三层，层数越多越精确，烘焙消耗时间也越长...")]

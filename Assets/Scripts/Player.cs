@@ -16,4 +16,10 @@ public class Player : MonoBehaviour
         playerPosition.x = transform.position.x;
         playerPosition.y = transform.position.z;
     }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireCube(transform.position, Vector3.one + Vector3.up * 100f);
+    }
 }
