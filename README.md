@@ -12,3 +12,5 @@ step5 保存检测数据，运行时加载解析，根据玩家位置检测当�
 此pvs方案相比于Unity OcclusionCulling <br>
 优点：更适合大地图比如5000米x5000米，pvs生成data基于Tile，支持动态加载，占用内存忽略不计，同时CPU消耗也极少；<br>
 缺点：剔除没有Unity精细同时烘焙时间较长；<br>
+
+[bigworld-occlusionculling](https://nashnie.github.io/none/2018/11/01/bigworld-occlusionculling.html)<br>
